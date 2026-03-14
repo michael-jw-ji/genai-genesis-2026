@@ -1,0 +1,1001 @@
+Date,Item_ID,Item_Name,Category,Subcategory,Unit,Current_Stock,Reorder_Level,Daily_Usage,Lead_Time,Price_per_Unit,Supplier_Name,Seasonal_Factor,Waste_Percentage
+2025-06-10,1,Paneer,Veg,Dairy,kg,21.450000000000003,8.12,2.19,1,450,Supplier A,1.11,2.98
+2025-06-10,2,Tomato,Veg,Vegetable,kg,12.84,5.34,0.95,4,40,Supplier A,0.81,3.54
+2025-06-10,3,Onion,Veg,Vegetable,kg,22.349999999999998,4.49,4.86,4,35,Supplier A,1.23,4.96
+2025-06-10,4,Chicken,Non-Veg,Meat,kg,8.36,3.16,3.25,3,250,Supplier C,0.9,3.06
+2025-06-10,5,Mutton,Non-Veg,Meat,kg,12.31,6.19,1.81,3,600,Supplier A,1.07,3.09
+2025-06-10,6,Rohu Fish,Non-Veg,Fish,kg,16.92,9.02,4.92,3,280,Supplier C,0.85,0.85
+2025-06-10,7,Eggs,Non-Veg,Poultry,pieces,23.13,6.94,4.0,2,6,Supplier B,0.87,1.52
+2025-06-10,8,Rice,Veg,Grain,kg,15.18,3.85,3.58,1,70,Supplier C,0.92,4.17
+2025-06-10,9,Sugar,Veg,Grocery,kg,9.99,8.29,2.26,2,50,Supplier A,1.18,2.6
+2025-06-10,10,Milk,Veg,Dairy,liter,11.469999999999999,8.9,6.0,4,50,Supplier A,1.43,4.7
+2025-06-11,1,Paneer,Veg,Dairy,kg,22.02,3.62,3.19,3,450,Supplier A,1.47,2.6
+2025-06-11,2,Tomato,Veg,Vegetable,kg,20.51,6.78,4.3,4,40,Supplier C,1.0,1.78
+2025-06-11,3,Onion,Veg,Vegetable,kg,10.05,8.62,2.94,1,35,Supplier B,1.1,0.08
+2025-06-11,4,Chicken,Non-Veg,Meat,kg,11.68,3.1,2.28,3,250,Supplier B,1.31,3.53
+2025-06-11,5,Mutton,Non-Veg,Meat,kg,10.08,5.51,3.97,1,600,Supplier C,1.4,4.57
+2025-06-11,6,Rohu Fish,Non-Veg,Fish,kg,8.95,5.6,2.52,2,280,Supplier C,1.31,1.63
+2025-06-11,7,Eggs,Non-Veg,Poultry,pieces,17.119999999999997,6.93,8.0,3,6,Supplier A,1.3,0.6
+2025-06-11,8,Rice,Veg,Grain,kg,17.34,8.4,3.92,3,70,Supplier B,1.3,0.2
+2025-06-11,9,Sugar,Veg,Grocery,kg,12.59,4.41,1.0,4,50,Supplier C,1.02,3.18
+2025-06-11,10,Milk,Veg,Dairy,liter,22.61,4.75,4.0,1,50,Supplier C,0.94,2.7
+2025-06-12,1,Paneer,Veg,Dairy,kg,18.72,7.86,4.74,4,450,Supplier A,1.37,4.65
+2025-06-12,2,Tomato,Veg,Vegetable,kg,21.42,8.63,3.35,4,40,Supplier A,1.42,2.08
+2025-06-12,3,Onion,Veg,Vegetable,kg,8.79,5.49,1.96,2,35,Supplier A,0.96,0.55
+2025-06-12,4,Chicken,Non-Veg,Meat,kg,19.689999999999998,9.03,2.42,3,250,Supplier B,1.17,0.82
+2025-06-12,5,Mutton,Non-Veg,Meat,kg,18.07,4.89,2.68,4,600,Supplier B,1.03,4.71
+2025-06-12,6,Rohu Fish,Non-Veg,Fish,kg,18.380000000000003,5.55,2.83,1,280,Supplier C,0.97,1.27
+2025-06-12,7,Eggs,Non-Veg,Poultry,pieces,19.46,5.11,7.0,1,6,Supplier B,0.99,4.99
+2025-06-12,8,Rice,Veg,Grain,kg,16.06,3.23,4.89,4,70,Supplier A,0.97,4.54
+2025-06-12,9,Sugar,Veg,Grocery,kg,13.49,9.9,1.15,4,50,Supplier B,0.86,2.96
+2025-06-12,10,Milk,Veg,Dairy,liter,16.560000000000002,8.1,8.0,4,50,Supplier C,1.49,2.35
+2025-06-13,1,Paneer,Veg,Dairy,kg,19.54,8.59,2.29,1,450,Supplier C,0.93,1.6
+2025-06-13,2,Tomato,Veg,Vegetable,kg,14.54,7.74,0.68,3,40,Supplier A,1.37,3.56
+2025-06-13,3,Onion,Veg,Vegetable,kg,8.51,9.58,2.07,4,35,Supplier B,1.46,1.93
+2025-06-13,4,Chicken,Non-Veg,Meat,kg,11.239999999999998,3.79,1.12,3,250,Supplier A,1.29,2.71
+2025-06-13,5,Mutton,Non-Veg,Meat,kg,9.15,9.88,1.53,4,600,Supplier C,0.97,2.65
+2025-06-13,6,Rohu Fish,Non-Veg,Fish,kg,19.380000000000003,9.3,0.92,3,280,Supplier B,1.0,0.94
+2025-06-13,7,Eggs,Non-Veg,Poultry,pieces,18.89,9.28,3.0,4,6,Supplier B,1.42,2.02
+2025-06-13,8,Rice,Veg,Grain,kg,23.36,8.5,4.33,4,70,Supplier B,0.81,3.03
+2025-06-13,9,Sugar,Veg,Grocery,kg,15.91,3.04,0.96,4,50,Supplier B,1.14,1.53
+2025-06-13,10,Milk,Veg,Dairy,liter,17.78,4.57,3.0,1,50,Supplier C,1.15,0.09
+2025-06-14,1,Paneer,Veg,Dairy,kg,11.8,8.21,1.3,3,450,Supplier A,1.2,3.29
+2025-06-14,2,Tomato,Veg,Vegetable,kg,11.44,4.86,0.92,2,40,Supplier C,1.49,2.95
+2025-06-14,3,Onion,Veg,Vegetable,kg,21.28,6.04,2.69,1,35,Supplier B,1.2,2.51
+2025-06-14,4,Chicken,Non-Veg,Meat,kg,10.65,8.06,2.72,3,250,Supplier B,1.34,2.86
+2025-06-14,5,Mutton,Non-Veg,Meat,kg,20.62,6.29,0.7,2,600,Supplier C,1.06,4.57
+2025-06-14,6,Rohu Fish,Non-Veg,Fish,kg,19.490000000000002,6.0,0.57,1,280,Supplier C,1.49,2.86
+2025-06-14,7,Eggs,Non-Veg,Poultry,pieces,13.42,5.7,4.0,3,6,Supplier A,1.14,1.34
+2025-06-14,8,Rice,Veg,Grain,kg,13.1,8.91,2.18,3,70,Supplier A,0.87,2.85
+2025-06-14,9,Sugar,Veg,Grocery,kg,23.12,3.98,3.27,3,50,Supplier C,1.03,1.48
+2025-06-14,10,Milk,Veg,Dairy,liter,23.46,7.92,8.0,4,50,Supplier C,1.01,2.76
+2025-06-15,1,Paneer,Veg,Dairy,kg,11.23,7.28,2.39,4,450,Supplier B,1.15,2.56
+2025-06-15,2,Tomato,Veg,Vegetable,kg,18.84,7.91,4.09,4,40,Supplier B,1.42,0.25
+2025-06-15,3,Onion,Veg,Vegetable,kg,14.299999999999999,6.07,0.62,3,35,Supplier B,1.13,0.18
+2025-06-15,4,Chicken,Non-Veg,Meat,kg,12.24,7.14,2.94,2,250,Supplier C,0.83,1.25
+2025-06-15,5,Mutton,Non-Veg,Meat,kg,14.92,5.29,1.86,4,600,Supplier C,0.95,3.85
+2025-06-15,6,Rohu Fish,Non-Veg,Fish,kg,9.58,3.36,3.3,4,280,Supplier A,1.29,2.06
+2025-06-15,7,Eggs,Non-Veg,Poultry,pieces,23.89,9.83,8.0,4,6,Supplier C,0.83,3.57
+2025-06-15,8,Rice,Veg,Grain,kg,13.79,8.21,2.29,2,70,Supplier B,1.47,0.13
+2025-06-15,9,Sugar,Veg,Grocery,kg,19.7,5.86,4.26,2,50,Supplier B,1.11,4.58
+2025-06-15,10,Milk,Veg,Dairy,liter,21.72,7.62,6.0,1,50,Supplier C,1.16,3.19
+2025-06-16,1,Paneer,Veg,Dairy,kg,15.0,8.11,3.46,3,450,Supplier A,1.05,1.24
+2025-06-16,2,Tomato,Veg,Vegetable,kg,9.129999999999999,3.81,3.91,1,40,Supplier C,1.02,0.47
+2025-06-16,3,Onion,Veg,Vegetable,kg,12.54,3.12,4.91,2,35,Supplier A,1.13,2.46
+2025-06-16,4,Chicken,Non-Veg,Meat,kg,12.79,5.79,1.28,2,250,Supplier B,1.42,4.75
+2025-06-16,5,Mutton,Non-Veg,Meat,kg,6.9,9.53,1.67,4,600,Supplier B,1.26,4.28
+2025-06-16,6,Rohu Fish,Non-Veg,Fish,kg,7.289999999999999,7.5,1.23,1,280,Supplier C,1.25,4.34
+2025-06-16,7,Eggs,Non-Veg,Poultry,pieces,17.630000000000003,5.72,4.0,4,6,Supplier B,1.37,0.64
+2025-06-16,8,Rice,Veg,Grain,kg,18.580000000000002,8.74,4.19,4,70,Supplier C,0.94,4.53
+2025-06-16,9,Sugar,Veg,Grocery,kg,7.32,3.13,0.81,3,50,Supplier A,1.04,3.09
+2025-06-16,10,Milk,Veg,Dairy,liter,18.78,7.77,8.0,2,50,Supplier B,1.0,4.07
+2025-06-17,1,Paneer,Veg,Dairy,kg,16.48,7.4,1.03,1,450,Supplier B,1.09,0.2
+2025-06-17,2,Tomato,Veg,Vegetable,kg,18.07,5.96,4.85,4,40,Supplier B,1.49,4.03
+2025-06-17,3,Onion,Veg,Vegetable,kg,12.94,8.43,2.36,4,35,Supplier B,1.19,4.34
+2025-06-17,4,Chicken,Non-Veg,Meat,kg,16.77,8.18,1.57,3,250,Supplier A,1.43,0.52
+2025-06-17,5,Mutton,Non-Veg,Meat,kg,20.169999999999998,5.24,2.77,3,600,Supplier B,0.84,0.5
+2025-06-17,6,Rohu Fish,Non-Veg,Fish,kg,22.52,5.48,4.81,4,280,Supplier A,1.47,4.75
+2025-06-17,7,Eggs,Non-Veg,Poultry,pieces,15.4,3.58,3.0,1,6,Supplier A,1.03,1.47
+2025-06-17,8,Rice,Veg,Grain,kg,19.82,8.54,3.53,1,70,Supplier B,1.45,0.57
+2025-06-17,9,Sugar,Veg,Grocery,kg,24.82,3.39,4.88,3,50,Supplier A,1.05,4.44
+2025-06-17,10,Milk,Veg,Dairy,liter,21.53,7.82,2.0,2,50,Supplier B,0.87,3.09
+2025-06-18,1,Paneer,Veg,Dairy,kg,16.39,3.51,0.88,2,450,Supplier B,0.9,4.46
+2025-06-18,2,Tomato,Veg,Vegetable,kg,11.31,7.07,2.81,1,40,Supplier C,1.37,1.85
+2025-06-18,3,Onion,Veg,Vegetable,kg,24.549999999999997,8.27,4.76,2,35,Supplier B,1.14,3.54
+2025-06-18,4,Chicken,Non-Veg,Meat,kg,17.78,4.74,2.2,3,250,Supplier A,1.14,0.56
+2025-06-18,5,Mutton,Non-Veg,Meat,kg,12.58,3.39,0.55,4,600,Supplier B,1.38,3.84
+2025-06-18,6,Rohu Fish,Non-Veg,Fish,kg,19.07,4.66,3.85,1,280,Supplier C,1.0,1.87
+2025-06-18,7,Eggs,Non-Veg,Poultry,pieces,20.93,6.05,8.0,2,6,Supplier B,1.48,0.06
+2025-06-18,8,Rice,Veg,Grain,kg,19.060000000000002,6.69,0.69,3,70,Supplier C,0.98,4.6
+2025-06-18,9,Sugar,Veg,Grocery,kg,9.76,4.16,3.63,1,50,Supplier A,1.12,3.48
+2025-06-18,10,Milk,Veg,Dairy,liter,20.45,5.69,5.0,3,50,Supplier C,1.0,0.23
+2025-06-19,1,Paneer,Veg,Dairy,kg,23.130000000000003,6.19,4.78,4,450,Supplier B,0.92,1.68
+2025-06-19,2,Tomato,Veg,Vegetable,kg,14.23,4.61,3.41,4,40,Supplier C,1.48,0.39
+2025-06-19,3,Onion,Veg,Vegetable,kg,20.41,6.75,4.94,1,35,Supplier A,1.22,2.06
+2025-06-19,4,Chicken,Non-Veg,Meat,kg,8.72,3.53,1.72,2,250,Supplier A,1.31,4.75
+2025-06-19,5,Mutton,Non-Veg,Meat,kg,14.53,9.53,3.26,2,600,Supplier B,0.92,2.76
+2025-06-19,6,Rohu Fish,Non-Veg,Fish,kg,19.01,6.36,2.35,3,280,Supplier B,1.22,0.75
+2025-06-19,7,Eggs,Non-Veg,Poultry,pieces,28.55,8.89,9.0,1,6,Supplier B,0.83,0.32
+2025-06-19,8,Rice,Veg,Grain,kg,6.3100000000000005,3.53,1.1,4,70,Supplier B,1.5,4.06
+2025-06-19,9,Sugar,Veg,Grocery,kg,18.310000000000002,8.38,4.98,1,50,Supplier A,1.06,3.79
+2025-06-19,10,Milk,Veg,Dairy,liter,16.759999999999998,3.9,5.0,3,50,Supplier A,0.95,1.37
+2025-06-20,1,Paneer,Veg,Dairy,kg,20.8,3.33,4.45,3,450,Supplier C,1.27,0.57
+2025-06-20,2,Tomato,Veg,Vegetable,kg,19.419999999999998,6.64,2.84,4,40,Supplier B,1.48,4.08
+2025-06-20,3,Onion,Veg,Vegetable,kg,17.779999999999998,7.13,0.9,3,35,Supplier B,1.33,0.14
+2025-06-20,4,Chicken,Non-Veg,Meat,kg,18.85,4.49,3.29,2,250,Supplier C,1.49,3.09
+2025-06-20,5,Mutton,Non-Veg,Meat,kg,17.79,6.88,3.24,3,600,Supplier B,1.04,4.52
+2025-06-20,6,Rohu Fish,Non-Veg,Fish,kg,19.56,5.78,2.81,3,280,Supplier B,1.29,2.62
+2025-06-20,7,Eggs,Non-Veg,Poultry,pieces,15.89,8.89,4.0,1,6,Supplier C,1.12,1.29
+2025-06-20,8,Rice,Veg,Grain,kg,17.3,5.3,4.91,3,70,Supplier C,1.04,2.9
+2025-06-20,9,Sugar,Veg,Grocery,kg,14.82,7.09,2.92,3,50,Supplier A,1.25,0.69
+2025-06-20,10,Milk,Veg,Dairy,liter,23.45,5.88,8.0,4,50,Supplier A,1.27,2.37
+2025-06-21,1,Paneer,Veg,Dairy,kg,9.16,3.29,1.28,1,450,Supplier B,1.04,1.73
+2025-06-21,2,Tomato,Veg,Vegetable,kg,13.870000000000001,6.74,0.64,4,40,Supplier B,1.05,1.03
+2025-06-21,3,Onion,Veg,Vegetable,kg,18.13,3.28,2.77,1,35,Supplier A,1.28,2.41
+2025-06-21,4,Chicken,Non-Veg,Meat,kg,10.149999999999999,5.64,2.8,1,250,Supplier B,1.36,1.38
+2025-06-21,5,Mutton,Non-Veg,Meat,kg,11.64,4.47,3.87,3,600,Supplier C,0.97,4.62
+2025-06-21,6,Rohu Fish,Non-Veg,Fish,kg,16.89,8.04,3.92,2,280,Supplier B,0.98,0.18
+2025-06-21,7,Eggs,Non-Veg,Poultry,pieces,22.310000000000002,8.91,7.0,3,6,Supplier C,0.88,2.66
+2025-06-21,8,Rice,Veg,Grain,kg,15.5,4.7,2.51,1,70,Supplier A,0.93,3.69
+2025-06-21,9,Sugar,Veg,Grocery,kg,20.65,3.62,3.04,2,50,Supplier B,1.42,0.6
+2025-06-21,10,Milk,Veg,Dairy,liter,16.11,5.49,4.0,1,50,Supplier B,0.86,2.49
+2025-06-22,1,Paneer,Veg,Dairy,kg,16.72,8.22,2.92,1,450,Supplier C,1.07,2.82
+2025-06-22,2,Tomato,Veg,Vegetable,kg,20.509999999999998,7.25,2.02,3,40,Supplier C,1.49,1.78
+2025-06-22,3,Onion,Veg,Vegetable,kg,11.790000000000001,3.71,3.23,2,35,Supplier A,1.14,1.83
+2025-06-22,4,Chicken,Non-Veg,Meat,kg,10.65,8.64,4.33,4,250,Supplier A,0.86,4.48
+2025-06-22,5,Mutton,Non-Veg,Meat,kg,14.02,9.88,2.86,3,600,Supplier B,1.2,4.48
+2025-06-22,6,Rohu Fish,Non-Veg,Fish,kg,9.71,9.83,4.63,2,280,Supplier B,1.27,0.85
+2025-06-22,7,Eggs,Non-Veg,Poultry,pieces,24.78,6.75,9.0,2,6,Supplier C,1.34,1.4
+2025-06-22,8,Rice,Veg,Grain,kg,11.2,5.98,1.34,1,70,Supplier B,1.17,3.68
+2025-06-22,9,Sugar,Veg,Grocery,kg,20.2,3.61,3.68,2,50,Supplier C,1.14,0.77
+2025-06-22,10,Milk,Veg,Dairy,liter,8.780000000000001,5.36,3.0,2,50,Supplier B,1.18,2.74
+2025-06-23,1,Paneer,Veg,Dairy,kg,16.68,3.62,1.41,3,450,Supplier B,1.33,3.41
+2025-06-23,2,Tomato,Veg,Vegetable,kg,15.25,5.88,3.18,2,40,Supplier C,1.4,0.53
+2025-06-23,3,Onion,Veg,Vegetable,kg,14.99,9.53,3.86,3,35,Supplier C,0.93,4.69
+2025-06-23,4,Chicken,Non-Veg,Meat,kg,16.92,7.02,0.8,4,250,Supplier B,1.38,3.91
+2025-06-23,5,Mutton,Non-Veg,Meat,kg,20.869999999999997,8.78,3.88,1,600,Supplier C,1.27,4.07
+2025-06-23,6,Rohu Fish,Non-Veg,Fish,kg,13.23,9.14,2.85,1,280,Supplier A,1.12,3.41
+2025-06-23,7,Eggs,Non-Veg,Poultry,pieces,18.65,6.24,8.0,2,6,Supplier B,1.11,2.7
+2025-06-23,8,Rice,Veg,Grain,kg,13.43,5.74,3.1,2,70,Supplier B,1.43,2.72
+2025-06-23,9,Sugar,Veg,Grocery,kg,10.06,9.58,3.31,3,50,Supplier A,1.29,3.65
+2025-06-23,10,Milk,Veg,Dairy,liter,20.91,7.34,4.0,4,50,Supplier A,1.2,3.71
+2025-06-24,1,Paneer,Veg,Dairy,kg,21.28,7.95,4.99,3,450,Supplier B,0.82,3.72
+2025-06-24,2,Tomato,Veg,Vegetable,kg,19.5,9.14,3.06,1,40,Supplier B,1.18,0.51
+2025-06-24,3,Onion,Veg,Vegetable,kg,14.059999999999999,7.23,2.2,3,35,Supplier B,0.9,3.99
+2025-06-24,4,Chicken,Non-Veg,Meat,kg,17.36,8.04,1.53,3,250,Supplier A,1.2,2.99
+2025-06-24,5,Mutton,Non-Veg,Meat,kg,17.71,8.79,3.72,2,600,Supplier B,1.21,4.54
+2025-06-24,6,Rohu Fish,Non-Veg,Fish,kg,14.23,9.63,2.3,4,280,Supplier A,0.9,4.56
+2025-06-24,7,Eggs,Non-Veg,Poultry,pieces,16.17,3.13,2.0,4,6,Supplier C,0.87,2.96
+2025-06-24,8,Rice,Veg,Grain,kg,21.48,3.16,4.63,3,70,Supplier A,1.2,0.76
+2025-06-24,9,Sugar,Veg,Grocery,kg,14.59,8.16,3.23,4,50,Supplier A,1.44,4.2
+2025-06-24,10,Milk,Veg,Dairy,liter,7.7,9.89,1.0,2,50,Supplier A,1.39,0.93
+2025-06-25,1,Paneer,Veg,Dairy,kg,11.66,4.59,1.99,3,450,Supplier A,0.84,2.0
+2025-06-25,2,Tomato,Veg,Vegetable,kg,19.049999999999997,3.03,2.01,1,40,Supplier C,1.09,0.57
+2025-06-25,3,Onion,Veg,Vegetable,kg,23.23,6.26,4.39,3,35,Supplier A,1.12,3.69
+2025-06-25,4,Chicken,Non-Veg,Meat,kg,13.299999999999999,3.99,1.51,4,250,Supplier C,0.92,2.89
+2025-06-25,5,Mutton,Non-Veg,Meat,kg,10.32,8.46,0.65,3,600,Supplier A,0.81,3.16
+2025-06-25,6,Rohu Fish,Non-Veg,Fish,kg,11.16,9.73,3.49,1,280,Supplier B,1.4,2.79
+2025-06-25,7,Eggs,Non-Veg,Poultry,pieces,20.53,7.17,8.0,1,6,Supplier C,1.1,1.99
+2025-06-25,8,Rice,Veg,Grain,kg,14.34,6.28,4.1,1,70,Supplier C,1.13,0.18
+2025-06-25,9,Sugar,Veg,Grocery,kg,9.030000000000001,8.43,3.04,3,50,Supplier A,1.17,2.64
+2025-06-25,10,Milk,Veg,Dairy,liter,12.01,6.92,1.0,3,50,Supplier C,1.03,0.51
+2025-06-26,1,Paneer,Veg,Dairy,kg,17.14,4.91,0.84,3,450,Supplier A,1.09,3.22
+2025-06-26,2,Tomato,Veg,Vegetable,kg,7.95,8.01,0.61,1,40,Supplier A,1.19,2.04
+2025-06-26,3,Onion,Veg,Vegetable,kg,9.58,6.54,1.64,4,35,Supplier C,1.36,0.52
+2025-06-26,4,Chicken,Non-Veg,Meat,kg,16.09,4.67,1.3,2,250,Supplier C,1.49,4.03
+2025-06-26,5,Mutton,Non-Veg,Meat,kg,20.310000000000002,9.74,3.21,4,600,Supplier A,0.94,3.34
+2025-06-26,6,Rohu Fish,Non-Veg,Fish,kg,20.27,3.09,1.82,3,280,Supplier A,1.39,3.68
+2025-06-26,7,Eggs,Non-Veg,Poultry,pieces,16.75,5.95,3.0,2,6,Supplier B,1.24,4.55
+2025-06-26,8,Rice,Veg,Grain,kg,19.39,5.54,2.01,3,70,Supplier B,1.24,1.34
+2025-06-26,9,Sugar,Veg,Grocery,kg,15.62,6.05,2.34,4,50,Supplier A,1.48,1.1
+2025-06-26,10,Milk,Veg,Dairy,liter,14.71,6.96,8.0,3,50,Supplier C,1.36,4.47
+2025-06-27,1,Paneer,Veg,Dairy,kg,7.75,4.88,2.41,4,450,Supplier C,1.08,3.49
+2025-06-27,2,Tomato,Veg,Vegetable,kg,16.16,5.95,1.48,2,40,Supplier B,0.92,2.63
+2025-06-27,3,Onion,Veg,Vegetable,kg,7.01,9.4,1.73,1,35,Supplier C,1.15,4.08
+2025-06-27,4,Chicken,Non-Veg,Meat,kg,11.88,6.48,0.8,4,250,Supplier A,0.81,1.03
+2025-06-27,5,Mutton,Non-Veg,Meat,kg,19.62,9.12,1.12,4,600,Supplier B,1.24,1.25
+2025-06-27,6,Rohu Fish,Non-Veg,Fish,kg,16.32,8.87,2.72,1,280,Supplier B,1.16,1.92
+2025-06-27,7,Eggs,Non-Veg,Poultry,pieces,9.49,8.17,2.0,3,6,Supplier B,1.34,0.45
+2025-06-27,8,Rice,Veg,Grain,kg,18.369999999999997,6.06,0.81,4,70,Supplier C,1.01,3.6
+2025-06-27,9,Sugar,Veg,Grocery,kg,15.190000000000001,7.65,3.05,2,50,Supplier A,1.14,0.68
+2025-06-27,10,Milk,Veg,Dairy,liter,17.1,4.13,4.0,4,50,Supplier B,1.15,0.26
+2025-06-28,1,Paneer,Veg,Dairy,kg,13.2,8.4,3.19,1,450,Supplier A,1.05,1.72
+2025-06-28,2,Tomato,Veg,Vegetable,kg,17.93,7.19,2.36,1,40,Supplier A,1.37,1.23
+2025-06-28,3,Onion,Veg,Vegetable,kg,19.52,4.91,4.1,2,35,Supplier B,1.02,0.52
+2025-06-28,4,Chicken,Non-Veg,Meat,kg,23.56,8.53,4.13,1,250,Supplier B,0.93,2.23
+2025-06-28,5,Mutton,Non-Veg,Meat,kg,21.03,8.13,2.94,1,600,Supplier C,1.31,3.8
+2025-06-28,6,Rohu Fish,Non-Veg,Fish,kg,23.080000000000002,9.32,3.37,4,280,Supplier B,1.49,1.11
+2025-06-28,7,Eggs,Non-Veg,Poultry,pieces,26.99,6.89,7.0,2,6,Supplier A,0.82,4.58
+2025-06-28,8,Rice,Veg,Grain,kg,13.100000000000001,9.47,3.64,2,70,Supplier C,1.36,2.11
+2025-06-28,9,Sugar,Veg,Grocery,kg,9.67,6.19,3.85,3,50,Supplier C,0.83,4.14
+2025-06-28,10,Milk,Veg,Dairy,liter,16.45,3.84,8.0,2,50,Supplier B,1.17,4.42
+2025-06-29,1,Paneer,Veg,Dairy,kg,13.55,7.01,2.48,4,450,Supplier B,1.35,2.7
+2025-06-29,2,Tomato,Veg,Vegetable,kg,16.32,9.2,1.93,2,40,Supplier C,1.09,4.38
+2025-06-29,3,Onion,Veg,Vegetable,kg,22.439999999999998,3.0,2.58,1,35,Supplier A,1.46,2.64
+2025-06-29,4,Chicken,Non-Veg,Meat,kg,24.06,5.45,4.09,2,250,Supplier A,0.83,0.44
+2025-06-29,5,Mutton,Non-Veg,Meat,kg,16.37,4.9,2.66,1,600,Supplier A,1.09,3.84
+2025-06-29,6,Rohu Fish,Non-Veg,Fish,kg,18.459999999999997,4.67,2.4,3,280,Supplier C,1.01,2.34
+2025-06-29,7,Eggs,Non-Veg,Poultry,pieces,11.44,4.64,2.0,1,6,Supplier B,1.44,1.39
+2025-06-29,8,Rice,Veg,Grain,kg,7.34,5.74,0.7,4,70,Supplier C,1.46,1.09
+2025-06-29,9,Sugar,Veg,Grocery,kg,10.379999999999999,5.92,4.04,4,50,Supplier C,1.22,4.42
+2025-06-29,10,Milk,Veg,Dairy,liter,9.51,9.94,2.0,3,50,Supplier C,1.39,2.01
+2025-06-30,1,Paneer,Veg,Dairy,kg,19.0,3.84,1.54,3,450,Supplier B,0.95,0.88
+2025-06-30,2,Tomato,Veg,Vegetable,kg,18.03,5.45,1.34,1,40,Supplier C,0.95,3.15
+2025-06-30,3,Onion,Veg,Vegetable,kg,16.79,6.68,2.83,3,35,Supplier A,1.33,1.98
+2025-06-30,4,Chicken,Non-Veg,Meat,kg,10.94,8.71,3.63,2,250,Supplier C,1.32,3.11
+2025-06-30,5,Mutton,Non-Veg,Meat,kg,19.080000000000002,9.02,0.66,3,600,Supplier C,0.99,4.39
+2025-06-30,6,Rohu Fish,Non-Veg,Fish,kg,19.409999999999997,9.69,1.08,4,280,Supplier C,1.03,0.18
+2025-06-30,7,Eggs,Non-Veg,Poultry,pieces,22.259999999999998,3.61,9.0,4,6,Supplier C,0.8,1.26
+2025-06-30,8,Rice,Veg,Grain,kg,9.36,6.73,3.63,1,70,Supplier A,1.28,1.1
+2025-06-30,9,Sugar,Veg,Grocery,kg,18.61,6.47,0.84,4,50,Supplier A,1.43,2.58
+2025-06-30,10,Milk,Veg,Dairy,liter,13.22,7.75,3.0,3,50,Supplier C,1.31,4.32
+2025-07-01,1,Paneer,Veg,Dairy,kg,20.87,4.72,2.85,3,450,Supplier C,1.3,4.34
+2025-07-01,2,Tomato,Veg,Vegetable,kg,19.73,7.76,4.27,3,40,Supplier B,0.93,3.49
+2025-07-01,3,Onion,Veg,Vegetable,kg,23.89,6.26,4.47,3,35,Supplier A,0.89,4.13
+2025-07-01,4,Chicken,Non-Veg,Meat,kg,18.159999999999997,4.13,2.01,4,250,Supplier C,1.33,2.78
+2025-07-01,5,Mutton,Non-Veg,Meat,kg,9.56,3.59,1.66,3,600,Supplier B,1.24,4.91
+2025-07-01,6,Rohu Fish,Non-Veg,Fish,kg,16.18,6.78,1.67,3,280,Supplier A,1.0,0.64
+2025-07-01,7,Eggs,Non-Veg,Poultry,pieces,20.119999999999997,9.74,7.0,3,6,Supplier B,0.93,1.96
+2025-07-01,8,Rice,Veg,Grain,kg,20.72,4.22,3.89,4,70,Supplier C,1.01,0.34
+2025-07-01,9,Sugar,Veg,Grocery,kg,9.7,7.08,3.69,1,50,Supplier A,0.85,0.29
+2025-07-01,10,Milk,Veg,Dairy,liter,20.07,9.81,2.0,1,50,Supplier A,1.25,2.23
+2025-07-02,1,Paneer,Veg,Dairy,kg,13.92,3.46,3.17,1,450,Supplier B,1.14,1.62
+2025-07-02,2,Tomato,Veg,Vegetable,kg,19.22,6.12,3.97,2,40,Supplier A,1.46,2.34
+2025-07-02,3,Onion,Veg,Vegetable,kg,18.77,6.69,0.96,1,35,Supplier B,0.95,3.47
+2025-07-02,4,Chicken,Non-Veg,Meat,kg,16.080000000000002,7.58,0.87,3,250,Supplier B,1.47,4.34
+2025-07-02,5,Mutton,Non-Veg,Meat,kg,16.61,9.37,0.64,1,600,Supplier A,1.08,3.19
+2025-07-02,6,Rohu Fish,Non-Veg,Fish,kg,21.490000000000002,5.87,1.73,4,280,Supplier C,1.32,3.62
+2025-07-02,7,Eggs,Non-Veg,Poultry,pieces,8.469999999999999,7.56,3.0,4,6,Supplier A,1.13,2.81
+2025-07-02,8,Rice,Veg,Grain,kg,10.33,4.43,2.94,1,70,Supplier A,1.34,3.88
+2025-07-02,9,Sugar,Veg,Grocery,kg,20.720000000000002,7.38,4.3,4,50,Supplier A,1.44,1.47
+2025-07-02,10,Milk,Veg,Dairy,liter,10.780000000000001,6.23,3.0,2,50,Supplier B,0.89,0.59
+2025-07-03,1,Paneer,Veg,Dairy,kg,15.04,4.4,3.59,1,450,Supplier A,1.26,0.8
+2025-07-03,2,Tomato,Veg,Vegetable,kg,15.82,6.03,1.97,4,40,Supplier B,0.81,2.28
+2025-07-03,3,Onion,Veg,Vegetable,kg,11.72,6.36,0.83,3,35,Supplier B,1.26,3.61
+2025-07-03,4,Chicken,Non-Veg,Meat,kg,23.2,9.35,3.91,3,250,Supplier C,0.87,2.4
+2025-07-03,5,Mutton,Non-Veg,Meat,kg,21.39,4.0,1.59,4,600,Supplier A,0.95,2.41
+2025-07-03,6,Rohu Fish,Non-Veg,Fish,kg,18.7,9.59,2.06,1,280,Supplier A,0.86,2.59
+2025-07-03,7,Eggs,Non-Veg,Poultry,pieces,18.37,5.5,1.0,3,6,Supplier B,1.2,0.66
+2025-07-03,8,Rice,Veg,Grain,kg,20.610000000000003,4.4,3.6,3,70,Supplier A,1.47,3.35
+2025-07-03,9,Sugar,Veg,Grocery,kg,19.5,7.16,1.06,1,50,Supplier A,1.18,0.26
+2025-07-03,10,Milk,Veg,Dairy,liter,21.03,9.63,2.0,4,50,Supplier A,1.04,4.01
+2025-07-04,1,Paneer,Veg,Dairy,kg,10.370000000000001,9.26,4.17,4,450,Supplier B,1.35,2.99
+2025-07-04,2,Tomato,Veg,Vegetable,kg,8.27,4.15,2.66,2,40,Supplier A,0.84,0.41
+2025-07-04,3,Onion,Veg,Vegetable,kg,9.0,9.1,1.61,2,35,Supplier A,1.13,1.65
+2025-07-04,4,Chicken,Non-Veg,Meat,kg,21.93,6.04,3.85,4,250,Supplier B,1.19,2.49
+2025-07-04,5,Mutton,Non-Veg,Meat,kg,12.17,9.97,3.74,1,600,Supplier B,0.86,2.47
+2025-07-04,6,Rohu Fish,Non-Veg,Fish,kg,10.620000000000001,5.93,2.31,3,280,Supplier B,1.12,1.29
+2025-07-04,7,Eggs,Non-Veg,Poultry,pieces,20.91,8.2,5.0,4,6,Supplier C,1.31,3.14
+2025-07-04,8,Rice,Veg,Grain,kg,16.52,6.8,3.95,3,70,Supplier C,1.11,2.89
+2025-07-04,9,Sugar,Veg,Grocery,kg,16.060000000000002,9.11,3.76,2,50,Supplier B,1.26,3.96
+2025-07-04,10,Milk,Veg,Dairy,liter,16.89,9.39,3.0,4,50,Supplier C,1.13,1.92
+2025-07-05,1,Paneer,Veg,Dairy,kg,12.799999999999999,8.43,4.26,4,450,Supplier B,0.93,4.55
+2025-07-05,2,Tomato,Veg,Vegetable,kg,21.14,4.27,1.57,1,40,Supplier C,1.11,0.35
+2025-07-05,3,Onion,Veg,Vegetable,kg,12.02,7.15,0.94,3,35,Supplier C,1.22,1.8
+2025-07-05,4,Chicken,Non-Veg,Meat,kg,12.11,9.79,1.24,2,250,Supplier A,0.81,4.29
+2025-07-05,5,Mutton,Non-Veg,Meat,kg,17.13,5.78,3.15,3,600,Supplier A,0.97,2.27
+2025-07-05,6,Rohu Fish,Non-Veg,Fish,kg,8.379999999999999,6.64,0.83,2,280,Supplier A,0.9,3.35
+2025-07-05,7,Eggs,Non-Veg,Poultry,pieces,13.73,7.32,5.0,1,6,Supplier B,1.05,1.26
+2025-07-05,8,Rice,Veg,Grain,kg,16.29,5.5,2.21,4,70,Supplier B,1.39,2.37
+2025-07-05,9,Sugar,Veg,Grocery,kg,17.91,9.08,4.13,4,50,Supplier B,0.82,2.7
+2025-07-05,10,Milk,Veg,Dairy,liter,8.84,4.62,2.0,2,50,Supplier B,0.89,0.2
+2025-07-06,1,Paneer,Veg,Dairy,kg,21.540000000000003,5.21,2.53,1,450,Supplier A,1.28,2.92
+2025-07-06,2,Tomato,Veg,Vegetable,kg,14.489999999999998,7.8,2.29,2,40,Supplier A,1.25,4.76
+2025-07-06,3,Onion,Veg,Vegetable,kg,16.23,6.61,4.41,2,35,Supplier B,1.17,1.71
+2025-07-06,4,Chicken,Non-Veg,Meat,kg,8.06,4.0,1.07,2,250,Supplier B,1.27,1.01
+2025-07-06,5,Mutton,Non-Veg,Meat,kg,11.27,7.71,4.86,4,600,Supplier A,1.47,1.17
+2025-07-06,6,Rohu Fish,Non-Veg,Fish,kg,16.57,9.85,1.65,3,280,Supplier C,1.15,3.42
+2025-07-06,7,Eggs,Non-Veg,Poultry,pieces,18.46,9.05,1.0,1,6,Supplier A,1.45,0.15
+2025-07-06,8,Rice,Veg,Grain,kg,18.75,4.51,3.6,4,70,Supplier B,1.27,4.13
+2025-07-06,9,Sugar,Veg,Grocery,kg,13.33,4.12,3.1,4,50,Supplier A,1.48,0.24
+2025-07-06,10,Milk,Veg,Dairy,liter,28.9,8.27,9.0,1,50,Supplier C,1.32,2.84
+2025-07-07,1,Paneer,Veg,Dairy,kg,15.510000000000002,5.29,4.45,2,450,Supplier C,1.43,2.19
+2025-07-07,2,Tomato,Veg,Vegetable,kg,14.21,9.08,4.45,1,40,Supplier C,1.18,0.6
+2025-07-07,3,Onion,Veg,Vegetable,kg,10.399999999999999,5.57,0.53,3,35,Supplier A,1.07,2.82
+2025-07-07,4,Chicken,Non-Veg,Meat,kg,16.919999999999998,6.82,2.97,3,250,Supplier C,0.85,1.14
+2025-07-07,5,Mutton,Non-Veg,Meat,kg,18.24,7.34,3.22,2,600,Supplier B,1.18,2.5
+2025-07-07,6,Rohu Fish,Non-Veg,Fish,kg,22.490000000000002,9.4,4.78,1,280,Supplier C,1.07,1.71
+2025-07-07,7,Eggs,Non-Veg,Poultry,pieces,14.9,4.72,2.0,4,6,Supplier B,1.34,3.04
+2025-07-07,8,Rice,Veg,Grain,kg,19.93,9.69,4.16,1,70,Supplier B,1.1,4.11
+2025-07-07,9,Sugar,Veg,Grocery,kg,10.61,9.68,4.54,4,50,Supplier C,0.84,4.64
+2025-07-07,10,Milk,Veg,Dairy,liter,17.189999999999998,4.36,5.0,2,50,Supplier B,0.98,2.43
+2025-07-08,1,Paneer,Veg,Dairy,kg,11.389999999999999,8.62,1.78,3,450,Supplier B,0.86,2.9
+2025-07-08,2,Tomato,Veg,Vegetable,kg,14.73,9.84,3.73,2,40,Supplier B,0.93,0.61
+2025-07-08,3,Onion,Veg,Vegetable,kg,11.29,6.68,3.57,3,35,Supplier C,1.36,1.48
+2025-07-08,4,Chicken,Non-Veg,Meat,kg,20.1,5.97,1.33,2,250,Supplier A,1.19,4.03
+2025-07-08,5,Mutton,Non-Veg,Meat,kg,15.2,9.66,0.7,3,600,Supplier C,1.16,3.19
+2025-07-08,6,Rohu Fish,Non-Veg,Fish,kg,20.08,7.53,3.17,4,280,Supplier C,1.39,2.06
+2025-07-08,7,Eggs,Non-Veg,Poultry,pieces,24.55,6.9,8.0,3,6,Supplier B,0.99,3.9
+2025-07-08,8,Rice,Veg,Grain,kg,15.559999999999999,7.67,4.2,2,70,Supplier A,0.9,3.83
+2025-07-08,9,Sugar,Veg,Grocery,kg,9.7,4.65,2.41,4,50,Supplier C,0.95,4.31
+2025-07-08,10,Milk,Veg,Dairy,liter,8.68,5.19,1.0,3,50,Supplier A,1.18,3.04
+2025-07-09,1,Paneer,Veg,Dairy,kg,12.399999999999999,7.16,1.54,2,450,Supplier B,0.99,0.71
+2025-07-09,2,Tomato,Veg,Vegetable,kg,18.330000000000002,6.1,3.19,1,40,Supplier B,1.28,3.59
+2025-07-09,3,Onion,Veg,Vegetable,kg,11.89,3.73,4.96,2,35,Supplier A,1.43,1.69
+2025-07-09,4,Chicken,Non-Veg,Meat,kg,12.950000000000001,7.52,3.98,4,250,Supplier B,1.03,0.96
+2025-07-09,5,Mutton,Non-Veg,Meat,kg,11.84,3.49,1.52,1,600,Supplier C,1.27,4.16
+2025-07-09,6,Rohu Fish,Non-Veg,Fish,kg,15.41,4.9,0.81,4,280,Supplier B,1.17,3.25
+2025-07-09,7,Eggs,Non-Veg,Poultry,pieces,10.85,3.37,3.0,4,6,Supplier A,1.19,3.31
+2025-07-09,8,Rice,Veg,Grain,kg,15.77,3.42,3.79,4,70,Supplier C,1.47,0.44
+2025-07-09,9,Sugar,Veg,Grocery,kg,19.68,4.19,3.36,2,50,Supplier B,1.12,0.48
+2025-07-09,10,Milk,Veg,Dairy,liter,10.51,9.87,1.0,3,50,Supplier B,0.96,4.64
+2025-07-10,1,Paneer,Veg,Dairy,kg,9.59,9.95,2.3,4,450,Supplier B,0.97,3.84
+2025-07-10,2,Tomato,Veg,Vegetable,kg,9.91,4.8,3.52,4,40,Supplier B,0.89,3.78
+2025-07-10,3,Onion,Veg,Vegetable,kg,20.95,7.96,4.22,2,35,Supplier B,0.96,0.59
+2025-07-10,4,Chicken,Non-Veg,Meat,kg,12.75,5.42,2.04,1,250,Supplier B,1.01,2.77
+2025-07-10,5,Mutton,Non-Veg,Meat,kg,14.0,7.2,2.29,3,600,Supplier C,1.35,0.81
+2025-07-10,6,Rohu Fish,Non-Veg,Fish,kg,16.59,5.74,3.09,4,280,Supplier C,0.88,4.65
+2025-07-10,7,Eggs,Non-Veg,Poultry,pieces,16.42,7.72,2.0,2,6,Supplier B,1.36,4.34
+2025-07-10,8,Rice,Veg,Grain,kg,13.629999999999999,3.57,4.06,1,70,Supplier C,0.91,0.11
+2025-07-10,9,Sugar,Veg,Grocery,kg,20.87,7.01,1.51,2,50,Supplier B,0.89,4.11
+2025-07-10,10,Milk,Veg,Dairy,liter,15.71,7.24,6.0,1,50,Supplier A,1.34,3.03
+2025-07-11,1,Paneer,Veg,Dairy,kg,13.829999999999998,5.79,1.29,1,450,Supplier C,0.89,3.33
+2025-07-11,2,Tomato,Veg,Vegetable,kg,15.24,4.63,2.65,1,40,Supplier B,1.48,2.75
+2025-07-11,3,Onion,Veg,Vegetable,kg,12.129999999999999,6.54,2.45,2,35,Supplier B,1.4,1.39
+2025-07-11,4,Chicken,Non-Veg,Meat,kg,5.77,7.22,0.5,3,250,Supplier A,0.84,0.76
+2025-07-11,5,Mutton,Non-Veg,Meat,kg,15.91,3.41,4.01,3,600,Supplier C,1.23,3.77
+2025-07-11,6,Rohu Fish,Non-Veg,Fish,kg,13.3,4.19,1.84,1,280,Supplier B,1.01,0.61
+2025-07-11,7,Eggs,Non-Veg,Poultry,pieces,10.67,7.84,3.0,1,6,Supplier B,1.5,2.55
+2025-07-11,8,Rice,Veg,Grain,kg,18.39,5.14,4.16,4,70,Supplier A,1.39,3.28
+2025-07-11,9,Sugar,Veg,Grocery,kg,20.64,5.83,3.76,4,50,Supplier C,1.06,0.97
+2025-07-11,10,Milk,Veg,Dairy,liter,23.41,8.14,6.0,2,50,Supplier C,0.97,4.82
+2025-07-12,1,Paneer,Veg,Dairy,kg,12.379999999999999,8.53,1.1,1,450,Supplier C,0.9,3.8
+2025-07-12,2,Tomato,Veg,Vegetable,kg,11.14,3.08,2.91,2,40,Supplier A,0.94,3.15
+2025-07-12,3,Onion,Veg,Vegetable,kg,6.43,5.6,0.79,1,35,Supplier A,1.12,2.74
+2025-07-12,4,Chicken,Non-Veg,Meat,kg,10.77,6.42,4.3,4,250,Supplier A,0.97,4.32
+2025-07-12,5,Mutton,Non-Veg,Meat,kg,20.59,7.3,3.43,1,600,Supplier C,1.35,2.3
+2025-07-12,6,Rohu Fish,Non-Veg,Fish,kg,23.839999999999996,8.51,4.51,1,280,Supplier C,1.37,4.71
+2025-07-12,7,Eggs,Non-Veg,Poultry,pieces,18.61,3.27,1.0,4,6,Supplier A,1.38,3.91
+2025-07-12,8,Rice,Veg,Grain,kg,13.530000000000001,6.15,2.73,1,70,Supplier C,0.85,3.07
+2025-07-12,9,Sugar,Veg,Grocery,kg,10.08,8.16,2.83,1,50,Supplier C,0.83,2.22
+2025-07-12,10,Milk,Veg,Dairy,liter,14.27,8.01,8.0,1,50,Supplier C,0.87,4.01
+2025-07-13,1,Paneer,Veg,Dairy,kg,13.290000000000001,5.71,0.66,3,450,Supplier B,1.04,1.48
+2025-07-13,2,Tomato,Veg,Vegetable,kg,18.91,4.3,3.99,3,40,Supplier A,1.18,2.06
+2025-07-13,3,Onion,Veg,Vegetable,kg,10.27,5.97,4.24,3,35,Supplier C,1.48,0.41
+2025-07-13,4,Chicken,Non-Veg,Meat,kg,18.369999999999997,7.37,1.83,2,250,Supplier C,0.81,3.34
+2025-07-13,5,Mutton,Non-Veg,Meat,kg,10.56,3.48,1.65,1,600,Supplier A,0.83,2.65
+2025-07-13,6,Rohu Fish,Non-Veg,Fish,kg,21.84,5.05,4.86,4,280,Supplier B,1.14,0.57
+2025-07-13,7,Eggs,Non-Veg,Poultry,pieces,8.92,5.37,2.0,4,6,Supplier B,0.87,2.99
+2025-07-13,8,Rice,Veg,Grain,kg,15.44,5.72,2.19,2,70,Supplier A,0.97,4.72
+2025-07-13,9,Sugar,Veg,Grocery,kg,9.01,9.21,1.05,4,50,Supplier A,1.27,4.96
+2025-07-13,10,Milk,Veg,Dairy,liter,25.19,4.81,7.0,3,50,Supplier C,1.33,1.26
+2025-07-14,1,Paneer,Veg,Dairy,kg,20.2,8.1,2.57,3,450,Supplier A,0.84,0.9
+2025-07-14,2,Tomato,Veg,Vegetable,kg,18.240000000000002,4.89,1.94,4,40,Supplier B,0.92,0.22
+2025-07-14,3,Onion,Veg,Vegetable,kg,16.98,8.72,1.09,3,35,Supplier C,0.91,2.44
+2025-07-14,4,Chicken,Non-Veg,Meat,kg,13.239999999999998,8.31,2.04,1,250,Supplier B,1.01,2.54
+2025-07-14,5,Mutton,Non-Veg,Meat,kg,18.37,9.11,3.04,3,600,Supplier A,1.1,4.39
+2025-07-14,6,Rohu Fish,Non-Veg,Fish,kg,14.59,8.68,1.22,4,280,Supplier B,1.49,3.63
+2025-07-14,7,Eggs,Non-Veg,Poultry,pieces,15.91,9.16,8.0,2,6,Supplier A,1.19,1.02
+2025-07-14,8,Rice,Veg,Grain,kg,18.04,4.32,3.8,1,70,Supplier C,1.18,1.88
+2025-07-14,9,Sugar,Veg,Grocery,kg,20.58,8.88,2.86,4,50,Supplier B,0.94,3.73
+2025-07-14,10,Milk,Veg,Dairy,liter,18.38,7.75,2.0,4,50,Supplier C,1.01,0.74
+2025-07-15,1,Paneer,Veg,Dairy,kg,24.39,5.58,4.44,1,450,Supplier C,1.35,3.22
+2025-07-15,2,Tomato,Veg,Vegetable,kg,8.55,7.64,1.48,2,40,Supplier A,0.8,3.48
+2025-07-15,3,Onion,Veg,Vegetable,kg,13.620000000000001,8.56,3.29,4,35,Supplier A,1.41,2.01
+2025-07-15,4,Chicken,Non-Veg,Meat,kg,18.65,3.73,2.8,2,250,Supplier C,1.19,2.81
+2025-07-15,5,Mutton,Non-Veg,Meat,kg,18.37,8.63,3.22,3,600,Supplier C,1.03,0.11
+2025-07-15,6,Rohu Fish,Non-Veg,Fish,kg,10.59,7.87,3.36,4,280,Supplier C,1.3,3.92
+2025-07-15,7,Eggs,Non-Veg,Poultry,pieces,16.759999999999998,6.08,4.0,4,6,Supplier C,1.31,0.61
+2025-07-15,8,Rice,Veg,Grain,kg,12.13,3.44,1.56,4,70,Supplier A,1.5,3.68
+2025-07-15,9,Sugar,Veg,Grocery,kg,19.34,5.95,4.7,4,50,Supplier B,0.92,2.48
+2025-07-15,10,Milk,Veg,Dairy,liter,25.87,8.23,6.0,3,50,Supplier B,1.21,2.86
+2025-07-16,1,Paneer,Veg,Dairy,kg,11.76,5.34,1.33,1,450,Supplier B,1.21,3.5
+2025-07-16,2,Tomato,Veg,Vegetable,kg,18.61,9.51,3.14,3,40,Supplier C,0.98,4.7
+2025-07-16,3,Onion,Veg,Vegetable,kg,20.52,8.89,2.43,1,35,Supplier A,1.1,2.4
+2025-07-16,4,Chicken,Non-Veg,Meat,kg,20.31,7.42,4.72,2,250,Supplier B,1.15,3.64
+2025-07-16,5,Mutton,Non-Veg,Meat,kg,18.41,8.36,2.47,2,600,Supplier C,0.89,1.13
+2025-07-16,6,Rohu Fish,Non-Veg,Fish,kg,21.13,6.3,2.29,1,280,Supplier A,0.84,0.34
+2025-07-16,7,Eggs,Non-Veg,Poultry,pieces,14.93,4.73,6.0,4,6,Supplier C,1.48,3.94
+2025-07-16,8,Rice,Veg,Grain,kg,13.6,8.91,2.17,2,70,Supplier B,1.14,0.33
+2025-07-16,9,Sugar,Veg,Grocery,kg,6.590000000000001,9.35,0.65,1,50,Supplier C,1.02,1.73
+2025-07-16,10,Milk,Veg,Dairy,liter,13.3,4.66,7.0,4,50,Supplier A,1.47,3.32
+2025-07-17,1,Paneer,Veg,Dairy,kg,22.07,3.37,3.02,4,450,Supplier A,1.24,3.94
+2025-07-17,2,Tomato,Veg,Vegetable,kg,22.42,4.01,2.73,3,40,Supplier C,1.2,0.99
+2025-07-17,3,Onion,Veg,Vegetable,kg,22.169999999999998,7.26,2.59,1,35,Supplier C,0.82,0.92
+2025-07-17,4,Chicken,Non-Veg,Meat,kg,15.01,3.62,3.74,2,250,Supplier C,1.17,2.81
+2025-07-17,5,Mutton,Non-Veg,Meat,kg,18.919999999999998,8.06,1.02,1,600,Supplier B,1.18,3.96
+2025-07-17,6,Rohu Fish,Non-Veg,Fish,kg,11.65,8.93,3.26,2,280,Supplier A,1.46,0.83
+2025-07-17,7,Eggs,Non-Veg,Poultry,pieces,24.04,6.24,9.0,4,6,Supplier B,1.32,2.3
+2025-07-17,8,Rice,Veg,Grain,kg,18.61,3.78,1.81,3,70,Supplier C,0.84,2.3
+2025-07-17,9,Sugar,Veg,Grocery,kg,12.059999999999999,4.81,4.04,4,50,Supplier A,1.33,2.72
+2025-07-17,10,Milk,Veg,Dairy,liter,16.79,4.43,4.0,1,50,Supplier A,0.91,3.3
+2025-07-18,1,Paneer,Veg,Dairy,kg,20.849999999999998,6.92,1.65,4,450,Supplier A,0.82,3.86
+2025-07-18,2,Tomato,Veg,Vegetable,kg,12.75,9.36,0.79,1,40,Supplier B,1.36,1.95
+2025-07-18,3,Onion,Veg,Vegetable,kg,13.95,5.78,2.17,3,35,Supplier A,1.48,3.88
+2025-07-18,4,Chicken,Non-Veg,Meat,kg,14.27,5.01,1.42,4,250,Supplier A,0.99,3.79
+2025-07-18,5,Mutton,Non-Veg,Meat,kg,16.55,4.37,1.91,2,600,Supplier B,0.91,2.67
+2025-07-18,6,Rohu Fish,Non-Veg,Fish,kg,20.529999999999998,5.22,3.63,3,280,Supplier A,1.43,1.82
+2025-07-18,7,Eggs,Non-Veg,Poultry,pieces,20.61,7.19,8.0,3,6,Supplier A,1.43,0.92
+2025-07-18,8,Rice,Veg,Grain,kg,10.72,6.08,3.44,2,70,Supplier C,1.4,4.84
+2025-07-18,9,Sugar,Veg,Grocery,kg,17.130000000000003,5.24,1.03,1,50,Supplier A,1.49,2.09
+2025-07-18,10,Milk,Veg,Dairy,liter,20.880000000000003,5.26,5.0,4,50,Supplier C,1.1,4.41
+2025-07-19,1,Paneer,Veg,Dairy,kg,6.42,6.92,1.23,1,450,Supplier B,1.38,0.15
+2025-07-19,2,Tomato,Veg,Vegetable,kg,12.129999999999999,9.81,1.44,4,40,Supplier A,1.37,4.29
+2025-07-19,3,Onion,Veg,Vegetable,kg,18.580000000000002,5.2,2.93,3,35,Supplier A,1.26,4.51
+2025-07-19,4,Chicken,Non-Veg,Meat,kg,10.72,8.73,1.91,4,250,Supplier B,0.92,1.68
+2025-07-19,5,Mutton,Non-Veg,Meat,kg,21.09,3.7,3.7,1,600,Supplier A,1.43,2.1
+2025-07-19,6,Rohu Fish,Non-Veg,Fish,kg,11.7,7.3,3.83,3,280,Supplier B,1.05,3.1
+2025-07-19,7,Eggs,Non-Veg,Poultry,pieces,22.09,8.91,5.0,3,6,Supplier C,0.89,3.17
+2025-07-19,8,Rice,Veg,Grain,kg,13.420000000000002,7.8,3.54,4,70,Supplier C,0.92,3.41
+2025-07-19,9,Sugar,Veg,Grocery,kg,23.33,3.51,3.45,4,50,Supplier C,1.29,3.21
+2025-07-19,10,Milk,Veg,Dairy,liter,17.23,5.52,9.0,1,50,Supplier C,1.01,0.17
+2025-07-20,1,Paneer,Veg,Dairy,kg,22.51,9.1,3.44,3,450,Supplier A,0.84,4.04
+2025-07-20,2,Tomato,Veg,Vegetable,kg,19.3,9.12,4.54,3,40,Supplier A,0.88,2.8
+2025-07-20,3,Onion,Veg,Vegetable,kg,14.42,9.05,2.51,4,35,Supplier A,1.09,0.64
+2025-07-20,4,Chicken,Non-Veg,Meat,kg,16.3,3.13,4.11,4,250,Supplier C,1.44,3.7
+2025-07-20,5,Mutton,Non-Veg,Meat,kg,19.64,5.05,1.76,3,600,Supplier A,1.29,4.13
+2025-07-20,6,Rohu Fish,Non-Veg,Fish,kg,24.01,7.35,4.28,1,280,Supplier C,1.38,1.52
+2025-07-20,7,Eggs,Non-Veg,Poultry,pieces,21.09,3.79,3.0,2,6,Supplier B,0.85,0.6
+2025-07-20,8,Rice,Veg,Grain,kg,7.37,6.97,1.68,4,70,Supplier A,1.22,1.51
+2025-07-20,9,Sugar,Veg,Grocery,kg,11.34,8.2,1.84,4,50,Supplier C,1.41,0.32
+2025-07-20,10,Milk,Veg,Dairy,liter,17.02,7.15,2.0,1,50,Supplier B,1.24,4.95
+2025-07-21,1,Paneer,Veg,Dairy,kg,20.46,5.0,2.89,4,450,Supplier C,1.5,2.91
+2025-07-21,2,Tomato,Veg,Vegetable,kg,17.17,3.45,4.35,4,40,Supplier C,1.14,1.1
+2025-07-21,3,Onion,Veg,Vegetable,kg,16.7,3.23,3.82,3,35,Supplier B,1.42,4.15
+2025-07-21,4,Chicken,Non-Veg,Meat,kg,15.83,6.01,3.07,4,250,Supplier B,1.13,4.55
+2025-07-21,5,Mutton,Non-Veg,Meat,kg,11.23,4.15,1.12,2,600,Supplier C,1.24,3.04
+2025-07-21,6,Rohu Fish,Non-Veg,Fish,kg,18.7,4.66,3.16,3,280,Supplier A,0.96,0.66
+2025-07-21,7,Eggs,Non-Veg,Poultry,pieces,17.78,9.65,3.0,2,6,Supplier B,1.49,2.36
+2025-07-21,8,Rice,Veg,Grain,kg,12.809999999999999,9.24,1.71,2,70,Supplier B,1.13,1.81
+2025-07-21,9,Sugar,Veg,Grocery,kg,7.81,4.94,0.71,1,50,Supplier A,1.13,2.25
+2025-07-21,10,Milk,Veg,Dairy,liter,10.940000000000001,7.28,3.0,1,50,Supplier B,1.21,2.37
+2025-07-22,1,Paneer,Veg,Dairy,kg,20.729999999999997,3.35,2.92,4,450,Supplier B,0.88,0.18
+2025-07-22,2,Tomato,Veg,Vegetable,kg,19.06,7.0,2.02,2,40,Supplier B,0.83,1.98
+2025-07-22,3,Onion,Veg,Vegetable,kg,19.0,4.99,1.75,1,35,Supplier C,1.04,0.57
+2025-07-22,4,Chicken,Non-Veg,Meat,kg,20.89,6.45,2.78,3,250,Supplier A,1.12,0.22
+2025-07-22,5,Mutton,Non-Veg,Meat,kg,12.16,5.73,4.68,3,600,Supplier B,1.44,2.06
+2025-07-22,6,Rohu Fish,Non-Veg,Fish,kg,17.83,5.17,3.71,1,280,Supplier B,1.47,3.59
+2025-07-22,7,Eggs,Non-Veg,Poultry,pieces,10.02,7.45,5.0,3,6,Supplier A,1.38,3.59
+2025-07-22,8,Rice,Veg,Grain,kg,18.75,4.8,0.68,4,70,Supplier C,1.12,1.92
+2025-07-22,9,Sugar,Veg,Grocery,kg,8.98,5.93,2.16,4,50,Supplier C,1.08,4.5
+2025-07-22,10,Milk,Veg,Dairy,liter,13.32,9.59,3.0,3,50,Supplier B,1.25,3.23
+2025-07-23,1,Paneer,Veg,Dairy,kg,18.48,6.52,4.5,3,450,Supplier B,1.23,4.57
+2025-07-23,2,Tomato,Veg,Vegetable,kg,20.29,3.84,4.43,2,40,Supplier A,1.38,2.65
+2025-07-23,3,Onion,Veg,Vegetable,kg,22.26,7.86,4.96,4,35,Supplier B,1.14,1.48
+2025-07-23,4,Chicken,Non-Veg,Meat,kg,8.76,3.86,3.1,1,250,Supplier C,1.13,1.08
+2025-07-23,5,Mutton,Non-Veg,Meat,kg,10.19,5.71,4.18,3,600,Supplier B,1.27,2.15
+2025-07-23,6,Rohu Fish,Non-Veg,Fish,kg,11.33,8.52,1.74,4,280,Supplier A,1.07,1.13
+2025-07-23,7,Eggs,Non-Veg,Poultry,pieces,20.86,9.42,3.0,3,6,Supplier A,1.42,0.49
+2025-07-23,8,Rice,Veg,Grain,kg,11.110000000000001,3.19,0.56,4,70,Supplier B,1.06,3.44
+2025-07-23,9,Sugar,Veg,Grocery,kg,12.71,4.0,1.25,4,50,Supplier B,1.46,3.81
+2025-07-23,10,Milk,Veg,Dairy,liter,8.379999999999999,7.52,3.0,4,50,Supplier B,1.07,0.03
+2025-07-24,1,Paneer,Veg,Dairy,kg,18.0,3.71,4.06,4,450,Supplier C,1.06,3.03
+2025-07-24,2,Tomato,Veg,Vegetable,kg,21.3,6.18,1.48,4,40,Supplier A,1.48,0.84
+2025-07-24,3,Onion,Veg,Vegetable,kg,21.19,6.72,1.53,1,35,Supplier B,0.83,1.92
+2025-07-24,4,Chicken,Non-Veg,Meat,kg,11.46,4.12,0.64,2,250,Supplier A,0.9,1.57
+2025-07-24,5,Mutton,Non-Veg,Meat,kg,9.65,8.85,2.7,1,600,Supplier A,1.02,4.78
+2025-07-24,6,Rohu Fish,Non-Veg,Fish,kg,18.54,8.79,4.5,1,280,Supplier A,1.22,0.44
+2025-07-24,7,Eggs,Non-Veg,Poultry,pieces,9.46,9.8,4.0,2,6,Supplier B,0.91,2.71
+2025-07-24,8,Rice,Veg,Grain,kg,16.12,8.33,2.99,3,70,Supplier B,1.05,4.19
+2025-07-24,9,Sugar,Veg,Grocery,kg,19.86,4.24,4.22,1,50,Supplier A,0.99,1.71
+2025-07-24,10,Milk,Veg,Dairy,liter,20.17,4.16,7.0,3,50,Supplier A,1.11,0.7
+2025-07-25,1,Paneer,Veg,Dairy,kg,15.65,5.81,3.32,1,450,Supplier C,1.01,3.67
+2025-07-25,2,Tomato,Veg,Vegetable,kg,18.86,6.23,1.97,3,40,Supplier B,0.83,1.98
+2025-07-25,3,Onion,Veg,Vegetable,kg,15.790000000000001,4.59,2.64,4,35,Supplier C,1.22,2.97
+2025-07-25,4,Chicken,Non-Veg,Meat,kg,13.97,3.27,2.09,2,250,Supplier C,0.89,3.95
+2025-07-25,5,Mutton,Non-Veg,Meat,kg,13.21,9.14,4.07,4,600,Supplier C,1.46,4.85
+2025-07-25,6,Rohu Fish,Non-Veg,Fish,kg,9.22,8.28,2.81,2,280,Supplier C,1.06,2.94
+2025-07-25,7,Eggs,Non-Veg,Poultry,pieces,18.84,6.94,6.0,3,6,Supplier A,1.16,1.93
+2025-07-25,8,Rice,Veg,Grain,kg,16.38,9.06,2.72,2,70,Supplier A,1.11,2.28
+2025-07-25,9,Sugar,Veg,Grocery,kg,17.08,8.65,3.21,3,50,Supplier A,0.88,1.0
+2025-07-25,10,Milk,Veg,Dairy,liter,9.05,7.48,4.0,1,50,Supplier C,0.84,4.47
+2025-07-26,1,Paneer,Veg,Dairy,kg,16.200000000000003,6.57,4.48,2,450,Supplier B,1.31,1.1
+2025-07-26,2,Tomato,Veg,Vegetable,kg,22.87,3.21,3.93,3,40,Supplier B,0.89,3.46
+2025-07-26,3,Onion,Veg,Vegetable,kg,12.23,8.63,1.85,4,35,Supplier B,1.17,3.67
+2025-07-26,4,Chicken,Non-Veg,Meat,kg,23.93,4.4,4.07,2,250,Supplier A,1.01,4.14
+2025-07-26,5,Mutton,Non-Veg,Meat,kg,16.63,8.84,0.56,1,600,Supplier B,0.8,0.35
+2025-07-26,6,Rohu Fish,Non-Veg,Fish,kg,22.049999999999997,8.66,4.72,1,280,Supplier A,1.23,4.23
+2025-07-26,7,Eggs,Non-Veg,Poultry,pieces,18.990000000000002,8.06,8.0,2,6,Supplier A,1.08,2.04
+2025-07-26,8,Rice,Veg,Grain,kg,11.030000000000001,3.78,0.8,4,70,Supplier B,1.29,2.89
+2025-07-26,9,Sugar,Veg,Grocery,kg,7.04,9.08,0.53,2,50,Supplier C,1.15,0.38
+2025-07-26,10,Milk,Veg,Dairy,liter,11.75,3.51,6.0,1,50,Supplier B,0.95,3.33
+2025-07-27,1,Paneer,Veg,Dairy,kg,15.41,5.05,4.39,4,450,Supplier A,1.43,2.03
+2025-07-27,2,Tomato,Veg,Vegetable,kg,14.1,4.58,1.95,1,40,Supplier A,0.82,1.1
+2025-07-27,3,Onion,Veg,Vegetable,kg,12.71,8.32,1.47,3,35,Supplier A,1.15,4.44
+2025-07-27,4,Chicken,Non-Veg,Meat,kg,16.31,7.37,2.52,4,250,Supplier C,1.17,3.19
+2025-07-27,5,Mutton,Non-Veg,Meat,kg,11.1,5.12,2.58,3,600,Supplier B,1.16,2.76
+2025-07-27,6,Rohu Fish,Non-Veg,Fish,kg,17.77,4.9,1.14,3,280,Supplier B,1.42,0.79
+2025-07-27,7,Eggs,Non-Veg,Poultry,pieces,22.439999999999998,3.38,8.0,4,6,Supplier C,0.87,2.01
+2025-07-27,8,Rice,Veg,Grain,kg,18.1,8.01,1.35,2,70,Supplier C,0.84,3.53
+2025-07-27,9,Sugar,Veg,Grocery,kg,9.34,4.73,4.28,1,50,Supplier A,1.45,0.41
+2025-07-27,10,Milk,Veg,Dairy,liter,19.4,4.89,9.0,3,50,Supplier B,1.2,4.33
+2025-07-28,1,Paneer,Veg,Dairy,kg,23.72,5.96,4.58,2,450,Supplier C,1.47,1.89
+2025-07-28,2,Tomato,Veg,Vegetable,kg,16.21,6.46,0.9,1,40,Supplier C,1.39,4.65
+2025-07-28,3,Onion,Veg,Vegetable,kg,10.629999999999999,4.78,3.54,3,35,Supplier A,1.48,3.33
+2025-07-28,4,Chicken,Non-Veg,Meat,kg,23.18,7.92,3.92,2,250,Supplier C,1.13,1.34
+2025-07-28,5,Mutton,Non-Veg,Meat,kg,23.34,3.73,3.35,2,600,Supplier C,1.15,4.78
+2025-07-28,6,Rohu Fish,Non-Veg,Fish,kg,14.32,4.46,2.45,2,280,Supplier C,0.8,3.85
+2025-07-28,7,Eggs,Non-Veg,Poultry,pieces,23.51,5.92,7.0,1,6,Supplier B,1.3,2.08
+2025-07-28,8,Rice,Veg,Grain,kg,20.22,8.11,2.17,2,70,Supplier A,1.27,1.08
+2025-07-28,9,Sugar,Veg,Grocery,kg,12.66,3.96,3.23,3,50,Supplier B,1.32,0.63
+2025-07-28,10,Milk,Veg,Dairy,liter,20.67,5.77,6.0,4,50,Supplier A,1.21,2.34
+2025-07-29,1,Paneer,Veg,Dairy,kg,6.53,7.67,0.88,1,450,Supplier C,1.16,0.56
+2025-07-29,2,Tomato,Veg,Vegetable,kg,19.23,3.1,1.7,1,40,Supplier C,1.39,4.56
+2025-07-29,3,Onion,Veg,Vegetable,kg,22.92,3.22,3.69,3,35,Supplier C,1.17,2.02
+2025-07-29,4,Chicken,Non-Veg,Meat,kg,8.33,6.25,3.18,4,250,Supplier C,1.08,0.21
+2025-07-29,5,Mutton,Non-Veg,Meat,kg,15.75,4.87,3.93,1,600,Supplier C,1.48,2.61
+2025-07-29,6,Rohu Fish,Non-Veg,Fish,kg,6.3100000000000005,8.39,1.06,2,280,Supplier B,0.93,1.84
+2025-07-29,7,Eggs,Non-Veg,Poultry,pieces,12.26,5.05,7.0,1,6,Supplier A,0.96,3.7
+2025-07-29,8,Rice,Veg,Grain,kg,16.95,6.98,3.39,1,70,Supplier A,1.48,3.23
+2025-07-29,9,Sugar,Veg,Grocery,kg,9.66,9.29,4.31,1,50,Supplier B,1.0,3.03
+2025-07-29,10,Milk,Veg,Dairy,liter,13.280000000000001,9.3,6.0,1,50,Supplier B,0.97,1.14
+2025-07-30,1,Paneer,Veg,Dairy,kg,18.89,6.32,2.68,2,450,Supplier C,1.49,2.91
+2025-07-30,2,Tomato,Veg,Vegetable,kg,14.540000000000001,7.56,1.58,3,40,Supplier A,0.85,4.81
+2025-07-30,3,Onion,Veg,Vegetable,kg,10.530000000000001,4.37,2.15,2,35,Supplier A,1.39,4.48
+2025-07-30,4,Chicken,Non-Veg,Meat,kg,11.06,9.87,1.92,4,250,Supplier C,1.07,3.18
+2025-07-30,5,Mutton,Non-Veg,Meat,kg,12.43,5.42,3.53,4,600,Supplier A,1.31,1.69
+2025-07-30,6,Rohu Fish,Non-Veg,Fish,kg,8.83,7.83,2.92,2,280,Supplier A,0.81,0.74
+2025-07-30,7,Eggs,Non-Veg,Poultry,pieces,12.45,3.31,4.0,1,6,Supplier B,1.17,4.79
+2025-07-30,8,Rice,Veg,Grain,kg,14.1,7.76,1.59,1,70,Supplier C,1.45,3.1
+2025-07-30,9,Sugar,Veg,Grocery,kg,17.119999999999997,4.26,3.92,3,50,Supplier B,0.92,0.22
+2025-07-30,10,Milk,Veg,Dairy,liter,16.14,3.35,8.0,1,50,Supplier A,1.5,0.68
+2025-07-31,1,Paneer,Veg,Dairy,kg,13.75,7.61,2.87,1,450,Supplier A,1.47,0.98
+2025-07-31,2,Tomato,Veg,Vegetable,kg,20.66,9.87,4.98,1,40,Supplier C,1.12,1.1
+2025-07-31,3,Onion,Veg,Vegetable,kg,12.28,4.5,4.64,2,35,Supplier B,0.93,4.91
+2025-07-31,4,Chicken,Non-Veg,Meat,kg,22.69,9.61,4.07,3,250,Supplier A,1.47,1.98
+2025-07-31,5,Mutton,Non-Veg,Meat,kg,15.74,8.98,4.85,2,600,Supplier C,0.97,3.59
+2025-07-31,6,Rohu Fish,Non-Veg,Fish,kg,18.38,4.14,3.38,4,280,Supplier A,1.4,3.82
+2025-07-31,7,Eggs,Non-Veg,Poultry,pieces,26.53,8.49,9.0,4,6,Supplier A,0.96,4.63
+2025-07-31,8,Rice,Veg,Grain,kg,11.68,5.25,3.35,2,70,Supplier B,1.37,2.57
+2025-07-31,9,Sugar,Veg,Grocery,kg,10.33,5.82,1.64,4,50,Supplier A,0.88,3.31
+2025-07-31,10,Milk,Veg,Dairy,liter,16.31,9.93,9.0,2,50,Supplier B,0.83,4.97
+2025-08-01,1,Paneer,Veg,Dairy,kg,14.5,5.75,3.92,1,450,Supplier A,0.84,0.16
+2025-08-01,2,Tomato,Veg,Vegetable,kg,11.63,7.35,2.5,1,40,Supplier C,1.19,1.26
+2025-08-01,3,Onion,Veg,Vegetable,kg,16.96,4.68,2.11,2,35,Supplier C,1.48,4.39
+2025-08-01,4,Chicken,Non-Veg,Meat,kg,18.220000000000002,8.26,0.62,1,250,Supplier B,0.92,0.18
+2025-08-01,5,Mutton,Non-Veg,Meat,kg,13.64,9.65,4.4,1,600,Supplier C,1.19,3.6
+2025-08-01,6,Rohu Fish,Non-Veg,Fish,kg,12.32,8.88,2.42,1,280,Supplier C,1.43,1.77
+2025-08-01,7,Eggs,Non-Veg,Poultry,pieces,24.69,5.81,7.0,2,6,Supplier A,1.13,3.9
+2025-08-01,8,Rice,Veg,Grain,kg,10.81,7.14,2.74,1,70,Supplier C,1.22,1.48
+2025-08-01,9,Sugar,Veg,Grocery,kg,15.19,5.55,0.65,2,50,Supplier B,1.15,4.7
+2025-08-01,10,Milk,Veg,Dairy,liter,9.43,8.79,3.0,3,50,Supplier C,1.29,1.66
+2025-08-02,1,Paneer,Veg,Dairy,kg,18.79,4.06,3.97,1,450,Supplier C,0.83,2.32
+2025-08-02,2,Tomato,Veg,Vegetable,kg,20.779999999999998,5.74,1.81,1,40,Supplier C,0.8,3.83
+2025-08-02,3,Onion,Veg,Vegetable,kg,15.21,3.38,2.37,2,35,Supplier A,0.94,1.0
+2025-08-02,4,Chicken,Non-Veg,Meat,kg,12.110000000000001,9.18,0.55,2,250,Supplier B,1.48,3.65
+2025-08-02,5,Mutton,Non-Veg,Meat,kg,16.46,8.19,1.51,1,600,Supplier C,1.23,3.8
+2025-08-02,6,Rohu Fish,Non-Veg,Fish,kg,21.8,4.77,4.53,3,280,Supplier C,1.06,0.91
+2025-08-02,7,Eggs,Non-Veg,Poultry,pieces,17.09,4.54,6.0,2,6,Supplier A,1.21,1.97
+2025-08-02,8,Rice,Veg,Grain,kg,9.65,6.81,3.47,2,70,Supplier C,0.99,0.1
+2025-08-02,9,Sugar,Veg,Grocery,kg,11.86,7.4,2.83,2,50,Supplier C,1.22,1.33
+2025-08-02,10,Milk,Veg,Dairy,liter,18.48,3.91,4.0,1,50,Supplier A,1.16,0.51
+2025-08-03,1,Paneer,Veg,Dairy,kg,13.329999999999998,9.53,2.79,4,450,Supplier C,0.93,0.8
+2025-08-03,2,Tomato,Veg,Vegetable,kg,17.990000000000002,3.85,0.94,2,40,Supplier B,1.4,3.64
+2025-08-03,3,Onion,Veg,Vegetable,kg,18.84,4.37,1.73,1,35,Supplier B,1.27,1.07
+2025-08-03,4,Chicken,Non-Veg,Meat,kg,7.99,8.35,1.21,4,250,Supplier C,1.46,2.81
+2025-08-03,5,Mutton,Non-Veg,Meat,kg,13.440000000000001,4.14,2.73,4,600,Supplier B,1.43,1.94
+2025-08-03,6,Rohu Fish,Non-Veg,Fish,kg,17.3,3.87,0.57,2,280,Supplier C,1.48,3.52
+2025-08-03,7,Eggs,Non-Veg,Poultry,pieces,15.52,7.93,7.0,3,6,Supplier A,1.17,3.53
+2025-08-03,8,Rice,Veg,Grain,kg,14.37,5.16,2.93,4,70,Supplier B,0.93,4.31
+2025-08-03,9,Sugar,Veg,Grocery,kg,17.39,5.78,4.1,3,50,Supplier C,1.37,4.4
+2025-08-03,10,Milk,Veg,Dairy,liter,18.380000000000003,5.22,4.0,2,50,Supplier C,1.36,3.36
+2025-08-04,1,Paneer,Veg,Dairy,kg,16.0,7.0,1.63,4,450,Supplier B,1.24,4.91
+2025-08-04,2,Tomato,Veg,Vegetable,kg,9.05,4.31,1.61,4,40,Supplier B,1.01,1.44
+2025-08-04,3,Onion,Veg,Vegetable,kg,16.41,5.34,2.09,1,35,Supplier C,1.22,4.39
+2025-08-04,4,Chicken,Non-Veg,Meat,kg,11.95,3.59,1.61,1,250,Supplier B,1.03,3.43
+2025-08-04,5,Mutton,Non-Veg,Meat,kg,11.36,9.61,0.75,1,600,Supplier C,1.31,3.92
+2025-08-04,6,Rohu Fish,Non-Veg,Fish,kg,17.73,8.5,1.02,1,280,Supplier C,0.99,0.51
+2025-08-04,7,Eggs,Non-Veg,Poultry,pieces,21.12,9.4,2.0,4,6,Supplier C,1.16,0.34
+2025-08-04,8,Rice,Veg,Grain,kg,20.869999999999997,3.79,1.31,2,70,Supplier C,0.93,2.78
+2025-08-04,9,Sugar,Veg,Grocery,kg,11.190000000000001,6.64,3.12,3,50,Supplier A,0.94,1.32
+2025-08-04,10,Milk,Veg,Dairy,liter,25.1,7.41,9.0,4,50,Supplier B,1.48,3.28
+2025-08-05,1,Paneer,Veg,Dairy,kg,9.370000000000001,3.53,3.22,2,450,Supplier B,1.1,0.34
+2025-08-05,2,Tomato,Veg,Vegetable,kg,15.5,3.64,3.63,2,40,Supplier A,0.81,1.34
+2025-08-05,3,Onion,Veg,Vegetable,kg,13.6,7.73,4.84,1,35,Supplier C,1.21,3.36
+2025-08-05,4,Chicken,Non-Veg,Meat,kg,11.61,3.01,2.87,4,250,Supplier A,0.87,4.73
+2025-08-05,5,Mutton,Non-Veg,Meat,kg,20.37,8.16,1.2,4,600,Supplier A,1.34,0.03
+2025-08-05,6,Rohu Fish,Non-Veg,Fish,kg,13.91,3.35,3.31,1,280,Supplier C,1.21,0.08
+2025-08-05,7,Eggs,Non-Veg,Poultry,pieces,14.13,9.58,1.0,2,6,Supplier C,1.39,2.0
+2025-08-05,8,Rice,Veg,Grain,kg,16.44,9.84,1.35,1,70,Supplier C,1.32,2.49
+2025-08-05,9,Sugar,Veg,Grocery,kg,20.32,3.59,1.97,1,50,Supplier A,0.98,2.17
+2025-08-05,10,Milk,Veg,Dairy,liter,20.58,9.97,9.0,4,50,Supplier A,1.25,3.07
+2025-08-06,1,Paneer,Veg,Dairy,kg,17.3,3.64,1.59,1,450,Supplier B,0.84,4.09
+2025-08-06,2,Tomato,Veg,Vegetable,kg,10.04,5.49,4.6,2,40,Supplier B,0.97,1.35
+2025-08-06,3,Onion,Veg,Vegetable,kg,12.66,8.13,0.78,2,35,Supplier A,1.22,2.99
+2025-08-06,4,Chicken,Non-Veg,Meat,kg,12.17,9.19,2.17,3,250,Supplier C,1.45,4.11
+2025-08-06,5,Mutton,Non-Veg,Meat,kg,10.95,7.32,2.95,1,600,Supplier B,1.49,1.27
+2025-08-06,6,Rohu Fish,Non-Veg,Fish,kg,18.369999999999997,5.99,1.81,1,280,Supplier C,1.18,2.92
+2025-08-06,7,Eggs,Non-Veg,Poultry,pieces,18.98,9.41,1.0,1,6,Supplier C,1.35,3.33
+2025-08-06,8,Rice,Veg,Grain,kg,16.99,4.74,2.54,4,70,Supplier B,1.15,4.17
+2025-08-06,9,Sugar,Veg,Grocery,kg,10.08,8.49,2.91,2,50,Supplier C,1.0,4.12
+2025-08-06,10,Milk,Veg,Dairy,liter,17.02,7.13,9.0,3,50,Supplier C,1.14,0.28
+2025-08-07,1,Paneer,Veg,Dairy,kg,11.25,8.35,4.67,2,450,Supplier B,1.09,0.06
+2025-08-07,2,Tomato,Veg,Vegetable,kg,11.34,6.61,4.66,1,40,Supplier B,1.26,0.93
+2025-08-07,3,Onion,Veg,Vegetable,kg,21.68,7.8,4.47,3,35,Supplier B,0.81,4.03
+2025-08-07,4,Chicken,Non-Veg,Meat,kg,16.310000000000002,6.87,4.66,1,250,Supplier A,1.05,1.78
+2025-08-07,5,Mutton,Non-Veg,Meat,kg,21.07,5.15,4.23,4,600,Supplier C,1.35,4.05
+2025-08-07,6,Rohu Fish,Non-Veg,Fish,kg,13.94,4.9,3.34,4,280,Supplier B,0.87,4.38
+2025-08-07,7,Eggs,Non-Veg,Poultry,pieces,15.16,8.8,9.0,3,6,Supplier C,1.4,0.97
+2025-08-07,8,Rice,Veg,Grain,kg,21.12,9.01,3.55,3,70,Supplier B,0.81,2.07
+2025-08-07,9,Sugar,Veg,Grocery,kg,13.72,5.88,1.83,4,50,Supplier B,0.96,3.47
+2025-08-07,10,Milk,Veg,Dairy,liter,18.439999999999998,8.18,7.0,1,50,Supplier A,1.31,3.59
+2025-08-08,1,Paneer,Veg,Dairy,kg,10.24,3.58,2.82,1,450,Supplier B,1.31,2.07
+2025-08-08,2,Tomato,Veg,Vegetable,kg,11.29,7.44,4.47,3,40,Supplier A,1.16,1.11
+2025-08-08,3,Onion,Veg,Vegetable,kg,11.91,3.4,3.23,2,35,Supplier A,1.03,1.34
+2025-08-08,4,Chicken,Non-Veg,Meat,kg,17.45,9.9,3.87,1,250,Supplier C,1.1,2.08
+2025-08-08,5,Mutton,Non-Veg,Meat,kg,18.38,7.92,2.93,1,600,Supplier B,1.03,1.02
+2025-08-08,6,Rohu Fish,Non-Veg,Fish,kg,16.59,3.15,2.96,3,280,Supplier B,1.22,0.58
+2025-08-08,7,Eggs,Non-Veg,Poultry,pieces,14.14,7.84,7.0,3,6,Supplier C,1.34,0.57
+2025-08-08,8,Rice,Veg,Grain,kg,20.15,9.66,3.56,1,70,Supplier B,1.35,0.09
+2025-08-08,9,Sugar,Veg,Grocery,kg,12.92,6.92,0.81,1,50,Supplier C,1.3,1.11
+2025-08-08,10,Milk,Veg,Dairy,liter,24.97,7.88,9.0,4,50,Supplier B,1.37,4.18
+2025-08-09,1,Paneer,Veg,Dairy,kg,16.57,5.34,4.29,1,450,Supplier A,1.16,2.66
+2025-08-09,2,Tomato,Veg,Vegetable,kg,15.260000000000002,6.39,4.19,3,40,Supplier B,1.07,0.38
+2025-08-09,3,Onion,Veg,Vegetable,kg,22.650000000000002,4.42,4.12,4,35,Supplier C,1.14,0.21
+2025-08-09,4,Chicken,Non-Veg,Meat,kg,17.47,8.94,1.32,4,250,Supplier B,0.85,3.24
+2025-08-09,5,Mutton,Non-Veg,Meat,kg,19.25,6.03,2.19,4,600,Supplier C,0.83,4.71
+2025-08-09,6,Rohu Fish,Non-Veg,Fish,kg,8.559999999999999,8.1,2.51,4,280,Supplier B,1.06,0.34
+2025-08-09,7,Eggs,Non-Veg,Poultry,pieces,9.68,5.45,4.0,4,6,Supplier B,0.95,0.04
+2025-08-09,8,Rice,Veg,Grain,kg,15.74,3.04,3.48,4,70,Supplier A,0.87,0.48
+2025-08-09,9,Sugar,Veg,Grocery,kg,14.440000000000001,5.98,0.72,2,50,Supplier A,1.33,3.91
+2025-08-09,10,Milk,Veg,Dairy,liter,22.16,8.31,7.0,3,50,Supplier A,1.23,3.36
+2025-08-10,1,Paneer,Veg,Dairy,kg,11.39,4.36,3.84,4,450,Supplier A,0.91,1.95
+2025-08-10,2,Tomato,Veg,Vegetable,kg,15.74,6.03,1.66,2,40,Supplier B,1.21,4.45
+2025-08-10,3,Onion,Veg,Vegetable,kg,10.7,6.32,3.35,1,35,Supplier B,1.07,3.56
+2025-08-10,4,Chicken,Non-Veg,Meat,kg,10.93,7.2,3.15,2,250,Supplier B,1.44,2.12
+2025-08-10,5,Mutton,Non-Veg,Meat,kg,10.6,3.54,2.78,2,600,Supplier C,1.11,0.67
+2025-08-10,6,Rohu Fish,Non-Veg,Fish,kg,21.91,6.02,2.53,2,280,Supplier C,0.98,3.46
+2025-08-10,7,Eggs,Non-Veg,Poultry,pieces,22.22,4.58,6.0,2,6,Supplier A,0.93,1.35
+2025-08-10,8,Rice,Veg,Grain,kg,11.91,7.17,3.63,2,70,Supplier C,1.34,0.32
+2025-08-10,9,Sugar,Veg,Grocery,kg,16.12,9.88,4.2,4,50,Supplier A,1.29,0.44
+2025-08-10,10,Milk,Veg,Dairy,liter,12.49,3.22,1.0,3,50,Supplier A,1.09,1.32
+2025-08-11,1,Paneer,Veg,Dairy,kg,21.86,7.41,4.5,2,450,Supplier A,1.03,3.33
+2025-08-11,2,Tomato,Veg,Vegetable,kg,22.86,5.28,4.54,1,40,Supplier C,1.27,2.18
+2025-08-11,3,Onion,Veg,Vegetable,kg,17.14,8.69,0.92,1,35,Supplier C,0.87,0.34
+2025-08-11,4,Chicken,Non-Veg,Meat,kg,14.9,8.24,5.0,4,250,Supplier A,0.8,3.37
+2025-08-11,5,Mutton,Non-Veg,Meat,kg,16.17,5.13,2.6,1,600,Supplier C,0.82,0.65
+2025-08-11,6,Rohu Fish,Non-Veg,Fish,kg,18.880000000000003,6.96,2.12,3,280,Supplier C,1.02,0.4
+2025-08-11,7,Eggs,Non-Veg,Poultry,pieces,11.219999999999999,8.35,6.0,2,6,Supplier B,1.02,3.53
+2025-08-11,8,Rice,Veg,Grain,kg,13.77,3.04,1.1,3,70,Supplier A,1.41,3.12
+2025-08-11,9,Sugar,Veg,Grocery,kg,16.85,9.93,3.14,3,50,Supplier B,1.27,3.67
+2025-08-11,10,Milk,Veg,Dairy,liter,17.43,7.18,9.0,4,50,Supplier C,1.06,1.9
+2025-08-12,1,Paneer,Veg,Dairy,kg,17.78,6.28,3.28,1,450,Supplier C,1.25,4.91
+2025-08-12,2,Tomato,Veg,Vegetable,kg,19.85,7.15,4.12,3,40,Supplier B,1.38,4.75
+2025-08-12,3,Onion,Veg,Vegetable,kg,20.08,3.77,2.13,3,35,Supplier A,1.15,0.84
+2025-08-12,4,Chicken,Non-Veg,Meat,kg,19.07,7.54,3.61,2,250,Supplier B,1.32,2.77
+2025-08-12,5,Mutton,Non-Veg,Meat,kg,15.360000000000001,4.43,4.15,2,600,Supplier B,1.27,2.28
+2025-08-12,6,Rohu Fish,Non-Veg,Fish,kg,11.82,3.13,4.27,4,280,Supplier A,0.92,0.12
+2025-08-12,7,Eggs,Non-Veg,Poultry,pieces,25.04,9.73,8.0,3,6,Supplier B,1.47,3.2
+2025-08-12,8,Rice,Veg,Grain,kg,18.24,8.84,4.47,2,70,Supplier A,1.21,4.61
+2025-08-12,9,Sugar,Veg,Grocery,kg,13.49,3.36,3.17,4,50,Supplier C,0.96,0.33
+2025-08-12,10,Milk,Veg,Dairy,liter,15.1,9.17,1.0,4,50,Supplier A,1.22,3.45
+2025-08-13,1,Paneer,Veg,Dairy,kg,22.4,7.78,2.76,3,450,Supplier B,1.0,3.69
+2025-08-13,2,Tomato,Veg,Vegetable,kg,24.07,3.21,4.11,2,40,Supplier C,1.22,3.46
+2025-08-13,3,Onion,Veg,Vegetable,kg,22.4,8.43,3.29,2,35,Supplier C,0.85,1.68
+2025-08-13,4,Chicken,Non-Veg,Meat,kg,22.14,8.97,4.89,2,250,Supplier B,1.19,1.53
+2025-08-13,5,Mutton,Non-Veg,Meat,kg,15.29,4.18,4.05,3,600,Supplier A,0.99,2.35
+2025-08-13,6,Rohu Fish,Non-Veg,Fish,kg,8.459999999999999,4.03,0.95,3,280,Supplier B,0.92,4.93
+2025-08-13,7,Eggs,Non-Veg,Poultry,pieces,19.6,4.95,8.0,4,6,Supplier A,1.24,1.04
+2025-08-13,8,Rice,Veg,Grain,kg,6.8,8.79,1.49,4,70,Supplier A,1.27,1.78
+2025-08-13,9,Sugar,Veg,Grocery,kg,8.94,8.66,0.78,3,50,Supplier C,0.85,3.88
+2025-08-13,10,Milk,Veg,Dairy,liter,15.32,3.58,8.0,2,50,Supplier B,1.29,4.15
+2025-08-14,1,Paneer,Veg,Dairy,kg,10.62,6.35,3.28,2,450,Supplier C,0.9,2.53
+2025-08-14,2,Tomato,Veg,Vegetable,kg,12.41,6.41,3.31,1,40,Supplier B,1.49,2.21
+2025-08-14,3,Onion,Veg,Vegetable,kg,18.01,4.97,2.28,2,35,Supplier B,1.31,2.29
+2025-08-14,4,Chicken,Non-Veg,Meat,kg,18.09,8.44,3.08,3,250,Supplier B,0.83,1.0
+2025-08-14,5,Mutton,Non-Veg,Meat,kg,14.51,8.36,1.07,4,600,Supplier A,0.94,1.86
+2025-08-14,6,Rohu Fish,Non-Veg,Fish,kg,18.82,6.45,2.7,4,280,Supplier C,1.26,3.44
+2025-08-14,7,Eggs,Non-Veg,Poultry,pieces,26.9,5.85,9.0,3,6,Supplier A,1.09,3.49
+2025-08-14,8,Rice,Veg,Grain,kg,21.36,9.23,2.81,1,70,Supplier A,1.2,0.88
+2025-08-14,9,Sugar,Veg,Grocery,kg,15.45,7.51,3.11,4,50,Supplier A,1.45,4.85
+2025-08-14,10,Milk,Veg,Dairy,liter,12.969999999999999,8.98,6.0,1,50,Supplier C,0.95,1.39
+2025-08-15,1,Paneer,Veg,Dairy,kg,18.71,5.0,1.32,1,450,Supplier C,1.19,2.88
+2025-08-15,2,Tomato,Veg,Vegetable,kg,18.950000000000003,4.77,2.17,2,40,Supplier A,0.86,1.84
+2025-08-15,3,Onion,Veg,Vegetable,kg,20.689999999999998,8.57,3.01,2,35,Supplier A,0.82,4.94
+2025-08-15,4,Chicken,Non-Veg,Meat,kg,14.440000000000001,6.65,1.64,3,250,Supplier C,0.8,1.32
+2025-08-15,5,Mutton,Non-Veg,Meat,kg,21.310000000000002,7.39,4.42,1,600,Supplier A,0.99,1.16
+2025-08-15,6,Rohu Fish,Non-Veg,Fish,kg,10.98,5.06,2.99,4,280,Supplier B,0.83,4.6
+2025-08-15,7,Eggs,Non-Veg,Poultry,pieces,16.11,4.67,8.0,3,6,Supplier A,0.8,2.95
+2025-08-15,8,Rice,Veg,Grain,kg,19.52,7.31,3.98,2,70,Supplier A,1.22,2.15
+2025-08-15,9,Sugar,Veg,Grocery,kg,21.54,5.79,5.0,2,50,Supplier C,1.27,2.38
+2025-08-15,10,Milk,Veg,Dairy,liter,10.68,7.53,5.0,3,50,Supplier B,1.44,3.08
+2025-08-16,1,Paneer,Veg,Dairy,kg,15.309999999999999,3.35,2.79,4,450,Supplier B,1.4,1.39
+2025-08-16,2,Tomato,Veg,Vegetable,kg,24.63,8.57,4.68,3,40,Supplier A,0.97,2.25
+2025-08-16,3,Onion,Veg,Vegetable,kg,16.59,3.78,0.72,1,35,Supplier B,1.45,0.95
+2025-08-16,4,Chicken,Non-Veg,Meat,kg,17.79,4.4,3.63,3,250,Supplier B,0.89,3.75
+2025-08-16,5,Mutton,Non-Veg,Meat,kg,12.530000000000001,7.74,3.98,1,600,Supplier B,1.45,4.18
+2025-08-16,6,Rohu Fish,Non-Veg,Fish,kg,11.92,8.25,2.15,3,280,Supplier C,1.34,2.62
+2025-08-16,7,Eggs,Non-Veg,Poultry,pieces,14.28,5.05,3.0,1,6,Supplier C,1.27,4.81
+2025-08-16,8,Rice,Veg,Grain,kg,13.68,7.28,4.7,3,70,Supplier B,1.01,0.96
+2025-08-16,9,Sugar,Veg,Grocery,kg,17.28,6.54,3.29,2,50,Supplier A,1.0,1.39
+2025-08-16,10,Milk,Veg,Dairy,liter,19.17,6.8,4.0,4,50,Supplier C,1.49,3.11
+2025-08-17,1,Paneer,Veg,Dairy,kg,12.0,3.55,1.9,3,450,Supplier B,0.86,4.25
+2025-08-17,2,Tomato,Veg,Vegetable,kg,18.08,9.89,4.96,4,40,Supplier C,1.45,1.86
+2025-08-17,3,Onion,Veg,Vegetable,kg,7.17,4.14,0.78,4,35,Supplier A,1.04,1.36
+2025-08-17,4,Chicken,Non-Veg,Meat,kg,21.22,4.33,2.52,4,250,Supplier B,1.26,2.35
+2025-08-17,5,Mutton,Non-Veg,Meat,kg,20.189999999999998,7.05,3.88,3,600,Supplier B,0.88,1.47
+2025-08-17,6,Rohu Fish,Non-Veg,Fish,kg,21.5,6.24,4.74,1,280,Supplier C,1.09,3.32
+2025-08-17,7,Eggs,Non-Veg,Poultry,pieces,19.84,5.5,2.0,4,6,Supplier B,1.02,4.55
+2025-08-17,8,Rice,Veg,Grain,kg,12.68,4.33,3.61,2,70,Supplier A,1.22,4.7
+2025-08-17,9,Sugar,Veg,Grocery,kg,21.72,4.21,4.38,1,50,Supplier B,1.0,2.66
+2025-08-17,10,Milk,Veg,Dairy,liter,20.01,7.43,4.0,4,50,Supplier C,1.18,0.58
+2025-08-18,1,Paneer,Veg,Dairy,kg,14.719999999999999,8.13,4.56,4,450,Supplier B,0.87,2.91
+2025-08-18,2,Tomato,Veg,Vegetable,kg,17.28,7.9,4.43,4,40,Supplier A,1.03,2.0
+2025-08-18,3,Onion,Veg,Vegetable,kg,17.95,8.61,0.55,1,35,Supplier B,0.85,0.49
+2025-08-18,4,Chicken,Non-Veg,Meat,kg,8.51,7.1,2.13,1,250,Supplier A,1.22,0.34
+2025-08-18,5,Mutton,Non-Veg,Meat,kg,9.31,7.61,3.82,4,600,Supplier A,1.41,1.12
+2025-08-18,6,Rohu Fish,Non-Veg,Fish,kg,20.27,6.93,4.05,1,280,Supplier B,1.49,4.09
+2025-08-18,7,Eggs,Non-Veg,Poultry,pieces,14.48,8.47,9.0,4,6,Supplier C,0.84,1.74
+2025-08-18,8,Rice,Veg,Grain,kg,16.12,6.21,0.74,4,70,Supplier C,1.2,4.95
+2025-08-18,9,Sugar,Veg,Grocery,kg,16.45,9.28,1.12,3,50,Supplier C,1.13,4.1
+2025-08-18,10,Milk,Veg,Dairy,liter,15.370000000000001,3.36,8.0,2,50,Supplier C,0.86,1.05
+2025-08-19,1,Paneer,Veg,Dairy,kg,14.83,8.89,2.6,2,450,Supplier A,0.9,0.91
+2025-08-19,2,Tomato,Veg,Vegetable,kg,19.52,8.47,3.09,3,40,Supplier C,1.45,1.52
+2025-08-19,3,Onion,Veg,Vegetable,kg,20.040000000000003,7.79,1.03,1,35,Supplier A,1.46,3.01
+2025-08-19,4,Chicken,Non-Veg,Meat,kg,10.65,7.58,1.9,2,250,Supplier B,1.19,4.86
+2025-08-19,5,Mutton,Non-Veg,Meat,kg,9.75,5.92,3.72,3,600,Supplier B,1.34,2.56
+2025-08-19,6,Rohu Fish,Non-Veg,Fish,kg,16.1,7.54,0.7,4,280,Supplier B,1.08,2.75
+2025-08-19,7,Eggs,Non-Veg,Poultry,pieces,17.79,6.07,8.0,3,6,Supplier A,0.87,1.28
+2025-08-19,8,Rice,Veg,Grain,kg,13.299999999999999,7.73,2.1,2,70,Supplier A,0.95,1.39
+2025-08-19,9,Sugar,Veg,Grocery,kg,15.14,3.2,1.8,4,50,Supplier B,1.09,0.21
+2025-08-19,10,Milk,Veg,Dairy,liter,15.36,4.62,2.0,4,50,Supplier C,0.98,4.84
+2025-08-20,1,Paneer,Veg,Dairy,kg,19.46,3.35,1.91,4,450,Supplier C,1.24,4.58
+2025-08-20,2,Tomato,Veg,Vegetable,kg,14.38,8.27,3.33,2,40,Supplier B,1.35,0.22
+2025-08-20,3,Onion,Veg,Vegetable,kg,13.95,9.26,2.29,3,35,Supplier A,1.18,4.16
+2025-08-20,4,Chicken,Non-Veg,Meat,kg,15.77,5.65,4.3,3,250,Supplier C,1.1,2.5
+2025-08-20,5,Mutton,Non-Veg,Meat,kg,14.830000000000002,4.92,1.62,2,600,Supplier A,1.03,2.87
+2025-08-20,6,Rohu Fish,Non-Veg,Fish,kg,9.76,3.04,0.68,1,280,Supplier C,1.03,3.48
+2025-08-20,7,Eggs,Non-Veg,Poultry,pieces,16.93,5.42,1.0,2,6,Supplier A,1.11,4.1
+2025-08-20,8,Rice,Veg,Grain,kg,11.83,7.34,1.1,1,70,Supplier A,0.82,4.95
+2025-08-20,9,Sugar,Veg,Grocery,kg,18.11,7.82,3.22,1,50,Supplier B,0.94,1.52
+2025-08-20,10,Milk,Veg,Dairy,liter,21.31,5.94,3.0,4,50,Supplier A,1.09,2.73
+2025-08-21,1,Paneer,Veg,Dairy,kg,8.78,5.93,1.22,1,450,Supplier A,1.31,3.99
+2025-08-21,2,Tomato,Veg,Vegetable,kg,13.719999999999999,8.63,3.61,1,40,Supplier C,1.22,3.31
+2025-08-21,3,Onion,Veg,Vegetable,kg,9.74,3.17,1.23,1,35,Supplier A,1.01,4.74
+2025-08-21,4,Chicken,Non-Veg,Meat,kg,10.889999999999999,4.94,1.69,1,250,Supplier B,0.84,2.1
+2025-08-21,5,Mutton,Non-Veg,Meat,kg,14.29,5.75,0.68,1,600,Supplier B,1.46,3.66
+2025-08-21,6,Rohu Fish,Non-Veg,Fish,kg,13.73,4.74,4.02,2,280,Supplier B,1.08,2.94
+2025-08-21,7,Eggs,Non-Veg,Poultry,pieces,12.09,3.43,7.0,3,6,Supplier B,0.99,3.55
+2025-08-21,8,Rice,Veg,Grain,kg,15.19,6.85,4.57,4,70,Supplier C,1.09,0.47
+2025-08-21,9,Sugar,Veg,Grocery,kg,9.57,5.22,1.24,4,50,Supplier A,1.45,4.09
+2025-08-21,10,Milk,Veg,Dairy,liter,15.75,5.36,4.0,4,50,Supplier A,1.0,1.44
+2025-08-22,1,Paneer,Veg,Dairy,kg,16.93,9.09,1.99,1,450,Supplier A,1.03,2.21
+2025-08-22,2,Tomato,Veg,Vegetable,kg,15.229999999999999,4.13,2.28,2,40,Supplier C,1.01,1.04
+2025-08-22,3,Onion,Veg,Vegetable,kg,17.810000000000002,8.14,4.6,3,35,Supplier B,1.09,1.81
+2025-08-22,4,Chicken,Non-Veg,Meat,kg,9.41,3.24,3.56,1,250,Supplier C,1.36,1.69
+2025-08-22,5,Mutton,Non-Veg,Meat,kg,21.25,5.41,1.61,4,600,Supplier A,1.01,4.48
+2025-08-22,6,Rohu Fish,Non-Veg,Fish,kg,12.7,4.68,1.53,3,280,Supplier C,0.9,3.95
+2025-08-22,7,Eggs,Non-Veg,Poultry,pieces,10.58,3.32,4.0,3,6,Supplier C,1.05,3.69
+2025-08-22,8,Rice,Veg,Grain,kg,12.58,3.57,3.52,2,70,Supplier B,1.15,2.22
+2025-08-22,9,Sugar,Veg,Grocery,kg,8.57,5.46,1.03,3,50,Supplier A,1.41,2.89
+2025-08-22,10,Milk,Veg,Dairy,liter,22.78,8.38,3.0,3,50,Supplier B,1.1,2.06
+2025-08-23,1,Paneer,Veg,Dairy,kg,15.450000000000001,8.95,1.99,2,450,Supplier A,1.1,0.12
+2025-08-23,2,Tomato,Veg,Vegetable,kg,8.700000000000001,3.7,1.76,3,40,Supplier C,1.37,0.08
+2025-08-23,3,Onion,Veg,Vegetable,kg,19.03,9.94,0.68,1,35,Supplier C,1.35,3.26
+2025-08-23,4,Chicken,Non-Veg,Meat,kg,18.099999999999998,6.58,4.06,3,250,Supplier A,1.49,0.63
+2025-08-23,5,Mutton,Non-Veg,Meat,kg,21.23,5.27,3.53,2,600,Supplier C,1.46,4.45
+2025-08-23,6,Rohu Fish,Non-Veg,Fish,kg,9.030000000000001,3.01,3.95,4,280,Supplier A,1.34,1.38
+2025-08-23,7,Eggs,Non-Veg,Poultry,pieces,17.86,7.63,8.0,2,6,Supplier A,0.84,1.09
+2025-08-23,8,Rice,Veg,Grain,kg,15.18,8.95,1.09,3,70,Supplier C,1.5,0.57
+2025-08-23,9,Sugar,Veg,Grocery,kg,15.24,5.88,1.33,1,50,Supplier B,0.81,2.33
+2025-08-23,10,Milk,Veg,Dairy,liter,17.880000000000003,3.19,9.0,4,50,Supplier C,1.27,3.89
+2025-08-24,1,Paneer,Veg,Dairy,kg,16.15,7.43,3.76,1,450,Supplier B,0.84,4.83
+2025-08-24,2,Tomato,Veg,Vegetable,kg,18.16,6.95,4.51,4,40,Supplier C,1.18,1.81
+2025-08-24,3,Onion,Veg,Vegetable,kg,11.190000000000001,8.6,4.28,2,35,Supplier C,0.9,2.03
+2025-08-24,4,Chicken,Non-Veg,Meat,kg,13.120000000000001,6.68,3.72,4,250,Supplier B,1.22,4.97
+2025-08-24,5,Mutton,Non-Veg,Meat,kg,19.45,7.3,1.89,2,600,Supplier C,0.8,1.48
+2025-08-24,6,Rohu Fish,Non-Veg,Fish,kg,9.99,7.63,1.72,4,280,Supplier B,1.11,0.64
+2025-08-24,7,Eggs,Non-Veg,Poultry,pieces,21.27,9.32,6.0,3,6,Supplier C,1.04,2.78
+2025-08-24,8,Rice,Veg,Grain,kg,7.53,8.82,1.11,3,70,Supplier C,1.02,2.49
+2025-08-24,9,Sugar,Veg,Grocery,kg,19.189999999999998,5.02,4.52,2,50,Supplier B,0.8,0.59
+2025-08-24,10,Milk,Veg,Dairy,liter,13.35,4.78,3.0,2,50,Supplier C,1.37,0.46
+2025-08-25,1,Paneer,Veg,Dairy,kg,21.87,9.29,4.52,1,450,Supplier C,1.18,0.43
+2025-08-25,2,Tomato,Veg,Vegetable,kg,16.32,5.72,2.21,1,40,Supplier A,1.14,1.95
+2025-08-25,3,Onion,Veg,Vegetable,kg,7.34,8.81,1.12,2,35,Supplier B,1.17,2.22
+2025-08-25,4,Chicken,Non-Veg,Meat,kg,24.36,7.08,4.43,1,250,Supplier B,1.13,1.6
+2025-08-25,5,Mutton,Non-Veg,Meat,kg,14.27,9.02,1.93,4,600,Supplier B,0.89,1.58
+2025-08-25,6,Rohu Fish,Non-Veg,Fish,kg,10.27,7.05,3.35,4,280,Supplier B,0.98,2.86
+2025-08-25,7,Eggs,Non-Veg,Poultry,pieces,25.09,6.5,7.0,2,6,Supplier B,1.35,0.46
+2025-08-25,8,Rice,Veg,Grain,kg,20.040000000000003,5.15,3.53,3,70,Supplier C,1.39,3.09
+2025-08-25,9,Sugar,Veg,Grocery,kg,8.26,9.74,1.38,4,50,Supplier C,1.01,1.41
+2025-08-25,10,Milk,Veg,Dairy,liter,15.29,3.4,9.0,3,50,Supplier A,1.13,4.88
+2025-08-26,1,Paneer,Veg,Dairy,kg,6.52,5.07,0.8,3,450,Supplier A,1.15,0.21
+2025-08-26,2,Tomato,Veg,Vegetable,kg,12.379999999999999,5.15,3.6,2,40,Supplier B,1.48,0.77
+2025-08-26,3,Onion,Veg,Vegetable,kg,9.99,9.26,2.95,3,35,Supplier B,1.13,3.2
+2025-08-26,4,Chicken,Non-Veg,Meat,kg,16.88,6.9,1.35,3,250,Supplier A,1.17,4.71
+2025-08-26,5,Mutton,Non-Veg,Meat,kg,22.66,9.83,3.8,1,600,Supplier C,1.03,3.51
+2025-08-26,6,Rohu Fish,Non-Veg,Fish,kg,14.48,8.29,3.54,2,280,Supplier B,1.06,1.54
+2025-08-26,7,Eggs,Non-Veg,Poultry,pieces,17.759999999999998,3.84,9.0,4,6,Supplier C,1.04,2.9
+2025-08-26,8,Rice,Veg,Grain,kg,16.17,3.54,4.17,2,70,Supplier C,1.26,0.81
+2025-08-26,9,Sugar,Veg,Grocery,kg,16.77,5.48,4.99,1,50,Supplier A,1.12,4.36
+2025-08-26,10,Milk,Veg,Dairy,liter,20.22,5.71,9.0,3,50,Supplier B,1.12,3.08
+2025-08-27,1,Paneer,Veg,Dairy,kg,14.120000000000001,5.9,2.29,3,450,Supplier C,1.47,3.24
+2025-08-27,2,Tomato,Veg,Vegetable,kg,13.34,7.21,1.18,1,40,Supplier A,1.41,0.56
+2025-08-27,3,Onion,Veg,Vegetable,kg,9.280000000000001,7.73,1.84,4,35,Supplier A,0.95,3.67
+2025-08-27,4,Chicken,Non-Veg,Meat,kg,14.049999999999999,7.17,0.76,1,250,Supplier C,0.88,0.49
+2025-08-27,5,Mutton,Non-Veg,Meat,kg,11.07,6.71,1.64,3,600,Supplier C,1.44,2.83
+2025-08-27,6,Rohu Fish,Non-Veg,Fish,kg,11.719999999999999,4.0,2.28,3,280,Supplier C,1.06,4.35
+2025-08-27,7,Eggs,Non-Veg,Poultry,pieces,11.21,9.58,5.0,2,6,Supplier A,1.15,2.35
+2025-08-27,8,Rice,Veg,Grain,kg,11.13,8.54,1.4,4,70,Supplier B,1.35,4.14
+2025-08-27,9,Sugar,Veg,Grocery,kg,20.86,3.87,1.75,2,50,Supplier A,1.03,4.94
+2025-08-27,10,Milk,Veg,Dairy,liter,21.83,3.28,6.0,2,50,Supplier A,1.1,2.35
+2025-08-28,1,Paneer,Veg,Dairy,kg,10.14,9.27,4.98,2,450,Supplier B,1.47,4.05
+2025-08-28,2,Tomato,Veg,Vegetable,kg,20.34,3.6,0.6,3,40,Supplier B,1.2,1.13
+2025-08-28,3,Onion,Veg,Vegetable,kg,16.240000000000002,3.17,2.08,4,35,Supplier C,1.22,0.27
+2025-08-28,4,Chicken,Non-Veg,Meat,kg,15.309999999999999,4.51,4.56,1,250,Supplier A,0.94,4.18
+2025-08-28,5,Mutton,Non-Veg,Meat,kg,10.48,4.85,2.49,2,600,Supplier B,1.19,4.0
+2025-08-28,6,Rohu Fish,Non-Veg,Fish,kg,18.69,8.49,4.22,1,280,Supplier B,0.97,0.07
+2025-08-28,7,Eggs,Non-Veg,Poultry,pieces,21.08,4.54,7.0,3,6,Supplier C,0.81,2.39
+2025-08-28,8,Rice,Veg,Grain,kg,21.560000000000002,8.51,4.19,1,70,Supplier B,0.96,2.62
+2025-08-28,9,Sugar,Veg,Grocery,kg,9.7,6.09,3.5,3,50,Supplier A,1.32,0.71
+2025-08-28,10,Milk,Veg,Dairy,liter,8.77,5.78,3.0,1,50,Supplier C,1.42,4.76
+2025-08-29,1,Paneer,Veg,Dairy,kg,9.63,6.32,1.72,3,450,Supplier B,0.85,0.31
+2025-08-29,2,Tomato,Veg,Vegetable,kg,16.57,9.15,3.08,4,40,Supplier A,0.88,1.29
+2025-08-29,3,Onion,Veg,Vegetable,kg,21.3,8.76,4.63,2,35,Supplier C,1.25,2.71
+2025-08-29,4,Chicken,Non-Veg,Meat,kg,19.900000000000002,8.9,0.71,4,250,Supplier B,1.46,2.26
+2025-08-29,5,Mutton,Non-Veg,Meat,kg,21.88,8.3,4.93,2,600,Supplier A,1.05,1.23
+2025-08-29,6,Rohu Fish,Non-Veg,Fish,kg,20.21,9.64,4.95,2,280,Supplier A,0.86,4.64
+2025-08-29,7,Eggs,Non-Veg,Poultry,pieces,17.09,4.19,2.0,4,6,Supplier A,1.09,3.21
+2025-08-29,8,Rice,Veg,Grain,kg,13.93,3.17,2.7,1,70,Supplier A,1.49,0.11
+2025-08-29,9,Sugar,Veg,Grocery,kg,20.21,6.85,0.69,4,50,Supplier C,1.08,1.58
+2025-08-29,10,Milk,Veg,Dairy,liter,11.45,4.25,5.0,3,50,Supplier B,1.21,1.04
+2025-08-30,1,Paneer,Veg,Dairy,kg,10.99,8.47,1.01,1,450,Supplier C,1.04,1.4
+2025-08-30,2,Tomato,Veg,Vegetable,kg,23.91,4.68,4.02,2,40,Supplier C,1.31,4.81
+2025-08-30,3,Onion,Veg,Vegetable,kg,17.16,8.18,2.7,2,35,Supplier B,1.36,0.9
+2025-08-30,4,Chicken,Non-Veg,Meat,kg,17.96,5.94,2.0,3,250,Supplier C,1.17,1.86
+2025-08-30,5,Mutton,Non-Veg,Meat,kg,8.53,9.7,0.81,3,600,Supplier A,1.09,0.7
+2025-08-30,6,Rohu Fish,Non-Veg,Fish,kg,14.01,6.64,2.97,2,280,Supplier C,1.24,0.3
+2025-08-30,7,Eggs,Non-Veg,Poultry,pieces,13.94,3.93,3.0,4,6,Supplier B,1.2,3.65
+2025-08-30,8,Rice,Veg,Grain,kg,9.36,5.86,2.45,2,70,Supplier A,1.27,1.78
+2025-08-30,9,Sugar,Veg,Grocery,kg,13.959999999999999,5.5,2.68,3,50,Supplier A,0.97,1.75
+2025-08-30,10,Milk,Veg,Dairy,liter,17.08,6.87,5.0,1,50,Supplier B,0.85,1.12
+2025-08-31,1,Paneer,Veg,Dairy,kg,13.04,6.31,4.22,4,450,Supplier A,0.98,2.82
+2025-08-31,2,Tomato,Veg,Vegetable,kg,17.14,8.57,3.63,2,40,Supplier C,0.89,2.57
+2025-08-31,3,Onion,Veg,Vegetable,kg,12.24,9.38,2.48,4,35,Supplier C,1.16,3.0
+2025-08-31,4,Chicken,Non-Veg,Meat,kg,6.8999999999999995,6.47,1.8,1,250,Supplier B,0.86,1.21
+2025-08-31,5,Mutton,Non-Veg,Meat,kg,8.5,3.9,1.93,1,600,Supplier A,0.86,2.36
+2025-08-31,6,Rohu Fish,Non-Veg,Fish,kg,16.58,5.85,3.32,1,280,Supplier C,1.25,1.27
+2025-08-31,7,Eggs,Non-Veg,Poultry,pieces,14.34,9.03,9.0,3,6,Supplier B,1.02,2.94
+2025-08-31,8,Rice,Veg,Grain,kg,20.45,7.28,3.32,2,70,Supplier C,1.2,4.57
+2025-08-31,9,Sugar,Veg,Grocery,kg,10.34,4.39,1.31,3,50,Supplier B,1.11,1.92
+2025-08-31,10,Milk,Veg,Dairy,liter,19.84,3.47,6.0,1,50,Supplier A,0.86,0.41
+2025-09-01,1,Paneer,Veg,Dairy,kg,14.04,4.5,1.27,4,450,Supplier A,1.05,0.07
+2025-09-01,2,Tomato,Veg,Vegetable,kg,14.030000000000001,9.04,3.22,1,40,Supplier A,1.45,3.99
+2025-09-01,3,Onion,Veg,Vegetable,kg,7.8999999999999995,9.2,0.59,3,35,Supplier A,1.37,3.31
+2025-09-01,4,Chicken,Non-Veg,Meat,kg,21.729999999999997,3.13,4.49,1,250,Supplier C,1.0,3.6
+2025-09-01,5,Mutton,Non-Veg,Meat,kg,10.2,4.62,4.46,1,600,Supplier B,0.8,0.69
+2025-09-01,6,Rohu Fish,Non-Veg,Fish,kg,9.93,4.47,4.56,1,280,Supplier C,0.97,3.37
+2025-09-01,7,Eggs,Non-Veg,Poultry,pieces,13.6,6.59,8.0,2,6,Supplier C,0.95,2.05
+2025-09-01,8,Rice,Veg,Grain,kg,19.57,9.54,4.89,2,70,Supplier A,1.42,1.87
+2025-09-01,9,Sugar,Veg,Grocery,kg,8.46,5.3,1.18,3,50,Supplier B,1.27,0.65
+2025-09-01,10,Milk,Veg,Dairy,liter,21.48,8.08,7.0,3,50,Supplier C,1.1,1.56
+2025-09-02,1,Paneer,Veg,Dairy,kg,19.58,4.63,3.4,3,450,Supplier C,1.17,0.03
+2025-09-02,2,Tomato,Veg,Vegetable,kg,21.83,8.78,4.65,3,40,Supplier B,1.43,3.76
+2025-09-02,3,Onion,Veg,Vegetable,kg,12.05,9.69,4.31,3,35,Supplier C,1.35,0.13
+2025-09-02,4,Chicken,Non-Veg,Meat,kg,13.57,8.69,4.56,2,250,Supplier A,1.37,1.58
+2025-09-02,5,Mutton,Non-Veg,Meat,kg,13.98,9.01,4.44,3,600,Supplier C,0.99,3.93
+2025-09-02,6,Rohu Fish,Non-Veg,Fish,kg,11.059999999999999,8.97,4.6,2,280,Supplier B,1.15,1.66
+2025-09-02,7,Eggs,Non-Veg,Poultry,pieces,16.47,4.7,8.0,2,6,Supplier B,1.36,1.56
+2025-09-02,8,Rice,Veg,Grain,kg,11.44,9.67,4.38,1,70,Supplier B,0.96,3.41
+2025-09-02,9,Sugar,Veg,Grocery,kg,22.82,5.03,4.75,2,50,Supplier C,0.89,4.29
+2025-09-02,10,Milk,Veg,Dairy,liter,14.97,3.57,1.0,2,50,Supplier C,1.41,1.26
+2025-09-03,1,Paneer,Veg,Dairy,kg,7.06,8.02,1.26,3,450,Supplier B,0.86,1.09
+2025-09-03,2,Tomato,Veg,Vegetable,kg,18.689999999999998,7.74,1.38,1,40,Supplier C,1.3,0.95
+2025-09-03,3,Onion,Veg,Vegetable,kg,16.86,6.23,2.8,1,35,Supplier A,1.45,4.91
+2025-09-03,4,Chicken,Non-Veg,Meat,kg,15.73,6.28,4.7,4,250,Supplier C,1.05,3.49
+2025-09-03,5,Mutton,Non-Veg,Meat,kg,20.34,3.79,4.46,2,600,Supplier A,1.03,1.53
+2025-09-03,6,Rohu Fish,Non-Veg,Fish,kg,11.07,9.04,0.82,3,280,Supplier B,0.97,1.35
+2025-09-03,7,Eggs,Non-Veg,Poultry,pieces,15.98,9.84,9.0,1,6,Supplier C,0.81,0.7
+2025-09-03,8,Rice,Veg,Grain,kg,22.59,5.58,2.95,4,70,Supplier A,0.92,2.64
+2025-09-03,9,Sugar,Veg,Grocery,kg,13.19,3.23,1.25,4,50,Supplier C,0.9,2.54
+2025-09-03,10,Milk,Veg,Dairy,liter,18.95,6.32,8.0,1,50,Supplier A,1.22,3.32
+2025-09-04,1,Paneer,Veg,Dairy,kg,13.7,8.5,2.37,3,450,Supplier A,1.4,4.48
+2025-09-04,2,Tomato,Veg,Vegetable,kg,10.59,4.94,3.53,3,40,Supplier A,1.16,3.76
+2025-09-04,3,Onion,Veg,Vegetable,kg,15.879999999999999,9.97,1.94,1,35,Supplier A,0.8,1.3
+2025-09-04,4,Chicken,Non-Veg,Meat,kg,15.75,6.35,2.19,2,250,Supplier B,0.8,1.1
+2025-09-04,5,Mutton,Non-Veg,Meat,kg,22.28,8.2,4.62,3,600,Supplier A,1.31,3.76
+2025-09-04,6,Rohu Fish,Non-Veg,Fish,kg,20.28,4.62,4.44,1,280,Supplier C,1.16,0.6
+2025-09-04,7,Eggs,Non-Veg,Poultry,pieces,8.1,8.21,2.0,1,6,Supplier A,0.88,3.59
+2025-09-04,8,Rice,Veg,Grain,kg,20.57,4.63,0.66,3,70,Supplier A,0.99,3.75
+2025-09-04,9,Sugar,Veg,Grocery,kg,9.53,6.17,3.31,1,50,Supplier A,1.27,2.22
+2025-09-04,10,Milk,Veg,Dairy,liter,18.92,9.06,1.0,3,50,Supplier C,1.17,0.16
+2025-09-05,1,Paneer,Veg,Dairy,kg,17.790000000000003,5.25,0.67,3,450,Supplier A,0.97,3.77
+2025-09-05,2,Tomato,Veg,Vegetable,kg,22.799999999999997,9.0,2.92,3,40,Supplier A,1.17,1.34
+2025-09-05,3,Onion,Veg,Vegetable,kg,14.25,9.68,4.36,4,35,Supplier A,1.04,4.09
+2025-09-05,4,Chicken,Non-Veg,Meat,kg,9.23,5.15,4.22,1,250,Supplier C,1.18,0.69
+2025-09-05,5,Mutton,Non-Veg,Meat,kg,12.75,3.43,1.33,4,600,Supplier B,1.06,2.09
+2025-09-05,6,Rohu Fish,Non-Veg,Fish,kg,23.02,6.45,4.44,1,280,Supplier B,1.39,2.69
+2025-09-05,7,Eggs,Non-Veg,Poultry,pieces,11.46,5.09,2.0,2,6,Supplier C,1.39,3.37
+2025-09-05,8,Rice,Veg,Grain,kg,20.39,4.99,4.62,1,70,Supplier A,1.44,0.35
+2025-09-05,9,Sugar,Veg,Grocery,kg,18.68,6.81,1.36,1,50,Supplier B,1.13,0.86
+2025-09-05,10,Milk,Veg,Dairy,liter,22.89,4.18,5.0,1,50,Supplier B,0.95,2.41
+2025-09-06,1,Paneer,Veg,Dairy,kg,18.57,6.52,1.02,1,450,Supplier C,1.42,4.1
+2025-09-06,2,Tomato,Veg,Vegetable,kg,10.66,5.02,1.4,2,40,Supplier A,1.33,4.76
+2025-09-06,3,Onion,Veg,Vegetable,kg,16.380000000000003,7.91,2.5,2,35,Supplier A,1.15,1.55
+2025-09-06,4,Chicken,Non-Veg,Meat,kg,20.17,7.52,4.08,2,250,Supplier A,1.08,0.59
+2025-09-06,5,Mutton,Non-Veg,Meat,kg,12.38,4.3,4.07,3,600,Supplier B,1.47,1.37
+2025-09-06,6,Rohu Fish,Non-Veg,Fish,kg,15.07,3.3,4.79,1,280,Supplier C,0.88,4.26
+2025-09-06,7,Eggs,Non-Veg,Poultry,pieces,12.120000000000001,8.34,5.0,1,6,Supplier B,1.23,2.54
+2025-09-06,8,Rice,Veg,Grain,kg,14.82,8.38,2.65,3,70,Supplier A,0.9,0.96
+2025-09-06,9,Sugar,Veg,Grocery,kg,23.48,9.21,4.72,4,50,Supplier C,1.45,3.48
+2025-09-06,10,Milk,Veg,Dairy,liter,19.02,5.2,9.0,4,50,Supplier C,1.23,4.63
+2025-09-07,1,Paneer,Veg,Dairy,kg,19.54,6.86,4.21,4,450,Supplier A,0.94,0.66
+2025-09-07,2,Tomato,Veg,Vegetable,kg,11.07,7.5,1.57,4,40,Supplier A,1.17,2.93
+2025-09-07,3,Onion,Veg,Vegetable,kg,19.61,4.35,3.92,3,35,Supplier B,0.93,4.0
+2025-09-07,4,Chicken,Non-Veg,Meat,kg,19.25,5.4,0.99,3,250,Supplier C,0.85,2.06
+2025-09-07,5,Mutton,Non-Veg,Meat,kg,20.89,8.08,3.09,4,600,Supplier B,1.07,1.2
+2025-09-07,6,Rohu Fish,Non-Veg,Fish,kg,8.07,5.09,0.86,1,280,Supplier C,1.39,1.16
+2025-09-07,7,Eggs,Non-Veg,Poultry,pieces,17.68,8.69,9.0,4,6,Supplier A,0.91,4.63
+2025-09-07,8,Rice,Veg,Grain,kg,12.94,8.19,4.85,1,70,Supplier C,1.0,2.22
+2025-09-07,9,Sugar,Veg,Grocery,kg,19.009999999999998,8.1,0.86,4,50,Supplier C,1.03,4.58
+2025-09-07,10,Milk,Veg,Dairy,liter,27.35,3.8,9.0,4,50,Supplier B,1.32,4.76
+2025-09-08,1,Paneer,Veg,Dairy,kg,21.400000000000002,3.35,3.19,3,450,Supplier B,0.95,2.5
+2025-09-08,2,Tomato,Veg,Vegetable,kg,10.739999999999998,6.41,4.43,2,40,Supplier B,1.47,1.71
+2025-09-08,3,Onion,Veg,Vegetable,kg,14.84,5.46,2.5,2,35,Supplier A,1.01,2.77
+2025-09-08,4,Chicken,Non-Veg,Meat,kg,12.12,8.08,2.44,1,250,Supplier B,1.05,4.24
+2025-09-08,5,Mutton,Non-Veg,Meat,kg,23.18,7.36,4.07,2,600,Supplier C,0.83,2.72
+2025-09-08,6,Rohu Fish,Non-Veg,Fish,kg,15.54,3.14,3.85,2,280,Supplier A,1.12,3.37
+2025-09-08,7,Eggs,Non-Veg,Poultry,pieces,17.35,7.44,7.0,4,6,Supplier A,0.95,3.31
+2025-09-08,8,Rice,Veg,Grain,kg,14.959999999999999,6.39,1.01,1,70,Supplier B,0.95,2.41
+2025-09-08,9,Sugar,Veg,Grocery,kg,20.58,9.7,4.85,2,50,Supplier B,1.01,4.03
+2025-09-08,10,Milk,Veg,Dairy,liter,16.61,4.77,1.0,2,50,Supplier B,1.16,3.33
+2025-09-09,1,Paneer,Veg,Dairy,kg,8.24,3.15,2.43,3,450,Supplier A,1.26,1.21
+2025-09-09,2,Tomato,Veg,Vegetable,kg,17.54,4.07,4.28,3,40,Supplier C,1.14,4.69
+2025-09-09,3,Onion,Veg,Vegetable,kg,21.479999999999997,5.93,3.65,3,35,Supplier B,1.25,1.71
+2025-09-09,4,Chicken,Non-Veg,Meat,kg,19.27,3.84,0.81,4,250,Supplier C,1.23,4.21
+2025-09-09,5,Mutton,Non-Veg,Meat,kg,9.85,6.89,1.97,3,600,Supplier C,1.41,1.7
+2025-09-09,6,Rohu Fish,Non-Veg,Fish,kg,17.549999999999997,8.93,0.9,3,280,Supplier B,1.38,1.37
+2025-09-09,7,Eggs,Non-Veg,Poultry,pieces,20.6,6.75,5.0,3,6,Supplier B,1.0,0.7
+2025-09-09,8,Rice,Veg,Grain,kg,19.049999999999997,8.86,2.83,2,70,Supplier B,1.27,4.29
+2025-09-09,9,Sugar,Veg,Grocery,kg,21.76,8.03,2.46,4,50,Supplier C,0.86,0.96
+2025-09-09,10,Milk,Veg,Dairy,liter,7.79,8.08,2.0,1,50,Supplier A,1.37,3.96
+2025-09-10,1,Paneer,Veg,Dairy,kg,8.530000000000001,4.22,2.67,2,450,Supplier B,1.23,1.9
+2025-09-10,2,Tomato,Veg,Vegetable,kg,20.77,9.46,4.86,1,40,Supplier B,0.93,3.61
+2025-09-10,3,Onion,Veg,Vegetable,kg,14.290000000000001,3.17,1.98,4,35,Supplier B,1.17,2.45
+2025-09-10,4,Chicken,Non-Veg,Meat,kg,14.79,4.38,2.0,4,250,Supplier C,1.34,1.29
+2025-09-10,5,Mutton,Non-Veg,Meat,kg,14.83,8.99,2.23,2,600,Supplier C,1.19,1.38
+2025-09-10,6,Rohu Fish,Non-Veg,Fish,kg,21.049999999999997,9.46,2.06,3,280,Supplier B,1.31,1.44
+2025-09-10,7,Eggs,Non-Veg,Poultry,pieces,11.55,6.32,6.0,4,6,Supplier B,0.83,4.26
+2025-09-10,8,Rice,Veg,Grain,kg,15.07,3.44,0.72,3,70,Supplier C,1.48,0.43
+2025-09-10,9,Sugar,Veg,Grocery,kg,17.04,4.66,2.83,4,50,Supplier C,1.35,2.38
+2025-09-10,10,Milk,Veg,Dairy,liter,20.85,8.92,9.0,2,50,Supplier C,1.15,0.97
+2025-09-11,1,Paneer,Veg,Dairy,kg,9.89,7.04,3.96,3,450,Supplier A,1.08,3.96
+2025-09-11,2,Tomato,Veg,Vegetable,kg,13.15,8.03,2.41,3,40,Supplier C,1.39,2.19
+2025-09-11,3,Onion,Veg,Vegetable,kg,13.01,3.28,1.68,3,35,Supplier B,1.04,4.3
+2025-09-11,4,Chicken,Non-Veg,Meat,kg,13.69,7.32,3.44,2,250,Supplier A,0.87,1.83
+2025-09-11,5,Mutton,Non-Veg,Meat,kg,23.439999999999998,9.79,3.95,4,600,Supplier A,1.0,2.58
+2025-09-11,6,Rohu Fish,Non-Veg,Fish,kg,20.549999999999997,7.8,2.83,2,280,Supplier B,1.33,2.41
+2025-09-11,7,Eggs,Non-Veg,Poultry,pieces,13.55,3.67,6.0,2,6,Supplier A,1.14,0.28
+2025-09-11,8,Rice,Veg,Grain,kg,18.77,6.82,4.61,1,70,Supplier A,0.95,1.59
+2025-09-11,9,Sugar,Veg,Grocery,kg,9.36,8.26,2.82,2,50,Supplier A,1.47,0.08
+2025-09-11,10,Milk,Veg,Dairy,liter,19.05,3.56,5.0,1,50,Supplier A,1.4,1.97
+2025-09-12,1,Paneer,Veg,Dairy,kg,7.59,8.22,2.06,1,450,Supplier B,1.42,2.03
+2025-09-12,2,Tomato,Veg,Vegetable,kg,21.909999999999997,7.36,3.42,1,40,Supplier C,1.39,1.58
+2025-09-12,3,Onion,Veg,Vegetable,kg,17.69,5.82,2.64,3,35,Supplier B,0.93,1.5
+2025-09-12,4,Chicken,Non-Veg,Meat,kg,16.009999999999998,4.58,3.9,2,250,Supplier B,1.5,4.72
+2025-09-12,5,Mutton,Non-Veg,Meat,kg,11.319999999999999,6.1,2.53,3,600,Supplier A,0.89,1.05
+2025-09-12,6,Rohu Fish,Non-Veg,Fish,kg,17.96,5.98,1.42,4,280,Supplier B,1.02,4.04
+2025-09-12,7,Eggs,Non-Veg,Poultry,pieces,14.53,3.26,5.0,1,6,Supplier C,1.44,2.69
+2025-09-12,8,Rice,Veg,Grain,kg,19.69,3.94,2.25,2,70,Supplier C,1.11,0.93
+2025-09-12,9,Sugar,Veg,Grocery,kg,19.9,3.69,2.7,2,50,Supplier A,1.03,1.38
+2025-09-12,10,Milk,Veg,Dairy,liter,22.41,9.47,8.0,3,50,Supplier A,1.36,1.02
+2025-09-13,1,Paneer,Veg,Dairy,kg,9.78,5.71,3.82,3,450,Supplier A,1.47,1.02
+2025-09-13,2,Tomato,Veg,Vegetable,kg,10.33,5.37,4.63,3,40,Supplier A,1.36,1.89
+2025-09-13,3,Onion,Veg,Vegetable,kg,20.5,4.26,2.46,3,35,Supplier B,1.26,2.71
+2025-09-13,4,Chicken,Non-Veg,Meat,kg,15.63,6.42,1.73,3,250,Supplier B,1.32,2.22
+2025-09-13,5,Mutton,Non-Veg,Meat,kg,7.41,5.1,1.53,2,600,Supplier B,1.26,1.85
+2025-09-13,6,Rohu Fish,Non-Veg,Fish,kg,20.34,9.06,1.03,2,280,Supplier B,0.91,4.42
+2025-09-13,7,Eggs,Non-Veg,Poultry,pieces,11.08,8.57,1.0,4,6,Supplier C,1.09,3.51
+2025-09-13,8,Rice,Veg,Grain,kg,7.880000000000001,7.84,2.77,3,70,Supplier B,1.16,3.99
+2025-09-13,9,Sugar,Veg,Grocery,kg,13.54,6.6,3.88,3,50,Supplier A,1.3,4.55
+2025-09-13,10,Milk,Veg,Dairy,liter,25.97,9.05,9.0,4,50,Supplier B,1.01,4.69
+2025-09-14,1,Paneer,Veg,Dairy,kg,18.990000000000002,7.82,2.64,2,450,Supplier A,1.14,4.31
+2025-09-14,2,Tomato,Veg,Vegetable,kg,14.06,5.92,0.81,3,40,Supplier B,0.95,4.37
+2025-09-14,3,Onion,Veg,Vegetable,kg,7.14,8.76,1.21,4,35,Supplier B,1.0,2.56
+2025-09-14,4,Chicken,Non-Veg,Meat,kg,20.48,5.13,2.61,2,250,Supplier C,1.16,0.88
+2025-09-14,5,Mutton,Non-Veg,Meat,kg,23.32,4.41,3.72,1,600,Supplier A,1.03,0.83
+2025-09-14,6,Rohu Fish,Non-Veg,Fish,kg,14.88,9.92,4.73,2,280,Supplier B,0.84,1.65
+2025-09-14,7,Eggs,Non-Veg,Poultry,pieces,16.28,7.94,6.0,1,6,Supplier B,1.3,0.48
+2025-09-14,8,Rice,Veg,Grain,kg,9.53,3.28,1.77,1,70,Supplier C,0.81,0.24
+2025-09-14,9,Sugar,Veg,Grocery,kg,12.57,9.55,1.35,3,50,Supplier B,1.35,0.14
+2025-09-14,10,Milk,Veg,Dairy,liter,7.68,7.27,1.0,2,50,Supplier C,1.17,2.16
+2025-09-15,1,Paneer,Veg,Dairy,kg,13.49,9.21,2.65,1,450,Supplier B,1.14,3.93
+2025-09-15,2,Tomato,Veg,Vegetable,kg,10.61,9.52,4.75,4,40,Supplier A,1.0,2.26
+2025-09-15,3,Onion,Veg,Vegetable,kg,11.95,7.06,4.81,2,35,Supplier A,1.38,4.76
+2025-09-15,4,Chicken,Non-Veg,Meat,kg,17.5,8.74,3.69,3,250,Supplier A,0.91,0.41
+2025-09-15,5,Mutton,Non-Veg,Meat,kg,15.14,4.81,2.48,4,600,Supplier B,1.41,0.58
+2025-09-15,6,Rohu Fish,Non-Veg,Fish,kg,18.32,5.75,2.63,1,280,Supplier C,1.44,2.85
+2025-09-15,7,Eggs,Non-Veg,Poultry,pieces,15.38,9.56,1.0,4,6,Supplier C,0.91,0.46
+2025-09-15,8,Rice,Veg,Grain,kg,17.880000000000003,3.1,4.82,3,70,Supplier C,1.28,2.67
+2025-09-15,9,Sugar,Veg,Grocery,kg,12.07,9.07,3.87,2,50,Supplier A,1.17,2.69
+2025-09-15,10,Milk,Veg,Dairy,liter,10.45,3.39,4.0,1,50,Supplier C,1.15,4.27
+2025-09-16,1,Paneer,Veg,Dairy,kg,11.620000000000001,6.81,3.21,2,450,Supplier A,0.86,1.48
+2025-09-16,2,Tomato,Veg,Vegetable,kg,10.51,8.96,3.51,3,40,Supplier C,1.07,0.85
+2025-09-16,3,Onion,Veg,Vegetable,kg,13.540000000000001,8.47,2.06,4,35,Supplier B,1.16,1.68
+2025-09-16,4,Chicken,Non-Veg,Meat,kg,14.15,7.94,4.08,1,250,Supplier A,1.15,1.12
+2025-09-16,5,Mutton,Non-Veg,Meat,kg,6.81,7.54,1.67,4,600,Supplier A,1.39,2.56
+2025-09-16,6,Rohu Fish,Non-Veg,Fish,kg,16.46,7.58,0.86,1,280,Supplier C,1.41,2.85
+2025-09-16,7,Eggs,Non-Veg,Poultry,pieces,24.89,7.62,6.0,4,6,Supplier A,1.12,0.46
+2025-09-16,8,Rice,Veg,Grain,kg,20.290000000000003,4.71,2.28,3,70,Supplier A,1.19,3.0
+2025-09-16,9,Sugar,Veg,Grocery,kg,18.16,8.86,2.81,4,50,Supplier A,1.02,2.22
+2025-09-16,10,Milk,Veg,Dairy,liter,15.0,3.84,6.0,1,50,Supplier A,0.83,0.26
+2025-09-17,1,Paneer,Veg,Dairy,kg,12.540000000000001,5.21,2.24,4,450,Supplier C,1.3,4.74
+2025-09-17,2,Tomato,Veg,Vegetable,kg,16.990000000000002,6.6,0.53,2,40,Supplier B,1.2,2.22
+2025-09-17,3,Onion,Veg,Vegetable,kg,13.549999999999999,7.77,4.93,3,35,Supplier A,1.07,4.25
+2025-09-17,4,Chicken,Non-Veg,Meat,kg,7.85,6.44,2.73,1,250,Supplier A,0.95,3.7
+2025-09-17,5,Mutton,Non-Veg,Meat,kg,9.75,8.91,4.29,2,600,Supplier A,1.46,1.55
+2025-09-17,6,Rohu Fish,Non-Veg,Fish,kg,10.34,3.48,3.55,1,280,Supplier B,1.23,1.74
+2025-09-17,7,Eggs,Non-Veg,Poultry,pieces,26.17,3.63,8.0,4,6,Supplier B,0.95,1.19
+2025-09-17,8,Rice,Veg,Grain,kg,17.91,4.52,2.35,3,70,Supplier C,1.41,0.7
+2025-09-17,9,Sugar,Veg,Grocery,kg,15.7,6.11,4.42,1,50,Supplier A,1.02,0.34
+2025-09-17,10,Milk,Veg,Dairy,liter,20.59,8.44,8.0,4,50,Supplier C,0.81,3.73
