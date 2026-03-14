@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Reveal from "./components/Reveal";
 
 const workflowSteps = [
-  ["Private restaurant data", "Sales, recipes, and inventory stay scoped to one restaurant."],
+  ["Provide restaurant data", "Sales, recipes, and inventory stay scoped to one restaurant."],
   ["Weather and local events", "Demand signals are layered in before the forecast is generated."],
   ["Daily prep guidance", "Teams get a tighter prep target with less expected waste."],
 ] as const;
@@ -48,8 +48,10 @@ function HomePage() {
     <>
       <Reveal as="section" className="hero" delay={40}>
         <div className="hero-copy">
-          <p className="eyebrow">Restaurant-specific forecasting</p>
-          <h1>Prep closer to demand. Waste less.</h1>
+          <h1>
+            <span className="hero-line">Prep closer to demand.</span>
+            <span className="hero-line">Waste less.</span>
+          </h1>
           <p className="lede">
             Use restaurant data, weather, and local events to plan daily prep with more confidence.
           </p>
@@ -72,8 +74,26 @@ function HomePage() {
             ))}
           </div>
         </div>
+      </Reveal>
 
-        <div className="preview-panel" aria-label="Forecast preview">
+      <Reveal as="section" className="workflow-block" id="workflow" delay={80}>
+        <h2 className="workflow-title">Three steps. One tighter plan.</h2>
+
+        <div className="workflow-section">
+          <p className="eyebrow">Workflow</p>
+          <div className="workflow-grid">
+            {workflowSteps.map(([title, description], index) => (
+              <article className="workflow-card" key={title}>
+                <span className="workflow-index">0{index + 1}</span>
+                <h3>{title}</h3>
+                <p>{description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </Reveal>
+
+      <Reveal as="aside" className="preview-panel preview-row" aria-label="Forecast preview" delay={120}>
           <div className="preview-head">
             <p>Forecast preview</p>
             <span>Today</span>
@@ -102,29 +122,6 @@ function HomePage() {
               <p>Tighten purchase and prep quantities before service.</p>
             </article>
           </div>
-        </div>
-      </Reveal>
-
-      <Reveal as="section" className="workflow-section" id="workflow" delay={80}>
-        <div className="section-heading">
-          <p className="eyebrow">Workflow</p>
-          <h2>Three steps. One tighter plan.</h2>
-        </div>
-
-        <div className="workflow-grid">
-          {workflowSteps.map(([title, description], index) => (
-            <article className="workflow-card" key={title}>
-              <span className="workflow-index">0{index + 1}</span>
-              <h3>{title}</h3>
-              <p>{description}</p>
-            </article>
-          ))}
-        </div>
-      </Reveal>
-
-      <Reveal as="section" className="compact-note" delay={120}>
-        <p className="eyebrow">Built for operators</p>
-        <h2>Short page. Clear signal. Practical output.</h2>
       </Reveal>
     </>
   );

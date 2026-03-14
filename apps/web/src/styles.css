@@ -102,12 +102,13 @@ a {
 }
 
 .layout {
-  width: min(1160px, calc(100% - 2rem));
+  width: min(1320px, calc(100% - 2.5rem));
   margin: 0 auto;
   padding: 2rem 0 3rem;
 }
 
 .hero,
+.workflow-block,
 .workflow-section,
 .privacy-page {
   margin-top: 1rem;
@@ -115,24 +116,40 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.82fr);
-  gap: 1.25rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   align-items: stretch;
 }
 
 .hero-copy,
-.preview-panel,
-.workflow-section,
 .privacy-hero,
 .privacy-card {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-xl);
-  background: rgba(251, 248, 242, 0.88);
-  box-shadow: var(--shadow);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .hero-copy {
-  padding: 2rem;
+  width: min(100%, 1180px);
+  margin: 0 auto;
+  padding: 2.2rem 0 1.4rem;
+  text-align: center;
+}
+
+.preview-panel {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(251, 248, 242, 0.78);
+  box-shadow: var(--shadow);
+}
+
+.workflow-section {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(251, 248, 242, 0.78);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
 }
 
 .eyebrow {
@@ -153,9 +170,18 @@ a {
 }
 
 .hero h1 {
-  max-width: 9ch;
-  font-size: clamp(3rem, 7vw, 5.6rem);
+  max-width: 20ch;
+  margin: 0 auto;
+  font-size: clamp(3.3rem, 7vw, 6.2rem);
   line-height: 0.94;
+}
+
+.hero-line {
+  display: block;
+}
+
+.hero-line:first-child {
+  white-space: nowrap;
 }
 
 .lede,
@@ -167,14 +193,17 @@ a {
 }
 
 .lede {
-  max-width: 38rem;
+  max-width: 52rem;
   margin: 1.25rem 0 0;
-  font-size: 1.05rem;
+  font-size: 1.08rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.85rem;
   margin: 1.75rem 0;
 }
@@ -225,18 +254,21 @@ a {
 .stat-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  justify-content: center;
+  gap: 1.2rem;
 }
 
 .stat-chip {
   display: inline-flex;
   flex-direction: column;
   gap: 0.2rem;
-  min-width: 8.2rem;
-  padding: 0.9rem 1rem;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.46);
+  min-width: 9.5rem;
+  padding: 0.2rem 0;
+}
+
+.stat-chip + .stat-chip {
+  padding-left: 1.2rem;
+  border-left: 1px solid var(--line);
 }
 
 .stat-chip strong {
@@ -253,7 +285,6 @@ a {
   flex-direction: column;
   gap: 1rem;
   padding: 1.35rem;
-  background: #f8f4ed;
 }
 
 .preview-head {
@@ -284,19 +315,20 @@ a {
 
 .preview-grid {
   display: grid;
-  gap: 0.9rem;
+  gap: 1rem;
 }
 
 .preview-card,
 .workflow-card {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.5);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
 }
 
 .preview-card {
-  min-height: 8.4rem;
-  padding: 1.05rem;
+  min-height: 0;
+  padding: 0 0 1rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .preview-card strong,
@@ -308,8 +340,8 @@ a {
 }
 
 .preview-card-action {
-  border-color: rgba(221, 211, 197, 0.9);
-  background: rgba(255, 255, 255, 0.72);
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .preview-card p {
@@ -337,7 +369,7 @@ a {
   position: relative;
   z-index: 1;
   padding: 0 0.7rem;
-  background: #f8f4ed;
+  background: var(--page-bg);
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 700;
@@ -345,68 +377,52 @@ a {
   text-transform: uppercase;
 }
 
-.section-heading {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: end;
-  margin-bottom: 1.2rem;
-}
-
-.section-heading h2 {
-  font-size: clamp(2rem, 4.5vw, 3.25rem);
+.workflow-title {
+  width: 100%;
+  margin: 0 0 1rem;
+  text-align: center;
+  font-family: "Iowan Old Style", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-size: clamp(1.85rem, 3.5vw, 3rem);
   line-height: 0.98;
-}
-
-.workflow-section {
-  padding: 1.5rem;
+  max-width: none;
+  white-space: nowrap;
 }
 
 .workflow-grid,
 .privacy-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.4rem;
 }
 
 .workflow-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.4rem;
 }
 
 .workflow-card {
-  padding: 1.25rem;
+  position: relative;
+  padding: 0;
 }
 
 .workflow-card h3 {
   margin-bottom: 0.55rem;
+  max-width: 16ch;
 }
 
-.compact-note {
-  padding: 1.5rem 0 0.75rem;
-}
-
-.compact-note h2 {
-  margin: 0;
-  max-width: 14ch;
-  font-family: "Iowan Old Style", "Times New Roman", serif;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  line-height: 1;
+.preview-row {
+  width: min(100%, 820px);
+  margin: 1.4rem auto 0;
 }
 
 .privacy-page {
   display: grid;
-  gap: 1rem;
-}
-
-.privacy-hero,
-.privacy-card {
-  border: 1px solid var(--line);
-  border-radius: var(--radius-xl);
-  background: rgba(251, 248, 242, 0.88);
-  box-shadow: var(--shadow);
+  gap: 2rem;
 }
 
 .privacy-hero {
-  padding: 1.8rem;
+  padding: 0 0 0.5rem;
 }
 
 .privacy-hero h1,
@@ -418,17 +434,19 @@ a {
 }
 
 .privacy-hero h1 {
-  max-width: 11ch;
+  max-width: 14ch;
   font-size: clamp(2.7rem, 6vw, 4.8rem);
   line-height: 0.96;
 }
 
 .privacy-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
 }
 
 .privacy-card {
-  padding: 1.3rem;
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--line);
 }
 
 .privacy-card h2 {
@@ -473,9 +491,8 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .section-heading {
-    flex-direction: column;
-    align-items: start;
+  .workflow-title {
+    white-space: normal;
   }
 }
 
@@ -494,10 +511,18 @@ a {
   }
 
   .hero-copy,
-  .preview-panel,
-  .workflow-section,
   .privacy-hero,
   .privacy-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .preview-panel,
+  .preview-row {
+    padding: 1.15rem;
+  }
+
+  .workflow-section {
     padding: 1.15rem;
   }
 
@@ -506,8 +531,17 @@ a {
     font-size: clamp(2.6rem, 13vw, 4rem);
   }
 
+  .hero-line:first-child {
+    white-space: normal;
+  }
+
   .hero-actions {
     flex-direction: column;
+  }
+
+  .stat-chip + .stat-chip {
+    padding-left: 0;
+    border-left: 0;
   }
 
   .button {
