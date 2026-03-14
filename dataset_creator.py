@@ -115,7 +115,7 @@ inv_used = (
 )
 
 inv = inv_used.merge(
-    cat_stats[["category", "baseline_waste_rate", "ai_waste_rate"]],
+    cat_stats[["category", "baseline_waste_rate"]],
     on="category",
     how="left",
 )
@@ -123,35 +123,61 @@ inv = inv_used.merge(
 inv["qty_received_kg"] = inv["qty_used_kg"] / (1 - inv["baseline_waste_rate"])
 inv["qty_wasted_baseline_kg"] = inv["qty_received_kg"] - inv["qty_used_kg"]
 
-inv["qty_received_ai_kg"] = inv["qty_used_kg"] / (1 - inv["ai_waste_rate"])
-inv["qty_wasted_ai_kg"] = inv["qty_received_ai_kg"] - inv["qty_used_kg"]
+<<<<<<< Updated upstream
+=======
+# AI-based waste/CO2 are computed at inference time in the agent (optimize_inventory),
+# not stored in the training dataset.
 
+>>>>>>> Stashed changes
 # ---------- JOIN WEATHER + EVENTS ----------
 
 ctx = weather.merge(events, on="date", how="left")
+ctx["events_count"] = ctx["events_count"].fillna(0)
+ctx["expected_attendance_total"] = ctx["expected_attendance_total"].fillna(0)
 inv_ctx = inv.merge(ctx, on="date", how="left")
 
-# ---------- CO2 CALCULATIONS ----------
+<<<<<<< Updated upstream
+# ---------- CO2 (baseline only) ----------
 
 inv_ctx["co2e_baseline_kg"] = inv_ctx["qty_wasted_baseline_kg"] * CO2E_PER_KG_FOOD
-inv_ctx["co2e_ai_kg"] = inv_ctx["qty_wasted_ai_kg"] * CO2E_PER_KG_FOOD
-inv_ctx["co2e_reduced_kg"] = inv_ctx["co2e_baseline_kg"] - inv_ctx["co2e_ai_kg"]
+
+# ---------- AGGREGATE TO WEEKLY (one row per restaurant, week_start, category) ----------
+
+inv_ctx["date"] = pd.to_datetime(inv_ctx["date"])
+inv_ctx["week_start"] = inv_ctx["date"] - pd.to_timedelta(inv_ctx["date"].dt.weekday, unit="d")
+
+agg = inv_ctx.groupby(["restaurant_id", "week_start", "category"], as_index=False).agg(
+    qty_received_kg=("qty_received_kg", "sum"),
+    qty_used_kg=("qty_used_kg", "sum"),
+    qty_wasted_baseline_kg=("qty_wasted_baseline_kg", "sum"),
+    baseline_waste_rate=("baseline_waste_rate", "mean"),
+    co2e_baseline_kg=("co2e_baseline_kg", "sum"),
+    temp_max=("temp_max", "mean"),
+    temp_min=("temp_min", "mean"),
+    precipitation=("precipitation", "sum"),
+    events_count=("events_count", "sum"),
+    expected_attendance_total=("expected_attendance_total", "sum"),
+)
+
+# ---------- SAVE FINAL TRAINING DATASET (weekly) ----------
+
+=======
+# ---------- CO2 (baseline only; AI is computed in agent) ----------
+
+inv_ctx["co2e_baseline_kg"] = inv_ctx["qty_wasted_baseline_kg"] * CO2E_PER_KG_FOOD
 
 # ---------- SAVE FINAL TRAINING DATASET ----------
-
+# Only features + target + baseline reference. AI metrics live in the agent pipeline.
+>>>>>>> Stashed changes
 final_cols = [
     "restaurant_id",
-    "date",
+    "week_start",
     "category",
     "qty_received_kg",
     "qty_used_kg",
     "qty_wasted_baseline_kg",
-    "qty_wasted_ai_kg",
     "baseline_waste_rate",
-    "ai_waste_rate",
     "co2e_baseline_kg",
-    "co2e_ai_kg",
-    "co2e_reduced_kg",
     "temp_max",
     "temp_min",
     "precipitation",
@@ -159,8 +185,9 @@ final_cols = [
     "expected_attendance_total",
 ]
 
-final_df = inv_ctx[final_cols].sort_values(["restaurant_id", "date", "category"])
+final_df = agg[final_cols].sort_values(["restaurant_id", "week_start", "category"])
+final_df["week_start"] = final_df["week_start"].dt.strftime("%Y-%m-%d")
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 final_df.to_csv(OUT_PATH, index=False)
 
-print(f"Saved training dataset to: {OUT_PATH}")
+print(f"Saved weekly training dataset to: {OUT_PATH}")

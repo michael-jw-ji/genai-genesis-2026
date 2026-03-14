@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import type { CSSProperties, ReactNode } from "react";
 
+type RevealTag = "div" | "section" | "article" | "header" | "main" | "aside" | "nav" | "span";
+
 type RevealProps = {
-  as?: keyof HTMLElementTagNameMap;
+  as?: RevealTag;
   children: ReactNode;
   className?: string;
   delay?: number;
@@ -49,7 +51,7 @@ function Reveal({
 
   return (
     <Tag
-      ref={ref}
+      ref={ref as never}
       id={id}
       className={`reveal ${isVisible ? "is-visible" : ""} ${className}`.trim()}
       style={style}

@@ -13,13 +13,27 @@ MODEL_DIR.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(PROCESSED_DATA_DIR / "restaurant_inventory_waste_joined.csv")
 
-df["date"] = pd.to_datetime(df["date"])
-df["day_of_week"] = df["date"].dt.weekday
+df["week_start"] = pd.to_datetime(df["week_start"])
+df["week_of_year"] = df["week_start"].dt.isocalendar().week.astype(int)
+df["month"] = df["week_start"].dt.month
+df["restaurant_id"] = pd.to_numeric(df["restaurant_id"], errors="coerce").fillna(0).astype(int)
 
-# Features and target
+# Lagged features: previous week's usage and received (same restaurant + category)
+lag_df = df[["restaurant_id", "category", "week_start", "qty_used_kg", "qty_received_kg"]].copy()
+lag_df["week_start"] = lag_df["week_start"] + pd.Timedelta(days=7)
+lag_df = lag_df.rename(columns={"qty_used_kg": "qty_used_kg_prev_week", "qty_received_kg": "qty_received_kg_prev_week"})
+df = df.merge(lag_df, on=["restaurant_id", "category", "week_start"], how="left")
+df["qty_used_kg_prev_week"] = df["qty_used_kg_prev_week"].fillna(0.0)
+df["qty_received_kg_prev_week"] = df["qty_received_kg_prev_week"].fillna(0.0)
+
+# Features: context + previous week usage/prep (all known at forecast time)
 feature_cols = [
+    "restaurant_id",
     "category",
-    "day_of_week",
+    "week_of_year",
+    "month",
+    "qty_used_kg_prev_week",
+    "qty_received_kg_prev_week",
     "temp_max",
     "temp_min",
     "precipitation",
@@ -28,7 +42,6 @@ feature_cols = [
 ]
 target_col = "qty_used_kg"
 
-# One‑hot encode category
 df_model = pd.get_dummies(df[feature_cols], columns=["category"])
 X = df_model
 y = df[target_col]

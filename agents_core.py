@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 
 ROOT = Path(__file__).resolve().parent
 RAW_DATA_DIR = ROOT / "data" / "raw"
+PROCESSED_DATA_DIR = ROOT / "data" / "processed"
 MODEL_DIR = ROOT / "models_dir"
 
 CO2E_PER_KG_FOOD = 4.5
@@ -40,41 +41,77 @@ def _kg_per_portion(category: str) -> float:
 def build_features(restaurant_id: str, start_date: str, end_date: str, menu_categories):
     """
     menu_categories: list of dicts: [{"category": "Meat"}, {"category": "Vegetables"}, ...]
-    Returns feature DF with one row per (date, category).
+    Returns feature DF with one row per (week_start, category) for weeks in [start_date, end_date].
     """
     start = datetime.fromisoformat(start_date).date()
     end = datetime.fromisoformat(end_date).date()
 
-    weather = pd.read_csv(RAW_DATA_DIR / "weather" / "weather.csv")
-    weather["date"] = pd.to_datetime(weather["date"]).dt.date
-    weather = weather.rename(columns={
-        "tmax_c": "temp_max",
-        "tmin_c": "temp_min",
-        "precip_mm": "precipitation",
-    })
-
-    events = pd.read_csv(RAW_DATA_DIR / "events" / "events.csv")
-    events["date"] = pd.to_datetime(events["date"]).dt.date
-
-    ctx = weather.merge(events, on="date", how="left")
-
-    rows = []
+    # Week starts (Mondays) that fall in [start, end]
+    week_starts = []
     d = start
     while d <= end:
-        for m in menu_categories:
-            rows.append(
-                {
-                    "restaurant_id": restaurant_id,
-                    "date": d,
-                    "category": m["category"],
-                }
-            )
+        # Monday of this week
+        weekday = d.weekday()
+        week_start = d - timedelta(days=weekday)
+        if week_start not in week_starts:
+            week_starts.append(week_start)
         d += timedelta(days=1)
 
-    df = pd.DataFrame(rows)
-    df = df.merge(ctx, on="date", how="left")
+    # Load weekly history for lagged features
+    history_path = PROCESSED_DATA_DIR / "restaurant_inventory_waste_joined.csv"
+    if history_path.exists():
+        history = pd.read_csv(history_path)
+        history["week_start"] = pd.to_datetime(history["week_start"])
+        history["restaurant_id"] = pd.to_numeric(history["restaurant_id"], errors="coerce").fillna(0).astype(int)
+    else:
+        history = pd.DataFrame(columns=["restaurant_id", "category", "week_start", "qty_used_kg", "qty_received_kg"])
 
-    df["day_of_week"] = pd.to_datetime(df["date"]).dt.weekday
+    # Load daily weather/events and aggregate by week
+    weather = pd.read_csv(RAW_DATA_DIR / "weather" / "weather.csv")
+    weather["date"] = pd.to_datetime(weather["date"])
+    weather["week_start"] = weather["date"] - pd.to_timedelta(weather["date"].dt.weekday, unit="d")
+    weather = weather.rename(columns={"tmax_c": "temp_max", "tmin_c": "temp_min", "precip_mm": "precipitation"})
+
+    events = pd.read_csv(RAW_DATA_DIR / "events" / "events.csv")
+    events["date"] = pd.to_datetime(events["date"])
+    events["week_start"] = events["date"] - pd.to_timedelta(events["date"].dt.weekday, unit="d")
+
+    weather_week = weather.groupby("week_start", as_index=False).agg(
+        temp_max=("temp_max", "mean"),
+        temp_min=("temp_min", "mean"),
+        precipitation=("precipitation", "sum"),
+    )
+    events_week = events.groupby("week_start", as_index=False).agg(
+        events_count=("events_count", "sum"),
+        expected_attendance_total=("expected_attendance_total", "sum"),
+    )
+    ctx_week = weather_week.merge(events_week, on="week_start", how="left")
+    ctx_week["events_count"] = ctx_week["events_count"].fillna(0)
+    ctx_week["expected_attendance_total"] = ctx_week["expected_attendance_total"].fillna(0)
+
+    rows = []
+    for ws in week_starts:
+        for m in menu_categories:
+            rows.append({"restaurant_id": restaurant_id, "week_start": ws, "category": m["category"]})
+
+    df = pd.DataFrame(rows)
+    df["week_start"] = pd.to_datetime(df["week_start"])
+    df = df.merge(ctx_week, on="week_start", how="left")
+
+    df["week_of_year"] = df["week_start"].dt.isocalendar().week.astype(int)
+    df["month"] = df["week_start"].dt.month
+    df["restaurant_id"] = df["restaurant_id"].apply(
+        lambda x: int(str(x).replace("R", "")) if isinstance(x, str) and str(x).replace("R", "").isdigit() else 1
+    )
+
+    # Lagged: previous week's usage and received (same restaurant + category)
+    if not history.empty and "qty_used_kg" in history.columns and "qty_received_kg" in history.columns:
+        lag = history[["restaurant_id", "category", "week_start", "qty_used_kg", "qty_received_kg"]].copy()
+        lag["week_start"] = lag["week_start"] + pd.Timedelta(days=7)
+        lag = lag.rename(columns={"qty_used_kg": "qty_used_kg_prev_week", "qty_received_kg": "qty_received_kg_prev_week"})
+        df = df.merge(lag, on=["restaurant_id", "category", "week_start"], how="left")
+    df["qty_used_kg_prev_week"] = df["qty_used_kg_prev_week"].fillna(0.0) if "qty_used_kg_prev_week" in df.columns else 0.0
+    df["qty_received_kg_prev_week"] = df["qty_received_kg_prev_week"].fillna(0.0) if "qty_received_kg_prev_week" in df.columns else 0.0
     return df
 
 # ---------- TOOL 2: forecast qty_used_kg ----------
@@ -82,8 +119,8 @@ def build_features(restaurant_id: str, start_date: str, end_date: str, menu_cate
 def forecast_qty_used(df_features: pd.DataFrame) -> pd.DataFrame:
     df = df_features.copy()
 
-    base = df[["category", "day_of_week", "temp_max", "temp_min",
-               "precipitation", "events_count", "expected_attendance_total"]]
+    base = df[["restaurant_id", "category", "week_of_year", "month", "qty_used_kg_prev_week", "qty_received_kg_prev_week",
+               "temp_max", "temp_min", "precipitation", "events_count", "expected_attendance_total"]]
 
     base_dummies = pd.get_dummies(base, columns=["category"])
     for col in FEATURE_COLS:
