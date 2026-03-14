@@ -1,0 +1,1001 @@
+date,dish_id,dish_name,category,qty_sold,restaurant_id
+2025-06-10,1,Paneer,Dairy,2.19,1
+2025-06-10,2,Tomato,Vegetables,0.95,1
+2025-06-10,3,Onion,Vegetables,4.86,1
+2025-06-10,4,Chicken,Meat,3.25,1
+2025-06-10,5,Mutton,Meat,1.81,1
+2025-06-10,6,Rohu Fish,Fish,4.92,1
+2025-06-10,7,Eggs,Meat,4.0,1
+2025-06-10,8,Rice,Other,3.58,1
+2025-06-10,9,Sugar,Other,2.26,1
+2025-06-10,10,Milk,Dairy,6.0,1
+2025-06-11,1,Paneer,Dairy,3.19,1
+2025-06-11,2,Tomato,Vegetables,4.3,1
+2025-06-11,3,Onion,Vegetables,2.94,1
+2025-06-11,4,Chicken,Meat,2.28,1
+2025-06-11,5,Mutton,Meat,3.97,1
+2025-06-11,6,Rohu Fish,Fish,2.52,1
+2025-06-11,7,Eggs,Meat,8.0,1
+2025-06-11,8,Rice,Other,3.92,1
+2025-06-11,9,Sugar,Other,1.0,1
+2025-06-11,10,Milk,Dairy,4.0,1
+2025-06-12,1,Paneer,Dairy,4.74,1
+2025-06-12,2,Tomato,Vegetables,3.35,1
+2025-06-12,3,Onion,Vegetables,1.96,1
+2025-06-12,4,Chicken,Meat,2.42,1
+2025-06-12,5,Mutton,Meat,2.68,1
+2025-06-12,6,Rohu Fish,Fish,2.83,1
+2025-06-12,7,Eggs,Meat,7.0,1
+2025-06-12,8,Rice,Other,4.89,1
+2025-06-12,9,Sugar,Other,1.15,1
+2025-06-12,10,Milk,Dairy,8.0,1
+2025-06-13,1,Paneer,Dairy,2.29,1
+2025-06-13,2,Tomato,Vegetables,0.68,1
+2025-06-13,3,Onion,Vegetables,2.07,1
+2025-06-13,4,Chicken,Meat,1.12,1
+2025-06-13,5,Mutton,Meat,1.53,1
+2025-06-13,6,Rohu Fish,Fish,0.92,1
+2025-06-13,7,Eggs,Meat,3.0,1
+2025-06-13,8,Rice,Other,4.33,1
+2025-06-13,9,Sugar,Other,0.96,1
+2025-06-13,10,Milk,Dairy,3.0,1
+2025-06-14,1,Paneer,Dairy,1.3,1
+2025-06-14,2,Tomato,Vegetables,0.92,1
+2025-06-14,3,Onion,Vegetables,2.69,1
+2025-06-14,4,Chicken,Meat,2.72,1
+2025-06-14,5,Mutton,Meat,0.7,1
+2025-06-14,6,Rohu Fish,Fish,0.57,1
+2025-06-14,7,Eggs,Meat,4.0,1
+2025-06-14,8,Rice,Other,2.18,1
+2025-06-14,9,Sugar,Other,3.27,1
+2025-06-14,10,Milk,Dairy,8.0,1
+2025-06-15,1,Paneer,Dairy,2.39,1
+2025-06-15,2,Tomato,Vegetables,4.09,1
+2025-06-15,3,Onion,Vegetables,0.62,1
+2025-06-15,4,Chicken,Meat,2.94,1
+2025-06-15,5,Mutton,Meat,1.86,1
+2025-06-15,6,Rohu Fish,Fish,3.3,1
+2025-06-15,7,Eggs,Meat,8.0,1
+2025-06-15,8,Rice,Other,2.29,1
+2025-06-15,9,Sugar,Other,4.26,1
+2025-06-15,10,Milk,Dairy,6.0,1
+2025-06-16,1,Paneer,Dairy,3.46,1
+2025-06-16,2,Tomato,Vegetables,3.91,1
+2025-06-16,3,Onion,Vegetables,4.91,1
+2025-06-16,4,Chicken,Meat,1.28,1
+2025-06-16,5,Mutton,Meat,1.67,1
+2025-06-16,6,Rohu Fish,Fish,1.23,1
+2025-06-16,7,Eggs,Meat,4.0,1
+2025-06-16,8,Rice,Other,4.19,1
+2025-06-16,9,Sugar,Other,0.81,1
+2025-06-16,10,Milk,Dairy,8.0,1
+2025-06-17,1,Paneer,Dairy,1.03,1
+2025-06-17,2,Tomato,Vegetables,4.85,1
+2025-06-17,3,Onion,Vegetables,2.36,1
+2025-06-17,4,Chicken,Meat,1.57,1
+2025-06-17,5,Mutton,Meat,2.77,1
+2025-06-17,6,Rohu Fish,Fish,4.81,1
+2025-06-17,7,Eggs,Meat,3.0,1
+2025-06-17,8,Rice,Other,3.53,1
+2025-06-17,9,Sugar,Other,4.88,1
+2025-06-17,10,Milk,Dairy,2.0,1
+2025-06-18,1,Paneer,Dairy,0.88,1
+2025-06-18,2,Tomato,Vegetables,2.81,1
+2025-06-18,3,Onion,Vegetables,4.76,1
+2025-06-18,4,Chicken,Meat,2.2,1
+2025-06-18,5,Mutton,Meat,0.55,1
+2025-06-18,6,Rohu Fish,Fish,3.85,1
+2025-06-18,7,Eggs,Meat,8.0,1
+2025-06-18,8,Rice,Other,0.69,1
+2025-06-18,9,Sugar,Other,3.63,1
+2025-06-18,10,Milk,Dairy,5.0,1
+2025-06-19,1,Paneer,Dairy,4.78,1
+2025-06-19,2,Tomato,Vegetables,3.41,1
+2025-06-19,3,Onion,Vegetables,4.94,1
+2025-06-19,4,Chicken,Meat,1.72,1
+2025-06-19,5,Mutton,Meat,3.26,1
+2025-06-19,6,Rohu Fish,Fish,2.35,1
+2025-06-19,7,Eggs,Meat,9.0,1
+2025-06-19,8,Rice,Other,1.1,1
+2025-06-19,9,Sugar,Other,4.98,1
+2025-06-19,10,Milk,Dairy,5.0,1
+2025-06-20,1,Paneer,Dairy,4.45,1
+2025-06-20,2,Tomato,Vegetables,2.84,1
+2025-06-20,3,Onion,Vegetables,0.9,1
+2025-06-20,4,Chicken,Meat,3.29,1
+2025-06-20,5,Mutton,Meat,3.24,1
+2025-06-20,6,Rohu Fish,Fish,2.81,1
+2025-06-20,7,Eggs,Meat,4.0,1
+2025-06-20,8,Rice,Other,4.91,1
+2025-06-20,9,Sugar,Other,2.92,1
+2025-06-20,10,Milk,Dairy,8.0,1
+2025-06-21,1,Paneer,Dairy,1.28,1
+2025-06-21,2,Tomato,Vegetables,0.64,1
+2025-06-21,3,Onion,Vegetables,2.77,1
+2025-06-21,4,Chicken,Meat,2.8,1
+2025-06-21,5,Mutton,Meat,3.87,1
+2025-06-21,6,Rohu Fish,Fish,3.92,1
+2025-06-21,7,Eggs,Meat,7.0,1
+2025-06-21,8,Rice,Other,2.51,1
+2025-06-21,9,Sugar,Other,3.04,1
+2025-06-21,10,Milk,Dairy,4.0,1
+2025-06-22,1,Paneer,Dairy,2.92,1
+2025-06-22,2,Tomato,Vegetables,2.02,1
+2025-06-22,3,Onion,Vegetables,3.23,1
+2025-06-22,4,Chicken,Meat,4.33,1
+2025-06-22,5,Mutton,Meat,2.86,1
+2025-06-22,6,Rohu Fish,Fish,4.63,1
+2025-06-22,7,Eggs,Meat,9.0,1
+2025-06-22,8,Rice,Other,1.34,1
+2025-06-22,9,Sugar,Other,3.68,1
+2025-06-22,10,Milk,Dairy,3.0,1
+2025-06-23,1,Paneer,Dairy,1.41,1
+2025-06-23,2,Tomato,Vegetables,3.18,1
+2025-06-23,3,Onion,Vegetables,3.86,1
+2025-06-23,4,Chicken,Meat,0.8,1
+2025-06-23,5,Mutton,Meat,3.88,1
+2025-06-23,6,Rohu Fish,Fish,2.85,1
+2025-06-23,7,Eggs,Meat,8.0,1
+2025-06-23,8,Rice,Other,3.1,1
+2025-06-23,9,Sugar,Other,3.31,1
+2025-06-23,10,Milk,Dairy,4.0,1
+2025-06-24,1,Paneer,Dairy,4.99,1
+2025-06-24,2,Tomato,Vegetables,3.06,1
+2025-06-24,3,Onion,Vegetables,2.2,1
+2025-06-24,4,Chicken,Meat,1.53,1
+2025-06-24,5,Mutton,Meat,3.72,1
+2025-06-24,6,Rohu Fish,Fish,2.3,1
+2025-06-24,7,Eggs,Meat,2.0,1
+2025-06-24,8,Rice,Other,4.63,1
+2025-06-24,9,Sugar,Other,3.23,1
+2025-06-24,10,Milk,Dairy,1.0,1
+2025-06-25,1,Paneer,Dairy,1.99,1
+2025-06-25,2,Tomato,Vegetables,2.01,1
+2025-06-25,3,Onion,Vegetables,4.39,1
+2025-06-25,4,Chicken,Meat,1.51,1
+2025-06-25,5,Mutton,Meat,0.65,1
+2025-06-25,6,Rohu Fish,Fish,3.49,1
+2025-06-25,7,Eggs,Meat,8.0,1
+2025-06-25,8,Rice,Other,4.1,1
+2025-06-25,9,Sugar,Other,3.04,1
+2025-06-25,10,Milk,Dairy,1.0,1
+2025-06-26,1,Paneer,Dairy,0.84,1
+2025-06-26,2,Tomato,Vegetables,0.61,1
+2025-06-26,3,Onion,Vegetables,1.64,1
+2025-06-26,4,Chicken,Meat,1.3,1
+2025-06-26,5,Mutton,Meat,3.21,1
+2025-06-26,6,Rohu Fish,Fish,1.82,1
+2025-06-26,7,Eggs,Meat,3.0,1
+2025-06-26,8,Rice,Other,2.01,1
+2025-06-26,9,Sugar,Other,2.34,1
+2025-06-26,10,Milk,Dairy,8.0,1
+2025-06-27,1,Paneer,Dairy,2.41,1
+2025-06-27,2,Tomato,Vegetables,1.48,1
+2025-06-27,3,Onion,Vegetables,1.73,1
+2025-06-27,4,Chicken,Meat,0.8,1
+2025-06-27,5,Mutton,Meat,1.12,1
+2025-06-27,6,Rohu Fish,Fish,2.72,1
+2025-06-27,7,Eggs,Meat,2.0,1
+2025-06-27,8,Rice,Other,0.81,1
+2025-06-27,9,Sugar,Other,3.05,1
+2025-06-27,10,Milk,Dairy,4.0,1
+2025-06-28,1,Paneer,Dairy,3.19,1
+2025-06-28,2,Tomato,Vegetables,2.36,1
+2025-06-28,3,Onion,Vegetables,4.1,1
+2025-06-28,4,Chicken,Meat,4.13,1
+2025-06-28,5,Mutton,Meat,2.94,1
+2025-06-28,6,Rohu Fish,Fish,3.37,1
+2025-06-28,7,Eggs,Meat,7.0,1
+2025-06-28,8,Rice,Other,3.64,1
+2025-06-28,9,Sugar,Other,3.85,1
+2025-06-28,10,Milk,Dairy,8.0,1
+2025-06-29,1,Paneer,Dairy,2.48,1
+2025-06-29,2,Tomato,Vegetables,1.93,1
+2025-06-29,3,Onion,Vegetables,2.58,1
+2025-06-29,4,Chicken,Meat,4.09,1
+2025-06-29,5,Mutton,Meat,2.66,1
+2025-06-29,6,Rohu Fish,Fish,2.4,1
+2025-06-29,7,Eggs,Meat,2.0,1
+2025-06-29,8,Rice,Other,0.7,1
+2025-06-29,9,Sugar,Other,4.04,1
+2025-06-29,10,Milk,Dairy,2.0,1
+2025-06-30,1,Paneer,Dairy,1.54,1
+2025-06-30,2,Tomato,Vegetables,1.34,1
+2025-06-30,3,Onion,Vegetables,2.83,1
+2025-06-30,4,Chicken,Meat,3.63,1
+2025-06-30,5,Mutton,Meat,0.66,1
+2025-06-30,6,Rohu Fish,Fish,1.08,1
+2025-06-30,7,Eggs,Meat,9.0,1
+2025-06-30,8,Rice,Other,3.63,1
+2025-06-30,9,Sugar,Other,0.84,1
+2025-06-30,10,Milk,Dairy,3.0,1
+2025-07-01,1,Paneer,Dairy,2.85,1
+2025-07-01,2,Tomato,Vegetables,4.27,1
+2025-07-01,3,Onion,Vegetables,4.47,1
+2025-07-01,4,Chicken,Meat,2.01,1
+2025-07-01,5,Mutton,Meat,1.66,1
+2025-07-01,6,Rohu Fish,Fish,1.67,1
+2025-07-01,7,Eggs,Meat,7.0,1
+2025-07-01,8,Rice,Other,3.89,1
+2025-07-01,9,Sugar,Other,3.69,1
+2025-07-01,10,Milk,Dairy,2.0,1
+2025-07-02,1,Paneer,Dairy,3.17,1
+2025-07-02,2,Tomato,Vegetables,3.97,1
+2025-07-02,3,Onion,Vegetables,0.96,1
+2025-07-02,4,Chicken,Meat,0.87,1
+2025-07-02,5,Mutton,Meat,0.64,1
+2025-07-02,6,Rohu Fish,Fish,1.73,1
+2025-07-02,7,Eggs,Meat,3.0,1
+2025-07-02,8,Rice,Other,2.94,1
+2025-07-02,9,Sugar,Other,4.3,1
+2025-07-02,10,Milk,Dairy,3.0,1
+2025-07-03,1,Paneer,Dairy,3.59,1
+2025-07-03,2,Tomato,Vegetables,1.97,1
+2025-07-03,3,Onion,Vegetables,0.83,1
+2025-07-03,4,Chicken,Meat,3.91,1
+2025-07-03,5,Mutton,Meat,1.59,1
+2025-07-03,6,Rohu Fish,Fish,2.06,1
+2025-07-03,7,Eggs,Meat,1.0,1
+2025-07-03,8,Rice,Other,3.6,1
+2025-07-03,9,Sugar,Other,1.06,1
+2025-07-03,10,Milk,Dairy,2.0,1
+2025-07-04,1,Paneer,Dairy,4.17,1
+2025-07-04,2,Tomato,Vegetables,2.66,1
+2025-07-04,3,Onion,Vegetables,1.61,1
+2025-07-04,4,Chicken,Meat,3.85,1
+2025-07-04,5,Mutton,Meat,3.74,1
+2025-07-04,6,Rohu Fish,Fish,2.31,1
+2025-07-04,7,Eggs,Meat,5.0,1
+2025-07-04,8,Rice,Other,3.95,1
+2025-07-04,9,Sugar,Other,3.76,1
+2025-07-04,10,Milk,Dairy,3.0,1
+2025-07-05,1,Paneer,Dairy,4.26,1
+2025-07-05,2,Tomato,Vegetables,1.57,1
+2025-07-05,3,Onion,Vegetables,0.94,1
+2025-07-05,4,Chicken,Meat,1.24,1
+2025-07-05,5,Mutton,Meat,3.15,1
+2025-07-05,6,Rohu Fish,Fish,0.83,1
+2025-07-05,7,Eggs,Meat,5.0,1
+2025-07-05,8,Rice,Other,2.21,1
+2025-07-05,9,Sugar,Other,4.13,1
+2025-07-05,10,Milk,Dairy,2.0,1
+2025-07-06,1,Paneer,Dairy,2.53,1
+2025-07-06,2,Tomato,Vegetables,2.29,1
+2025-07-06,3,Onion,Vegetables,4.41,1
+2025-07-06,4,Chicken,Meat,1.07,1
+2025-07-06,5,Mutton,Meat,4.86,1
+2025-07-06,6,Rohu Fish,Fish,1.65,1
+2025-07-06,7,Eggs,Meat,1.0,1
+2025-07-06,8,Rice,Other,3.6,1
+2025-07-06,9,Sugar,Other,3.1,1
+2025-07-06,10,Milk,Dairy,9.0,1
+2025-07-07,1,Paneer,Dairy,4.45,1
+2025-07-07,2,Tomato,Vegetables,4.45,1
+2025-07-07,3,Onion,Vegetables,0.53,1
+2025-07-07,4,Chicken,Meat,2.97,1
+2025-07-07,5,Mutton,Meat,3.22,1
+2025-07-07,6,Rohu Fish,Fish,4.78,1
+2025-07-07,7,Eggs,Meat,2.0,1
+2025-07-07,8,Rice,Other,4.16,1
+2025-07-07,9,Sugar,Other,4.54,1
+2025-07-07,10,Milk,Dairy,5.0,1
+2025-07-08,1,Paneer,Dairy,1.78,1
+2025-07-08,2,Tomato,Vegetables,3.73,1
+2025-07-08,3,Onion,Vegetables,3.57,1
+2025-07-08,4,Chicken,Meat,1.33,1
+2025-07-08,5,Mutton,Meat,0.7,1
+2025-07-08,6,Rohu Fish,Fish,3.17,1
+2025-07-08,7,Eggs,Meat,8.0,1
+2025-07-08,8,Rice,Other,4.2,1
+2025-07-08,9,Sugar,Other,2.41,1
+2025-07-08,10,Milk,Dairy,1.0,1
+2025-07-09,1,Paneer,Dairy,1.54,1
+2025-07-09,2,Tomato,Vegetables,3.19,1
+2025-07-09,3,Onion,Vegetables,4.96,1
+2025-07-09,4,Chicken,Meat,3.98,1
+2025-07-09,5,Mutton,Meat,1.52,1
+2025-07-09,6,Rohu Fish,Fish,0.81,1
+2025-07-09,7,Eggs,Meat,3.0,1
+2025-07-09,8,Rice,Other,3.79,1
+2025-07-09,9,Sugar,Other,3.36,1
+2025-07-09,10,Milk,Dairy,1.0,1
+2025-07-10,1,Paneer,Dairy,2.3,1
+2025-07-10,2,Tomato,Vegetables,3.52,1
+2025-07-10,3,Onion,Vegetables,4.22,1
+2025-07-10,4,Chicken,Meat,2.04,1
+2025-07-10,5,Mutton,Meat,2.29,1
+2025-07-10,6,Rohu Fish,Fish,3.09,1
+2025-07-10,7,Eggs,Meat,2.0,1
+2025-07-10,8,Rice,Other,4.06,1
+2025-07-10,9,Sugar,Other,1.51,1
+2025-07-10,10,Milk,Dairy,6.0,1
+2025-07-11,1,Paneer,Dairy,1.29,1
+2025-07-11,2,Tomato,Vegetables,2.65,1
+2025-07-11,3,Onion,Vegetables,2.45,1
+2025-07-11,4,Chicken,Meat,0.5,1
+2025-07-11,5,Mutton,Meat,4.01,1
+2025-07-11,6,Rohu Fish,Fish,1.84,1
+2025-07-11,7,Eggs,Meat,3.0,1
+2025-07-11,8,Rice,Other,4.16,1
+2025-07-11,9,Sugar,Other,3.76,1
+2025-07-11,10,Milk,Dairy,6.0,1
+2025-07-12,1,Paneer,Dairy,1.1,1
+2025-07-12,2,Tomato,Vegetables,2.91,1
+2025-07-12,3,Onion,Vegetables,0.79,1
+2025-07-12,4,Chicken,Meat,4.3,1
+2025-07-12,5,Mutton,Meat,3.43,1
+2025-07-12,6,Rohu Fish,Fish,4.51,1
+2025-07-12,7,Eggs,Meat,1.0,1
+2025-07-12,8,Rice,Other,2.73,1
+2025-07-12,9,Sugar,Other,2.83,1
+2025-07-12,10,Milk,Dairy,8.0,1
+2025-07-13,1,Paneer,Dairy,0.66,1
+2025-07-13,2,Tomato,Vegetables,3.99,1
+2025-07-13,3,Onion,Vegetables,4.24,1
+2025-07-13,4,Chicken,Meat,1.83,1
+2025-07-13,5,Mutton,Meat,1.65,1
+2025-07-13,6,Rohu Fish,Fish,4.86,1
+2025-07-13,7,Eggs,Meat,2.0,1
+2025-07-13,8,Rice,Other,2.19,1
+2025-07-13,9,Sugar,Other,1.05,1
+2025-07-13,10,Milk,Dairy,7.0,1
+2025-07-14,1,Paneer,Dairy,2.57,1
+2025-07-14,2,Tomato,Vegetables,1.94,1
+2025-07-14,3,Onion,Vegetables,1.09,1
+2025-07-14,4,Chicken,Meat,2.04,1
+2025-07-14,5,Mutton,Meat,3.04,1
+2025-07-14,6,Rohu Fish,Fish,1.22,1
+2025-07-14,7,Eggs,Meat,8.0,1
+2025-07-14,8,Rice,Other,3.8,1
+2025-07-14,9,Sugar,Other,2.86,1
+2025-07-14,10,Milk,Dairy,2.0,1
+2025-07-15,1,Paneer,Dairy,4.44,1
+2025-07-15,2,Tomato,Vegetables,1.48,1
+2025-07-15,3,Onion,Vegetables,3.29,1
+2025-07-15,4,Chicken,Meat,2.8,1
+2025-07-15,5,Mutton,Meat,3.22,1
+2025-07-15,6,Rohu Fish,Fish,3.36,1
+2025-07-15,7,Eggs,Meat,4.0,1
+2025-07-15,8,Rice,Other,1.56,1
+2025-07-15,9,Sugar,Other,4.7,1
+2025-07-15,10,Milk,Dairy,6.0,1
+2025-07-16,1,Paneer,Dairy,1.33,1
+2025-07-16,2,Tomato,Vegetables,3.14,1
+2025-07-16,3,Onion,Vegetables,2.43,1
+2025-07-16,4,Chicken,Meat,4.72,1
+2025-07-16,5,Mutton,Meat,2.47,1
+2025-07-16,6,Rohu Fish,Fish,2.29,1
+2025-07-16,7,Eggs,Meat,6.0,1
+2025-07-16,8,Rice,Other,2.17,1
+2025-07-16,9,Sugar,Other,0.65,1
+2025-07-16,10,Milk,Dairy,7.0,1
+2025-07-17,1,Paneer,Dairy,3.02,1
+2025-07-17,2,Tomato,Vegetables,2.73,1
+2025-07-17,3,Onion,Vegetables,2.59,1
+2025-07-17,4,Chicken,Meat,3.74,1
+2025-07-17,5,Mutton,Meat,1.02,1
+2025-07-17,6,Rohu Fish,Fish,3.26,1
+2025-07-17,7,Eggs,Meat,9.0,1
+2025-07-17,8,Rice,Other,1.81,1
+2025-07-17,9,Sugar,Other,4.04,1
+2025-07-17,10,Milk,Dairy,4.0,1
+2025-07-18,1,Paneer,Dairy,1.65,1
+2025-07-18,2,Tomato,Vegetables,0.79,1
+2025-07-18,3,Onion,Vegetables,2.17,1
+2025-07-18,4,Chicken,Meat,1.42,1
+2025-07-18,5,Mutton,Meat,1.91,1
+2025-07-18,6,Rohu Fish,Fish,3.63,1
+2025-07-18,7,Eggs,Meat,8.0,1
+2025-07-18,8,Rice,Other,3.44,1
+2025-07-18,9,Sugar,Other,1.03,1
+2025-07-18,10,Milk,Dairy,5.0,1
+2025-07-19,1,Paneer,Dairy,1.23,1
+2025-07-19,2,Tomato,Vegetables,1.44,1
+2025-07-19,3,Onion,Vegetables,2.93,1
+2025-07-19,4,Chicken,Meat,1.91,1
+2025-07-19,5,Mutton,Meat,3.7,1
+2025-07-19,6,Rohu Fish,Fish,3.83,1
+2025-07-19,7,Eggs,Meat,5.0,1
+2025-07-19,8,Rice,Other,3.54,1
+2025-07-19,9,Sugar,Other,3.45,1
+2025-07-19,10,Milk,Dairy,9.0,1
+2025-07-20,1,Paneer,Dairy,3.44,1
+2025-07-20,2,Tomato,Vegetables,4.54,1
+2025-07-20,3,Onion,Vegetables,2.51,1
+2025-07-20,4,Chicken,Meat,4.11,1
+2025-07-20,5,Mutton,Meat,1.76,1
+2025-07-20,6,Rohu Fish,Fish,4.28,1
+2025-07-20,7,Eggs,Meat,3.0,1
+2025-07-20,8,Rice,Other,1.68,1
+2025-07-20,9,Sugar,Other,1.84,1
+2025-07-20,10,Milk,Dairy,2.0,1
+2025-07-21,1,Paneer,Dairy,2.89,1
+2025-07-21,2,Tomato,Vegetables,4.35,1
+2025-07-21,3,Onion,Vegetables,3.82,1
+2025-07-21,4,Chicken,Meat,3.07,1
+2025-07-21,5,Mutton,Meat,1.12,1
+2025-07-21,6,Rohu Fish,Fish,3.16,1
+2025-07-21,7,Eggs,Meat,3.0,1
+2025-07-21,8,Rice,Other,1.71,1
+2025-07-21,9,Sugar,Other,0.71,1
+2025-07-21,10,Milk,Dairy,3.0,1
+2025-07-22,1,Paneer,Dairy,2.92,1
+2025-07-22,2,Tomato,Vegetables,2.02,1
+2025-07-22,3,Onion,Vegetables,1.75,1
+2025-07-22,4,Chicken,Meat,2.78,1
+2025-07-22,5,Mutton,Meat,4.68,1
+2025-07-22,6,Rohu Fish,Fish,3.71,1
+2025-07-22,7,Eggs,Meat,5.0,1
+2025-07-22,8,Rice,Other,0.68,1
+2025-07-22,9,Sugar,Other,2.16,1
+2025-07-22,10,Milk,Dairy,3.0,1
+2025-07-23,1,Paneer,Dairy,4.5,1
+2025-07-23,2,Tomato,Vegetables,4.43,1
+2025-07-23,3,Onion,Vegetables,4.96,1
+2025-07-23,4,Chicken,Meat,3.1,1
+2025-07-23,5,Mutton,Meat,4.18,1
+2025-07-23,6,Rohu Fish,Fish,1.74,1
+2025-07-23,7,Eggs,Meat,3.0,1
+2025-07-23,8,Rice,Other,0.56,1
+2025-07-23,9,Sugar,Other,1.25,1
+2025-07-23,10,Milk,Dairy,3.0,1
+2025-07-24,1,Paneer,Dairy,4.06,1
+2025-07-24,2,Tomato,Vegetables,1.48,1
+2025-07-24,3,Onion,Vegetables,1.53,1
+2025-07-24,4,Chicken,Meat,0.64,1
+2025-07-24,5,Mutton,Meat,2.7,1
+2025-07-24,6,Rohu Fish,Fish,4.5,1
+2025-07-24,7,Eggs,Meat,4.0,1
+2025-07-24,8,Rice,Other,2.99,1
+2025-07-24,9,Sugar,Other,4.22,1
+2025-07-24,10,Milk,Dairy,7.0,1
+2025-07-25,1,Paneer,Dairy,3.32,1
+2025-07-25,2,Tomato,Vegetables,1.97,1
+2025-07-25,3,Onion,Vegetables,2.64,1
+2025-07-25,4,Chicken,Meat,2.09,1
+2025-07-25,5,Mutton,Meat,4.07,1
+2025-07-25,6,Rohu Fish,Fish,2.81,1
+2025-07-25,7,Eggs,Meat,6.0,1
+2025-07-25,8,Rice,Other,2.72,1
+2025-07-25,9,Sugar,Other,3.21,1
+2025-07-25,10,Milk,Dairy,4.0,1
+2025-07-26,1,Paneer,Dairy,4.48,1
+2025-07-26,2,Tomato,Vegetables,3.93,1
+2025-07-26,3,Onion,Vegetables,1.85,1
+2025-07-26,4,Chicken,Meat,4.07,1
+2025-07-26,5,Mutton,Meat,0.56,1
+2025-07-26,6,Rohu Fish,Fish,4.72,1
+2025-07-26,7,Eggs,Meat,8.0,1
+2025-07-26,8,Rice,Other,0.8,1
+2025-07-26,9,Sugar,Other,0.53,1
+2025-07-26,10,Milk,Dairy,6.0,1
+2025-07-27,1,Paneer,Dairy,4.39,1
+2025-07-27,2,Tomato,Vegetables,1.95,1
+2025-07-27,3,Onion,Vegetables,1.47,1
+2025-07-27,4,Chicken,Meat,2.52,1
+2025-07-27,5,Mutton,Meat,2.58,1
+2025-07-27,6,Rohu Fish,Fish,1.14,1
+2025-07-27,7,Eggs,Meat,8.0,1
+2025-07-27,8,Rice,Other,1.35,1
+2025-07-27,9,Sugar,Other,4.28,1
+2025-07-27,10,Milk,Dairy,9.0,1
+2025-07-28,1,Paneer,Dairy,4.58,1
+2025-07-28,2,Tomato,Vegetables,0.9,1
+2025-07-28,3,Onion,Vegetables,3.54,1
+2025-07-28,4,Chicken,Meat,3.92,1
+2025-07-28,5,Mutton,Meat,3.35,1
+2025-07-28,6,Rohu Fish,Fish,2.45,1
+2025-07-28,7,Eggs,Meat,7.0,1
+2025-07-28,8,Rice,Other,2.17,1
+2025-07-28,9,Sugar,Other,3.23,1
+2025-07-28,10,Milk,Dairy,6.0,1
+2025-07-29,1,Paneer,Dairy,0.88,1
+2025-07-29,2,Tomato,Vegetables,1.7,1
+2025-07-29,3,Onion,Vegetables,3.69,1
+2025-07-29,4,Chicken,Meat,3.18,1
+2025-07-29,5,Mutton,Meat,3.93,1
+2025-07-29,6,Rohu Fish,Fish,1.06,1
+2025-07-29,7,Eggs,Meat,7.0,1
+2025-07-29,8,Rice,Other,3.39,1
+2025-07-29,9,Sugar,Other,4.31,1
+2025-07-29,10,Milk,Dairy,6.0,1
+2025-07-30,1,Paneer,Dairy,2.68,1
+2025-07-30,2,Tomato,Vegetables,1.58,1
+2025-07-30,3,Onion,Vegetables,2.15,1
+2025-07-30,4,Chicken,Meat,1.92,1
+2025-07-30,5,Mutton,Meat,3.53,1
+2025-07-30,6,Rohu Fish,Fish,2.92,1
+2025-07-30,7,Eggs,Meat,4.0,1
+2025-07-30,8,Rice,Other,1.59,1
+2025-07-30,9,Sugar,Other,3.92,1
+2025-07-30,10,Milk,Dairy,8.0,1
+2025-07-31,1,Paneer,Dairy,2.87,1
+2025-07-31,2,Tomato,Vegetables,4.98,1
+2025-07-31,3,Onion,Vegetables,4.64,1
+2025-07-31,4,Chicken,Meat,4.07,1
+2025-07-31,5,Mutton,Meat,4.85,1
+2025-07-31,6,Rohu Fish,Fish,3.38,1
+2025-07-31,7,Eggs,Meat,9.0,1
+2025-07-31,8,Rice,Other,3.35,1
+2025-07-31,9,Sugar,Other,1.64,1
+2025-07-31,10,Milk,Dairy,9.0,1
+2025-08-01,1,Paneer,Dairy,3.92,1
+2025-08-01,2,Tomato,Vegetables,2.5,1
+2025-08-01,3,Onion,Vegetables,2.11,1
+2025-08-01,4,Chicken,Meat,0.62,1
+2025-08-01,5,Mutton,Meat,4.4,1
+2025-08-01,6,Rohu Fish,Fish,2.42,1
+2025-08-01,7,Eggs,Meat,7.0,1
+2025-08-01,8,Rice,Other,2.74,1
+2025-08-01,9,Sugar,Other,0.65,1
+2025-08-01,10,Milk,Dairy,3.0,1
+2025-08-02,1,Paneer,Dairy,3.97,1
+2025-08-02,2,Tomato,Vegetables,1.81,1
+2025-08-02,3,Onion,Vegetables,2.37,1
+2025-08-02,4,Chicken,Meat,0.55,1
+2025-08-02,5,Mutton,Meat,1.51,1
+2025-08-02,6,Rohu Fish,Fish,4.53,1
+2025-08-02,7,Eggs,Meat,6.0,1
+2025-08-02,8,Rice,Other,3.47,1
+2025-08-02,9,Sugar,Other,2.83,1
+2025-08-02,10,Milk,Dairy,4.0,1
+2025-08-03,1,Paneer,Dairy,2.79,1
+2025-08-03,2,Tomato,Vegetables,0.94,1
+2025-08-03,3,Onion,Vegetables,1.73,1
+2025-08-03,4,Chicken,Meat,1.21,1
+2025-08-03,5,Mutton,Meat,2.73,1
+2025-08-03,6,Rohu Fish,Fish,0.57,1
+2025-08-03,7,Eggs,Meat,7.0,1
+2025-08-03,8,Rice,Other,2.93,1
+2025-08-03,9,Sugar,Other,4.1,1
+2025-08-03,10,Milk,Dairy,4.0,1
+2025-08-04,1,Paneer,Dairy,1.63,1
+2025-08-04,2,Tomato,Vegetables,1.61,1
+2025-08-04,3,Onion,Vegetables,2.09,1
+2025-08-04,4,Chicken,Meat,1.61,1
+2025-08-04,5,Mutton,Meat,0.75,1
+2025-08-04,6,Rohu Fish,Fish,1.02,1
+2025-08-04,7,Eggs,Meat,2.0,1
+2025-08-04,8,Rice,Other,1.31,1
+2025-08-04,9,Sugar,Other,3.12,1
+2025-08-04,10,Milk,Dairy,9.0,1
+2025-08-05,1,Paneer,Dairy,3.22,1
+2025-08-05,2,Tomato,Vegetables,3.63,1
+2025-08-05,3,Onion,Vegetables,4.84,1
+2025-08-05,4,Chicken,Meat,2.87,1
+2025-08-05,5,Mutton,Meat,1.2,1
+2025-08-05,6,Rohu Fish,Fish,3.31,1
+2025-08-05,7,Eggs,Meat,1.0,1
+2025-08-05,8,Rice,Other,1.35,1
+2025-08-05,9,Sugar,Other,1.97,1
+2025-08-05,10,Milk,Dairy,9.0,1
+2025-08-06,1,Paneer,Dairy,1.59,1
+2025-08-06,2,Tomato,Vegetables,4.6,1
+2025-08-06,3,Onion,Vegetables,0.78,1
+2025-08-06,4,Chicken,Meat,2.17,1
+2025-08-06,5,Mutton,Meat,2.95,1
+2025-08-06,6,Rohu Fish,Fish,1.81,1
+2025-08-06,7,Eggs,Meat,1.0,1
+2025-08-06,8,Rice,Other,2.54,1
+2025-08-06,9,Sugar,Other,2.91,1
+2025-08-06,10,Milk,Dairy,9.0,1
+2025-08-07,1,Paneer,Dairy,4.67,1
+2025-08-07,2,Tomato,Vegetables,4.66,1
+2025-08-07,3,Onion,Vegetables,4.47,1
+2025-08-07,4,Chicken,Meat,4.66,1
+2025-08-07,5,Mutton,Meat,4.23,1
+2025-08-07,6,Rohu Fish,Fish,3.34,1
+2025-08-07,7,Eggs,Meat,9.0,1
+2025-08-07,8,Rice,Other,3.55,1
+2025-08-07,9,Sugar,Other,1.83,1
+2025-08-07,10,Milk,Dairy,7.0,1
+2025-08-08,1,Paneer,Dairy,2.82,1
+2025-08-08,2,Tomato,Vegetables,4.47,1
+2025-08-08,3,Onion,Vegetables,3.23,1
+2025-08-08,4,Chicken,Meat,3.87,1
+2025-08-08,5,Mutton,Meat,2.93,1
+2025-08-08,6,Rohu Fish,Fish,2.96,1
+2025-08-08,7,Eggs,Meat,7.0,1
+2025-08-08,8,Rice,Other,3.56,1
+2025-08-08,9,Sugar,Other,0.81,1
+2025-08-08,10,Milk,Dairy,9.0,1
+2025-08-09,1,Paneer,Dairy,4.29,1
+2025-08-09,2,Tomato,Vegetables,4.19,1
+2025-08-09,3,Onion,Vegetables,4.12,1
+2025-08-09,4,Chicken,Meat,1.32,1
+2025-08-09,5,Mutton,Meat,2.19,1
+2025-08-09,6,Rohu Fish,Fish,2.51,1
+2025-08-09,7,Eggs,Meat,4.0,1
+2025-08-09,8,Rice,Other,3.48,1
+2025-08-09,9,Sugar,Other,0.72,1
+2025-08-09,10,Milk,Dairy,7.0,1
+2025-08-10,1,Paneer,Dairy,3.84,1
+2025-08-10,2,Tomato,Vegetables,1.66,1
+2025-08-10,3,Onion,Vegetables,3.35,1
+2025-08-10,4,Chicken,Meat,3.15,1
+2025-08-10,5,Mutton,Meat,2.78,1
+2025-08-10,6,Rohu Fish,Fish,2.53,1
+2025-08-10,7,Eggs,Meat,6.0,1
+2025-08-10,8,Rice,Other,3.63,1
+2025-08-10,9,Sugar,Other,4.2,1
+2025-08-10,10,Milk,Dairy,1.0,1
+2025-08-11,1,Paneer,Dairy,4.5,1
+2025-08-11,2,Tomato,Vegetables,4.54,1
+2025-08-11,3,Onion,Vegetables,0.92,1
+2025-08-11,4,Chicken,Meat,5.0,1
+2025-08-11,5,Mutton,Meat,2.6,1
+2025-08-11,6,Rohu Fish,Fish,2.12,1
+2025-08-11,7,Eggs,Meat,6.0,1
+2025-08-11,8,Rice,Other,1.1,1
+2025-08-11,9,Sugar,Other,3.14,1
+2025-08-11,10,Milk,Dairy,9.0,1
+2025-08-12,1,Paneer,Dairy,3.28,1
+2025-08-12,2,Tomato,Vegetables,4.12,1
+2025-08-12,3,Onion,Vegetables,2.13,1
+2025-08-12,4,Chicken,Meat,3.61,1
+2025-08-12,5,Mutton,Meat,4.15,1
+2025-08-12,6,Rohu Fish,Fish,4.27,1
+2025-08-12,7,Eggs,Meat,8.0,1
+2025-08-12,8,Rice,Other,4.47,1
+2025-08-12,9,Sugar,Other,3.17,1
+2025-08-12,10,Milk,Dairy,1.0,1
+2025-08-13,1,Paneer,Dairy,2.76,1
+2025-08-13,2,Tomato,Vegetables,4.11,1
+2025-08-13,3,Onion,Vegetables,3.29,1
+2025-08-13,4,Chicken,Meat,4.89,1
+2025-08-13,5,Mutton,Meat,4.05,1
+2025-08-13,6,Rohu Fish,Fish,0.95,1
+2025-08-13,7,Eggs,Meat,8.0,1
+2025-08-13,8,Rice,Other,1.49,1
+2025-08-13,9,Sugar,Other,0.78,1
+2025-08-13,10,Milk,Dairy,8.0,1
+2025-08-14,1,Paneer,Dairy,3.28,1
+2025-08-14,2,Tomato,Vegetables,3.31,1
+2025-08-14,3,Onion,Vegetables,2.28,1
+2025-08-14,4,Chicken,Meat,3.08,1
+2025-08-14,5,Mutton,Meat,1.07,1
+2025-08-14,6,Rohu Fish,Fish,2.7,1
+2025-08-14,7,Eggs,Meat,9.0,1
+2025-08-14,8,Rice,Other,2.81,1
+2025-08-14,9,Sugar,Other,3.11,1
+2025-08-14,10,Milk,Dairy,6.0,1
+2025-08-15,1,Paneer,Dairy,1.32,1
+2025-08-15,2,Tomato,Vegetables,2.17,1
+2025-08-15,3,Onion,Vegetables,3.01,1
+2025-08-15,4,Chicken,Meat,1.64,1
+2025-08-15,5,Mutton,Meat,4.42,1
+2025-08-15,6,Rohu Fish,Fish,2.99,1
+2025-08-15,7,Eggs,Meat,8.0,1
+2025-08-15,8,Rice,Other,3.98,1
+2025-08-15,9,Sugar,Other,5.0,1
+2025-08-15,10,Milk,Dairy,5.0,1
+2025-08-16,1,Paneer,Dairy,2.79,1
+2025-08-16,2,Tomato,Vegetables,4.68,1
+2025-08-16,3,Onion,Vegetables,0.72,1
+2025-08-16,4,Chicken,Meat,3.63,1
+2025-08-16,5,Mutton,Meat,3.98,1
+2025-08-16,6,Rohu Fish,Fish,2.15,1
+2025-08-16,7,Eggs,Meat,3.0,1
+2025-08-16,8,Rice,Other,4.7,1
+2025-08-16,9,Sugar,Other,3.29,1
+2025-08-16,10,Milk,Dairy,4.0,1
+2025-08-17,1,Paneer,Dairy,1.9,1
+2025-08-17,2,Tomato,Vegetables,4.96,1
+2025-08-17,3,Onion,Vegetables,0.78,1
+2025-08-17,4,Chicken,Meat,2.52,1
+2025-08-17,5,Mutton,Meat,3.88,1
+2025-08-17,6,Rohu Fish,Fish,4.74,1
+2025-08-17,7,Eggs,Meat,2.0,1
+2025-08-17,8,Rice,Other,3.61,1
+2025-08-17,9,Sugar,Other,4.38,1
+2025-08-17,10,Milk,Dairy,4.0,1
+2025-08-18,1,Paneer,Dairy,4.56,1
+2025-08-18,2,Tomato,Vegetables,4.43,1
+2025-08-18,3,Onion,Vegetables,0.55,1
+2025-08-18,4,Chicken,Meat,2.13,1
+2025-08-18,5,Mutton,Meat,3.82,1
+2025-08-18,6,Rohu Fish,Fish,4.05,1
+2025-08-18,7,Eggs,Meat,9.0,1
+2025-08-18,8,Rice,Other,0.74,1
+2025-08-18,9,Sugar,Other,1.12,1
+2025-08-18,10,Milk,Dairy,8.0,1
+2025-08-19,1,Paneer,Dairy,2.6,1
+2025-08-19,2,Tomato,Vegetables,3.09,1
+2025-08-19,3,Onion,Vegetables,1.03,1
+2025-08-19,4,Chicken,Meat,1.9,1
+2025-08-19,5,Mutton,Meat,3.72,1
+2025-08-19,6,Rohu Fish,Fish,0.7,1
+2025-08-19,7,Eggs,Meat,8.0,1
+2025-08-19,8,Rice,Other,2.1,1
+2025-08-19,9,Sugar,Other,1.8,1
+2025-08-19,10,Milk,Dairy,2.0,1
+2025-08-20,1,Paneer,Dairy,1.91,1
+2025-08-20,2,Tomato,Vegetables,3.33,1
+2025-08-20,3,Onion,Vegetables,2.29,1
+2025-08-20,4,Chicken,Meat,4.3,1
+2025-08-20,5,Mutton,Meat,1.62,1
+2025-08-20,6,Rohu Fish,Fish,0.68,1
+2025-08-20,7,Eggs,Meat,1.0,1
+2025-08-20,8,Rice,Other,1.1,1
+2025-08-20,9,Sugar,Other,3.22,1
+2025-08-20,10,Milk,Dairy,3.0,1
+2025-08-21,1,Paneer,Dairy,1.22,1
+2025-08-21,2,Tomato,Vegetables,3.61,1
+2025-08-21,3,Onion,Vegetables,1.23,1
+2025-08-21,4,Chicken,Meat,1.69,1
+2025-08-21,5,Mutton,Meat,0.68,1
+2025-08-21,6,Rohu Fish,Fish,4.02,1
+2025-08-21,7,Eggs,Meat,7.0,1
+2025-08-21,8,Rice,Other,4.57,1
+2025-08-21,9,Sugar,Other,1.24,1
+2025-08-21,10,Milk,Dairy,4.0,1
+2025-08-22,1,Paneer,Dairy,1.99,1
+2025-08-22,2,Tomato,Vegetables,2.28,1
+2025-08-22,3,Onion,Vegetables,4.6,1
+2025-08-22,4,Chicken,Meat,3.56,1
+2025-08-22,5,Mutton,Meat,1.61,1
+2025-08-22,6,Rohu Fish,Fish,1.53,1
+2025-08-22,7,Eggs,Meat,4.0,1
+2025-08-22,8,Rice,Other,3.52,1
+2025-08-22,9,Sugar,Other,1.03,1
+2025-08-22,10,Milk,Dairy,3.0,1
+2025-08-23,1,Paneer,Dairy,1.99,1
+2025-08-23,2,Tomato,Vegetables,1.76,1
+2025-08-23,3,Onion,Vegetables,0.68,1
+2025-08-23,4,Chicken,Meat,4.06,1
+2025-08-23,5,Mutton,Meat,3.53,1
+2025-08-23,6,Rohu Fish,Fish,3.95,1
+2025-08-23,7,Eggs,Meat,8.0,1
+2025-08-23,8,Rice,Other,1.09,1
+2025-08-23,9,Sugar,Other,1.33,1
+2025-08-23,10,Milk,Dairy,9.0,1
+2025-08-24,1,Paneer,Dairy,3.76,1
+2025-08-24,2,Tomato,Vegetables,4.51,1
+2025-08-24,3,Onion,Vegetables,4.28,1
+2025-08-24,4,Chicken,Meat,3.72,1
+2025-08-24,5,Mutton,Meat,1.89,1
+2025-08-24,6,Rohu Fish,Fish,1.72,1
+2025-08-24,7,Eggs,Meat,6.0,1
+2025-08-24,8,Rice,Other,1.11,1
+2025-08-24,9,Sugar,Other,4.52,1
+2025-08-24,10,Milk,Dairy,3.0,1
+2025-08-25,1,Paneer,Dairy,4.52,1
+2025-08-25,2,Tomato,Vegetables,2.21,1
+2025-08-25,3,Onion,Vegetables,1.12,1
+2025-08-25,4,Chicken,Meat,4.43,1
+2025-08-25,5,Mutton,Meat,1.93,1
+2025-08-25,6,Rohu Fish,Fish,3.35,1
+2025-08-25,7,Eggs,Meat,7.0,1
+2025-08-25,8,Rice,Other,3.53,1
+2025-08-25,9,Sugar,Other,1.38,1
+2025-08-25,10,Milk,Dairy,9.0,1
+2025-08-26,1,Paneer,Dairy,0.8,1
+2025-08-26,2,Tomato,Vegetables,3.6,1
+2025-08-26,3,Onion,Vegetables,2.95,1
+2025-08-26,4,Chicken,Meat,1.35,1
+2025-08-26,5,Mutton,Meat,3.8,1
+2025-08-26,6,Rohu Fish,Fish,3.54,1
+2025-08-26,7,Eggs,Meat,9.0,1
+2025-08-26,8,Rice,Other,4.17,1
+2025-08-26,9,Sugar,Other,4.99,1
+2025-08-26,10,Milk,Dairy,9.0,1
+2025-08-27,1,Paneer,Dairy,2.29,1
+2025-08-27,2,Tomato,Vegetables,1.18,1
+2025-08-27,3,Onion,Vegetables,1.84,1
+2025-08-27,4,Chicken,Meat,0.76,1
+2025-08-27,5,Mutton,Meat,1.64,1
+2025-08-27,6,Rohu Fish,Fish,2.28,1
+2025-08-27,7,Eggs,Meat,5.0,1
+2025-08-27,8,Rice,Other,1.4,1
+2025-08-27,9,Sugar,Other,1.75,1
+2025-08-27,10,Milk,Dairy,6.0,1
+2025-08-28,1,Paneer,Dairy,4.98,1
+2025-08-28,2,Tomato,Vegetables,0.6,1
+2025-08-28,3,Onion,Vegetables,2.08,1
+2025-08-28,4,Chicken,Meat,4.56,1
+2025-08-28,5,Mutton,Meat,2.49,1
+2025-08-28,6,Rohu Fish,Fish,4.22,1
+2025-08-28,7,Eggs,Meat,7.0,1
+2025-08-28,8,Rice,Other,4.19,1
+2025-08-28,9,Sugar,Other,3.5,1
+2025-08-28,10,Milk,Dairy,3.0,1
+2025-08-29,1,Paneer,Dairy,1.72,1
+2025-08-29,2,Tomato,Vegetables,3.08,1
+2025-08-29,3,Onion,Vegetables,4.63,1
+2025-08-29,4,Chicken,Meat,0.71,1
+2025-08-29,5,Mutton,Meat,4.93,1
+2025-08-29,6,Rohu Fish,Fish,4.95,1
+2025-08-29,7,Eggs,Meat,2.0,1
+2025-08-29,8,Rice,Other,2.7,1
+2025-08-29,9,Sugar,Other,0.69,1
+2025-08-29,10,Milk,Dairy,5.0,1
+2025-08-30,1,Paneer,Dairy,1.01,1
+2025-08-30,2,Tomato,Vegetables,4.02,1
+2025-08-30,3,Onion,Vegetables,2.7,1
+2025-08-30,4,Chicken,Meat,2.0,1
+2025-08-30,5,Mutton,Meat,0.81,1
+2025-08-30,6,Rohu Fish,Fish,2.97,1
+2025-08-30,7,Eggs,Meat,3.0,1
+2025-08-30,8,Rice,Other,2.45,1
+2025-08-30,9,Sugar,Other,2.68,1
+2025-08-30,10,Milk,Dairy,5.0,1
+2025-08-31,1,Paneer,Dairy,4.22,1
+2025-08-31,2,Tomato,Vegetables,3.63,1
+2025-08-31,3,Onion,Vegetables,2.48,1
+2025-08-31,4,Chicken,Meat,1.8,1
+2025-08-31,5,Mutton,Meat,1.93,1
+2025-08-31,6,Rohu Fish,Fish,3.32,1
+2025-08-31,7,Eggs,Meat,9.0,1
+2025-08-31,8,Rice,Other,3.32,1
+2025-08-31,9,Sugar,Other,1.31,1
+2025-08-31,10,Milk,Dairy,6.0,1
+2025-09-01,1,Paneer,Dairy,1.27,1
+2025-09-01,2,Tomato,Vegetables,3.22,1
+2025-09-01,3,Onion,Vegetables,0.59,1
+2025-09-01,4,Chicken,Meat,4.49,1
+2025-09-01,5,Mutton,Meat,4.46,1
+2025-09-01,6,Rohu Fish,Fish,4.56,1
+2025-09-01,7,Eggs,Meat,8.0,1
+2025-09-01,8,Rice,Other,4.89,1
+2025-09-01,9,Sugar,Other,1.18,1
+2025-09-01,10,Milk,Dairy,7.0,1
+2025-09-02,1,Paneer,Dairy,3.4,1
+2025-09-02,2,Tomato,Vegetables,4.65,1
+2025-09-02,3,Onion,Vegetables,4.31,1
+2025-09-02,4,Chicken,Meat,4.56,1
+2025-09-02,5,Mutton,Meat,4.44,1
+2025-09-02,6,Rohu Fish,Fish,4.6,1
+2025-09-02,7,Eggs,Meat,8.0,1
+2025-09-02,8,Rice,Other,4.38,1
+2025-09-02,9,Sugar,Other,4.75,1
+2025-09-02,10,Milk,Dairy,1.0,1
+2025-09-03,1,Paneer,Dairy,1.26,1
+2025-09-03,2,Tomato,Vegetables,1.38,1
+2025-09-03,3,Onion,Vegetables,2.8,1
+2025-09-03,4,Chicken,Meat,4.7,1
+2025-09-03,5,Mutton,Meat,4.46,1
+2025-09-03,6,Rohu Fish,Fish,0.82,1
+2025-09-03,7,Eggs,Meat,9.0,1
+2025-09-03,8,Rice,Other,2.95,1
+2025-09-03,9,Sugar,Other,1.25,1
+2025-09-03,10,Milk,Dairy,8.0,1
+2025-09-04,1,Paneer,Dairy,2.37,1
+2025-09-04,2,Tomato,Vegetables,3.53,1
+2025-09-04,3,Onion,Vegetables,1.94,1
+2025-09-04,4,Chicken,Meat,2.19,1
+2025-09-04,5,Mutton,Meat,4.62,1
+2025-09-04,6,Rohu Fish,Fish,4.44,1
+2025-09-04,7,Eggs,Meat,2.0,1
+2025-09-04,8,Rice,Other,0.66,1
+2025-09-04,9,Sugar,Other,3.31,1
+2025-09-04,10,Milk,Dairy,1.0,1
+2025-09-05,1,Paneer,Dairy,0.67,1
+2025-09-05,2,Tomato,Vegetables,2.92,1
+2025-09-05,3,Onion,Vegetables,4.36,1
+2025-09-05,4,Chicken,Meat,4.22,1
+2025-09-05,5,Mutton,Meat,1.33,1
+2025-09-05,6,Rohu Fish,Fish,4.44,1
+2025-09-05,7,Eggs,Meat,2.0,1
+2025-09-05,8,Rice,Other,4.62,1
+2025-09-05,9,Sugar,Other,1.36,1
+2025-09-05,10,Milk,Dairy,5.0,1
+2025-09-06,1,Paneer,Dairy,1.02,1
+2025-09-06,2,Tomato,Vegetables,1.4,1
+2025-09-06,3,Onion,Vegetables,2.5,1
+2025-09-06,4,Chicken,Meat,4.08,1
+2025-09-06,5,Mutton,Meat,4.07,1
+2025-09-06,6,Rohu Fish,Fish,4.79,1
+2025-09-06,7,Eggs,Meat,5.0,1
+2025-09-06,8,Rice,Other,2.65,1
+2025-09-06,9,Sugar,Other,4.72,1
+2025-09-06,10,Milk,Dairy,9.0,1
+2025-09-07,1,Paneer,Dairy,4.21,1
+2025-09-07,2,Tomato,Vegetables,1.57,1
+2025-09-07,3,Onion,Vegetables,3.92,1
+2025-09-07,4,Chicken,Meat,0.99,1
+2025-09-07,5,Mutton,Meat,3.09,1
+2025-09-07,6,Rohu Fish,Fish,0.86,1
+2025-09-07,7,Eggs,Meat,9.0,1
+2025-09-07,8,Rice,Other,4.85,1
+2025-09-07,9,Sugar,Other,0.86,1
+2025-09-07,10,Milk,Dairy,9.0,1
+2025-09-08,1,Paneer,Dairy,3.19,1
+2025-09-08,2,Tomato,Vegetables,4.43,1
+2025-09-08,3,Onion,Vegetables,2.5,1
+2025-09-08,4,Chicken,Meat,2.44,1
+2025-09-08,5,Mutton,Meat,4.07,1
+2025-09-08,6,Rohu Fish,Fish,3.85,1
+2025-09-08,7,Eggs,Meat,7.0,1
+2025-09-08,8,Rice,Other,1.01,1
+2025-09-08,9,Sugar,Other,4.85,1
+2025-09-08,10,Milk,Dairy,1.0,1
+2025-09-09,1,Paneer,Dairy,2.43,1
+2025-09-09,2,Tomato,Vegetables,4.28,1
+2025-09-09,3,Onion,Vegetables,3.65,1
+2025-09-09,4,Chicken,Meat,0.81,1
+2025-09-09,5,Mutton,Meat,1.97,1
+2025-09-09,6,Rohu Fish,Fish,0.9,1
+2025-09-09,7,Eggs,Meat,5.0,1
+2025-09-09,8,Rice,Other,2.83,1
+2025-09-09,9,Sugar,Other,2.46,1
+2025-09-09,10,Milk,Dairy,2.0,1
+2025-09-10,1,Paneer,Dairy,2.67,1
+2025-09-10,2,Tomato,Vegetables,4.86,1
+2025-09-10,3,Onion,Vegetables,1.98,1
+2025-09-10,4,Chicken,Meat,2.0,1
+2025-09-10,5,Mutton,Meat,2.23,1
+2025-09-10,6,Rohu Fish,Fish,2.06,1
+2025-09-10,7,Eggs,Meat,6.0,1
+2025-09-10,8,Rice,Other,0.72,1
+2025-09-10,9,Sugar,Other,2.83,1
+2025-09-10,10,Milk,Dairy,9.0,1
+2025-09-11,1,Paneer,Dairy,3.96,1
+2025-09-11,2,Tomato,Vegetables,2.41,1
+2025-09-11,3,Onion,Vegetables,1.68,1
+2025-09-11,4,Chicken,Meat,3.44,1
+2025-09-11,5,Mutton,Meat,3.95,1
+2025-09-11,6,Rohu Fish,Fish,2.83,1
+2025-09-11,7,Eggs,Meat,6.0,1
+2025-09-11,8,Rice,Other,4.61,1
+2025-09-11,9,Sugar,Other,2.82,1
+2025-09-11,10,Milk,Dairy,5.0,1
+2025-09-12,1,Paneer,Dairy,2.06,1
+2025-09-12,2,Tomato,Vegetables,3.42,1
+2025-09-12,3,Onion,Vegetables,2.64,1
+2025-09-12,4,Chicken,Meat,3.9,1
+2025-09-12,5,Mutton,Meat,2.53,1
+2025-09-12,6,Rohu Fish,Fish,1.42,1
+2025-09-12,7,Eggs,Meat,5.0,1
+2025-09-12,8,Rice,Other,2.25,1
+2025-09-12,9,Sugar,Other,2.7,1
+2025-09-12,10,Milk,Dairy,8.0,1
+2025-09-13,1,Paneer,Dairy,3.82,1
+2025-09-13,2,Tomato,Vegetables,4.63,1
+2025-09-13,3,Onion,Vegetables,2.46,1
+2025-09-13,4,Chicken,Meat,1.73,1
+2025-09-13,5,Mutton,Meat,1.53,1
+2025-09-13,6,Rohu Fish,Fish,1.03,1
+2025-09-13,7,Eggs,Meat,1.0,1
+2025-09-13,8,Rice,Other,2.77,1
+2025-09-13,9,Sugar,Other,3.88,1
+2025-09-13,10,Milk,Dairy,9.0,1
+2025-09-14,1,Paneer,Dairy,2.64,1
+2025-09-14,2,Tomato,Vegetables,0.81,1
+2025-09-14,3,Onion,Vegetables,1.21,1
+2025-09-14,4,Chicken,Meat,2.61,1
+2025-09-14,5,Mutton,Meat,3.72,1
+2025-09-14,6,Rohu Fish,Fish,4.73,1
+2025-09-14,7,Eggs,Meat,6.0,1
+2025-09-14,8,Rice,Other,1.77,1
+2025-09-14,9,Sugar,Other,1.35,1
+2025-09-14,10,Milk,Dairy,1.0,1
+2025-09-15,1,Paneer,Dairy,2.65,1
+2025-09-15,2,Tomato,Vegetables,4.75,1
+2025-09-15,3,Onion,Vegetables,4.81,1
+2025-09-15,4,Chicken,Meat,3.69,1
+2025-09-15,5,Mutton,Meat,2.48,1
+2025-09-15,6,Rohu Fish,Fish,2.63,1
+2025-09-15,7,Eggs,Meat,1.0,1
+2025-09-15,8,Rice,Other,4.82,1
+2025-09-15,9,Sugar,Other,3.87,1
+2025-09-15,10,Milk,Dairy,4.0,1
+2025-09-16,1,Paneer,Dairy,3.21,1
+2025-09-16,2,Tomato,Vegetables,3.51,1
+2025-09-16,3,Onion,Vegetables,2.06,1
+2025-09-16,4,Chicken,Meat,4.08,1
+2025-09-16,5,Mutton,Meat,1.67,1
+2025-09-16,6,Rohu Fish,Fish,0.86,1
+2025-09-16,7,Eggs,Meat,6.0,1
+2025-09-16,8,Rice,Other,2.28,1
+2025-09-16,9,Sugar,Other,2.81,1
+2025-09-16,10,Milk,Dairy,6.0,1
+2025-09-17,1,Paneer,Dairy,2.24,1
+2025-09-17,2,Tomato,Vegetables,0.53,1
+2025-09-17,3,Onion,Vegetables,4.93,1
+2025-09-17,4,Chicken,Meat,2.73,1
+2025-09-17,5,Mutton,Meat,4.29,1
+2025-09-17,6,Rohu Fish,Fish,3.55,1
+2025-09-17,7,Eggs,Meat,8.0,1
+2025-09-17,8,Rice,Other,2.35,1
+2025-09-17,9,Sugar,Other,4.42,1
+2025-09-17,10,Milk,Dairy,8.0,1
