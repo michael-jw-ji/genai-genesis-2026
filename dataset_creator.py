@@ -123,12 +123,6 @@ inv = inv_used.merge(
 inv["qty_received_kg"] = inv["qty_used_kg"] / (1 - inv["baseline_waste_rate"])
 inv["qty_wasted_baseline_kg"] = inv["qty_received_kg"] - inv["qty_used_kg"]
 
-<<<<<<< Updated upstream
-=======
-# AI-based waste/CO2 are computed at inference time in the agent (optimize_inventory),
-# not stored in the training dataset.
-
->>>>>>> Stashed changes
 # ---------- JOIN WEATHER + EVENTS ----------
 
 ctx = weather.merge(events, on="date", how="left")
@@ -136,7 +130,6 @@ ctx["events_count"] = ctx["events_count"].fillna(0)
 ctx["expected_attendance_total"] = ctx["expected_attendance_total"].fillna(0)
 inv_ctx = inv.merge(ctx, on="date", how="left")
 
-<<<<<<< Updated upstream
 # ---------- CO2 (baseline only) ----------
 
 inv_ctx["co2e_baseline_kg"] = inv_ctx["qty_wasted_baseline_kg"] * CO2E_PER_KG_FOOD
@@ -144,7 +137,7 @@ inv_ctx["co2e_baseline_kg"] = inv_ctx["qty_wasted_baseline_kg"] * CO2E_PER_KG_FO
 # ---------- AGGREGATE TO WEEKLY (one row per restaurant, week_start, category) ----------
 
 inv_ctx["date"] = pd.to_datetime(inv_ctx["date"])
-inv_ctx["week_start"] = inv_ctx["date"] - pd.to_timedelta(inv_ctx["date"].dt.weekday, unit="d")
+inv_ctx["week_start"] = inv_ctx["date"] - pd.to_timedelta(inv_ctx["date"].dt.weekday, unit="D")
 
 agg = inv_ctx.groupby(["restaurant_id", "week_start", "category"], as_index=False).agg(
     qty_received_kg=("qty_received_kg", "sum"),
@@ -161,14 +154,6 @@ agg = inv_ctx.groupby(["restaurant_id", "week_start", "category"], as_index=Fals
 
 # ---------- SAVE FINAL TRAINING DATASET (weekly) ----------
 
-=======
-# ---------- CO2 (baseline only; AI is computed in agent) ----------
-
-inv_ctx["co2e_baseline_kg"] = inv_ctx["qty_wasted_baseline_kg"] * CO2E_PER_KG_FOOD
-
-# ---------- SAVE FINAL TRAINING DATASET ----------
-# Only features + target + baseline reference. AI metrics live in the agent pipeline.
->>>>>>> Stashed changes
 final_cols = [
     "restaurant_id",
     "week_start",

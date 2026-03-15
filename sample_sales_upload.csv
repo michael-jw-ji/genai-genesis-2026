@@ -1,65 +1,64 @@
 date,dish_id,dish_name,category,qty_sold,restaurant_id,price
-2025-06-10,1,Paneer Tikka,Dairy,2.19,1,12.50
-2025-06-10,2,Tomato Soup,Vegetables,0.95,1,8.00
-2025-06-10,3,Onion Rings,Vegetables,4.86,1,6.50
-2025-06-10,4,Chicken Curry,Meat,3.25,1,15.00
-2025-06-10,5,Mutton Biryani,Meat,1.81,1,18.00
-2025-06-10,6,Grilled Salmon,Fish,4.92,1,22.00
-2025-06-10,7,Egg Fried Rice,Meat,4.00,1,10.00
-2025-06-10,8,Basmati Rice,Other,3.58,1,5.00
-2025-06-10,9,Sugar Cookie,Other,2.26,1,3.50
-2025-06-11,1,Paneer Tikka,Dairy,2.45,1,12.50
-2025-06-11,2,Tomato Soup,Vegetables,1.20,1,8.00
-2025-06-11,3,Onion Rings,Vegetables,5.10,1,6.50
-2025-06-11,4,Chicken Curry,Meat,3.80,1,15.00
-2025-06-11,5,Mutton Biryani,Meat,2.15,1,18.00
-2025-06-11,6,Grilled Salmon,Fish,5.25,1,22.00
-2025-06-11,7,Egg Fried Rice,Meat,4.50,1,10.00
-2025-06-11,8,Basmati Rice,Other,3.90,1,5.00
-2025-06-11,9,Sugar Cookie,Other,2.50,1,3.50
-2025-06-12,1,Paneer Tikka,Dairy,2.30,1,12.50
-2025-06-12,2,Tomato Soup,Vegetables,1.05,1,8.00
-2025-06-12,3,Onion Rings,Vegetables,4.95,1,6.50
-2025-06-12,4,Chicken Curry,Meat,3.50,1,15.00
-2025-06-12,5,Mutton Biryani,Meat,1.95,1,18.00
-2025-06-12,6,Grilled Salmon,Fish,5.00,1,22.00
-2025-06-12,7,Egg Fried Rice,Meat,4.25,1,10.00
-2025-06-12,8,Basmati Rice,Other,3.75,1,5.00
-2025-06-12,9,Sugar Cookie,Other,2.40,1,3.50
-2025-06-13,1,Paneer Tikka,Dairy,2.60,1,12.50
-2025-06-13,2,Tomato Soup,Vegetables,1.30,1,8.00
-2025-06-13,3,Onion Rings,Vegetables,5.25,1,6.50
-2025-06-13,4,Chicken Curry,Meat,4.00,1,15.00
-2025-06-13,5,Mutton Biryani,Meat,2.30,1,18.00
-2025-06-13,6,Grilled Salmon,Fish,5.50,1,22.00
-2025-06-13,7,Egg Fried Rice,Meat,4.75,1,10.00
-2025-06-13,8,Basmati Rice,Other,4.10,1,5.00
-2025-06-13,9,Sugar Cookie,Other,2.65,1,3.50
-2025-06-14,1,Paneer Tikka,Dairy,2.40,1,12.50
-2025-06-14,2,Tomato Soup,Vegetables,1.15,1,8.00
-2025-06-14,3,Onion Rings,Vegetables,5.05,1,6.50
-2025-06-14,4,Chicken Curry,Meat,3.65,1,15.00
-2025-06-14,5,Mutton Biryani,Meat,2.05,1,18.00
-2025-06-14,6,Grilled Salmon,Fish,5.15,1,22.00
-2025-06-14,7,Egg Fried Rice,Meat,4.40,1,10.00
-2025-06-14,8,Basmati Rice,Other,3.85,1,5.00
-2025-06-14,9,Sugar Cookie,Other,2.55,1,3.50
-2025-06-15,1,Paneer Tikka,Dairy,2.70,1,12.50
-2025-06-15,2,Tomato Soup,Vegetables,1.40,1,8.00
-2025-06-15,3,Onion Rings,Vegetables,5.40,1,6.50
-2025-06-15,4,Chicken Curry,Meat,4.20,1,15.00
-2025-06-15,5,Mutton Biryani,Meat,2.45,1,18.00
-2025-06-15,6,Grilled Salmon,Fish,5.75,1,22.00
-2025-06-15,7,Egg Fried Rice,Meat,5.00,1,10.00
-2025-06-15,8,Basmati Rice,Other,4.30,1,5.00
-2025-06-15,9,Sugar Cookie,Other,2.80,1,3.50
-2025-06-16,1,Paneer Tikka,Dairy,2.55,1,12.50
-2025-06-16,2,Tomato Soup,Vegetables,1.25,1,8.00
-2025-06-16,3,Onion Rings,Vegetables,5.15,1,6.50
-2025-06-16,4,Chicken Curry,Meat,3.90,1,15.00
-2025-06-16,5,Mutton Biryani,Meat,2.20,1,18.00
-2025-06-16,6,Grilled Salmon,Fish,5.30,1,22.00
-2025-06-16,7,Egg Fried Rice,Meat,4.60,1,10.00
-2025-06-16,8,Basmati Rice,Other,4.00,1,5.00
-2025-06-16,9,Sugar Cookie,Other,2.70,1,3.50
-
+2026-03-09,1,Paneer Tikka,Dairy,2.16,1,12.5
+2026-03-09,2,Tomato Soup,Vegetables,1.03,1,8.0
+2026-03-09,3,Onion Rings,Vegetables,4.86,1,6.5
+2026-03-09,4,Chicken Curry,Meat,3.31,1,15.0
+2026-03-09,5,Mutton Biryani,Meat,1.77,1,18.0
+2026-03-09,6,Grilled Salmon,Fish,4.9,1,22.0
+2026-03-09,7,Egg Fried Rice,Meat,4.05,1,10.0
+2026-03-09,8,Basmati Rice,Other,3.58,1,5.0
+2026-03-09,9,Sugar Cookie,Other,2.39,1,3.5
+2026-03-10,1,Paneer Tikka,Dairy,2.47,1,12.5
+2026-03-10,2,Tomato Soup,Vegetables,1.19,1,8.0
+2026-03-10,3,Onion Rings,Vegetables,5.0,1,6.5
+2026-03-10,4,Chicken Curry,Meat,3.38,1,15.0
+2026-03-10,5,Mutton Biryani,Meat,1.94,1,18.0
+2026-03-10,6,Grilled Salmon,Fish,5.12,1,22.0
+2026-03-10,7,Egg Fried Rice,Meat,4.48,1,10.0
+2026-03-10,8,Basmati Rice,Other,3.79,1,5.0
+2026-03-10,9,Sugar Cookie,Other,2.48,1,3.5
+2026-03-11,1,Paneer Tikka,Dairy,2.17,1,12.5
+2026-03-11,2,Tomato Soup,Vegetables,1.09,1,8.0
+2026-03-11,3,Onion Rings,Vegetables,5.26,1,6.5
+2026-03-11,4,Chicken Curry,Meat,3.76,1,15.0
+2026-03-11,5,Mutton Biryani,Meat,2.14,1,18.0
+2026-03-11,6,Grilled Salmon,Fish,5.35,1,22.0
+2026-03-11,7,Egg Fried Rice,Meat,4.5,1,10.0
+2026-03-11,8,Basmati Rice,Other,4.06,1,5.0
+2026-03-11,9,Sugar Cookie,Other,2.43,1,3.5
+2026-03-12,1,Paneer Tikka,Dairy,2.15,1,12.5
+2026-03-12,2,Tomato Soup,Vegetables,0.74,1,8.0
+2026-03-12,3,Onion Rings,Vegetables,5.08,1,6.5
+2026-03-12,4,Chicken Curry,Meat,3.48,1,15.0
+2026-03-12,5,Mutton Biryani,Meat,2.3,1,18.0
+2026-03-12,6,Grilled Salmon,Fish,5.37,1,22.0
+2026-03-12,7,Egg Fried Rice,Meat,4.26,1,10.0
+2026-03-12,8,Basmati Rice,Other,4.05,1,5.0
+2026-03-12,9,Sugar Cookie,Other,2.43,1,3.5
+2026-03-13,1,Paneer Tikka,Dairy,2.28,1,12.5
+2026-03-13,2,Tomato Soup,Vegetables,1.13,1,8.0
+2026-03-13,3,Onion Rings,Vegetables,5.17,1,6.5
+2026-03-13,4,Chicken Curry,Meat,3.63,1,15.0
+2026-03-13,5,Mutton Biryani,Meat,2.17,1,18.0
+2026-03-13,6,Grilled Salmon,Fish,5.25,1,22.0
+2026-03-13,7,Egg Fried Rice,Meat,4.42,1,10.0
+2026-03-13,8,Basmati Rice,Other,3.75,1,5.0
+2026-03-13,9,Sugar Cookie,Other,2.42,1,3.5
+2026-03-14,1,Paneer Tikka,Dairy,2.95,1,12.5
+2026-03-14,2,Tomato Soup,Vegetables,1.34,1,8.0
+2026-03-14,3,Onion Rings,Vegetables,6.6,1,6.5
+2026-03-14,4,Chicken Curry,Meat,4.25,1,15.0
+2026-03-14,5,Mutton Biryani,Meat,2.46,1,18.0
+2026-03-14,6,Grilled Salmon,Fish,6.49,1,22.0
+2026-03-14,7,Egg Fried Rice,Meat,5.59,1,10.0
+2026-03-14,8,Basmati Rice,Other,4.83,1,5.0
+2026-03-14,9,Sugar Cookie,Other,3.25,1,3.5
+2026-03-15,1,Paneer Tikka,Dairy,3.28,1,12.5
+2026-03-15,2,Tomato Soup,Vegetables,1.36,1,8.0
+2026-03-15,3,Onion Rings,Vegetables,7.09,1,6.5
+2026-03-15,4,Chicken Curry,Meat,5.16,1,15.0
+2026-03-15,5,Mutton Biryani,Meat,2.79,1,18.0
+2026-03-15,6,Grilled Salmon,Fish,7.31,1,22.0
+2026-03-15,7,Egg Fried Rice,Meat,6.2,1,10.0
+2026-03-15,8,Basmati Rice,Other,5.4,1,5.0
+2026-03-15,9,Sugar Cookie,Other,3.69,1,3.5
