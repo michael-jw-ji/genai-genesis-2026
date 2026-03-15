@@ -9,9 +9,9 @@ const workflowSteps = [
 ] as const;
 
 const stats = [
-  { value: "Private", label: "tenant boundary" },
-  { value: "3 inputs", label: "sales, weather, events" },
-  { value: "Daily", label: "prep forecast output" },
+  { value: "Less prep", label: "" },
+  { value: "Less waste", label: "" },
+  { value: "Better sustainability", label: "" },
 ] as const;
 
 const NAVIGATE_EVENT = "app:navigate";
@@ -96,15 +96,6 @@ function HomePage() {
           Use restaurant data, weather, and local events to plan daily prep with more confidence.
         </p>
 
-        <div className="hero-actions">
-          <NavLink className="button button-primary" href="/mission">
-            See how it works
-          </NavLink>
-          <NavLink className="button button-secondary" href="/privacy">
-            Privacy
-          </NavLink>
-        </div>
-
         <div className="stat-row" aria-label="Key product facts">
           {stats.map((stat) => (
             <div className="stat-chip" key={stat.label}>
@@ -112,6 +103,12 @@ function HomePage() {
               <span>{stat.label}</span>
             </div>
           ))}
+        </div>
+
+        <div className="hero-cta-row">
+          <NavLink className="button button-primary button-cta" href="/upload">
+            Upload your data
+          </NavLink>
         </div>
       </div>
     </Reveal>
@@ -188,7 +185,7 @@ function PrivacyPage() {
     <section className="privacy-page">
       <Reveal as="div" className="privacy-hero" delay={40}>
         <p className="eyebrow">Privacy</p>
-        <h1>Your restaurant keeps its own data boundary.</h1>
+        <h1>Your restaurant, your data.</h1>
         <p className="lede">
           Menus, sales history, and forecasts stay scoped to the restaurant using the product.
         </p>
@@ -300,31 +297,46 @@ function UploadPage() {
           Drop in a CSV in the expected format and we&apos;ll run it through the trained model to estimate usage.
         </p>
 
-        <form className="upload-card" onSubmit={handleSubmit}>
-          <label className="upload-field">
-            <span className="field-label">Sales CSV</span>
-            <input
-              type="file"
-              accept=".csv,text/csv"
-              onChange={(event) => {
-                const next = event.target.files?.[0] ?? null;
-                setFile(next);
-              }}
-            />
-          </label>
-          <p className="field-help">
-            Expected columns:{" "}
-            <code>date, dish_id, dish_name, category, qty_sold, restaurant_id, price</code>.
-          </p>
-          <button className="button button-primary" type="submit" disabled={status === "uploading"}>
-            {status === "uploading" ? "Uploading…" : "Run forecast"}
-          </button>
-          {error && <p className="error-text">{error}</p>}
-        </form>
+        <div className="upload-split">
+          <form className="upload-card" onSubmit={handleSubmit}>
+            <div className="upload-field">
+              <p className="field-help">
+                Expected columns:{" "}
+                <code>date, dish_id, dish_name, category, qty_sold, restaurant_id, price</code>.
+              </p>
 
-        <Reveal as="div" className="preview-row upload-preview" delay={80}>
-          <ForecastPreview />
-        </Reveal>
+              <label className={`upload-dropzone${file ? " is-selected" : ""}`}>
+                <input
+                  className="upload-input"
+                  type="file"
+                  accept=".csv,text/csv"
+                  onChange={(event) => {
+                    const next = event.target.files?.[0] ?? null;
+                    setFile(next);
+                  }}
+                />
+                <span className="upload-dropzone-icon" aria-hidden="true">
+                  <span className="upload-dropzone-arrow" />
+                </span>
+                <span className="upload-dropzone-title">
+                  {file ? file.name : "Upload your sales CSV"}
+                </span>
+                <span className="upload-dropzone-copy">
+                  {file ? "Click to replace the selected file" : "Click to browse and attach a CSV file"}
+                </span>
+              </label>
+            </div>
+
+            <button className="button button-primary" type="submit" disabled={status === "uploading"}>
+              {status === "uploading" ? "Uploading…" : "Run forecast"}
+            </button>
+            {error && <p className="error-text">{error}</p>}
+          </form>
+
+          <Reveal as="div" className="preview-row upload-preview" delay={80}>
+            <ForecastPreview />
+          </Reveal>
+        </div>
 
         {results.length > 0 && (
           <div className="upload-results">
