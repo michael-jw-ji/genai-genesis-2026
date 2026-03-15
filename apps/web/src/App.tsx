@@ -297,31 +297,46 @@ function UploadPage() {
           Drop in a CSV in the expected format and we&apos;ll run it through the trained model to estimate usage.
         </p>
 
-        <form className="upload-card" onSubmit={handleSubmit}>
-          <label className="upload-field">
-            <span className="field-label">Sales CSV</span>
-            <input
-              type="file"
-              accept=".csv,text/csv"
-              onChange={(event) => {
-                const next = event.target.files?.[0] ?? null;
-                setFile(next);
-              }}
-            />
-          </label>
-          <p className="field-help">
-            Expected columns:{" "}
-            <code>date, dish_id, dish_name, category, qty_sold, restaurant_id, price</code>.
-          </p>
-          <button className="button button-primary" type="submit" disabled={status === "uploading"}>
-            {status === "uploading" ? "Uploading…" : "Run forecast"}
-          </button>
-          {error && <p className="error-text">{error}</p>}
-        </form>
+        <div className="upload-split">
+          <form className="upload-card" onSubmit={handleSubmit}>
+            <div className="upload-field">
+              <p className="field-help">
+                Expected columns:{" "}
+                <code>date, dish_id, dish_name, category, qty_sold, restaurant_id, price</code>.
+              </p>
 
-        <Reveal as="div" className="preview-row upload-preview" delay={80}>
-          <ForecastPreview />
-        </Reveal>
+              <label className={`upload-dropzone${file ? " is-selected" : ""}`}>
+                <input
+                  className="upload-input"
+                  type="file"
+                  accept=".csv,text/csv"
+                  onChange={(event) => {
+                    const next = event.target.files?.[0] ?? null;
+                    setFile(next);
+                  }}
+                />
+                <span className="upload-dropzone-icon" aria-hidden="true">
+                  <span className="upload-dropzone-arrow" />
+                </span>
+                <span className="upload-dropzone-title">
+                  {file ? file.name : "Upload your sales CSV"}
+                </span>
+                <span className="upload-dropzone-copy">
+                  {file ? "Click to replace the selected file" : "Click to browse and attach a CSV file"}
+                </span>
+              </label>
+            </div>
+
+            <button className="button button-primary" type="submit" disabled={status === "uploading"}>
+              {status === "uploading" ? "Uploading…" : "Run forecast"}
+            </button>
+            {error && <p className="error-text">{error}</p>}
+          </form>
+
+          <Reveal as="div" className="preview-row upload-preview" delay={80}>
+            <ForecastPreview />
+          </Reveal>
+        </div>
 
         {results.length > 0 && (
           <div className="upload-results">
