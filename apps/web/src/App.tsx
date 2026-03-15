@@ -49,25 +49,76 @@ function NavLink({
   );
 }
 
-function ForecastPreview({ className = "" }: { className?: string }) {
+function ForecastPreview({
+  className = "",
+  savingsMessage = null,
+  nextWeekForecast = null,
+}: {
+  className?: string;
+  savingsMessage?: string | null;
+  nextWeekForecast?: {
+    week_start: string;
+    by_category: Record<string, number>;
+    weather?: { temp_max: number; temp_min: number; precipitation: number };
+    events?: { events_count: number; expected_attendance_total: number };
+  } | null;
+}) {
+  const hasNextWeek = nextWeekForecast?.weather != null || nextWeekForecast?.events != null;
+  const nextWeekLabel = hasNextWeek && nextWeekForecast?.week_start
+    ? (() => {
+        const start = new Date(nextWeekForecast.week_start);
+        const end = new Date(start);
+        end.setDate(end.getDate() + 6);
+        return `Next week (${start.getDate()}–${end.getDate()} ${start.toLocaleString("en-US", { month: "short" })})`;
+      })()
+    : "Today";
   return (
     <aside className={`preview-panel ${className}`.trim()} aria-label="Forecast preview">
       <div className="preview-head">
         <p>Forecast preview</p>
-        <span>Today</span>
+        <span>{nextWeekLabel}</span>
       </div>
 
       <div className="preview-grid">
         <article className="preview-card">
           <span className="preview-label">Weather</span>
-          <strong>Rain tonight</strong>
-          <p>Cooler conditions may push up dinner demand.</p>
+          {hasNextWeek && nextWeekForecast?.weather ? (
+            <>
+              <strong>
+                High {nextWeekForecast.weather.temp_max}°C, low {nextWeekForecast.weather.temp_min}°C
+                {nextWeekForecast.weather.precipitation > 0
+                  ? `, ${nextWeekForecast.weather.precipitation} mm rain`
+                  : ""}
+              </strong>
+              <p>Weekly averages and total rain. Cooler conditions may push up dinner demand.</p>
+            </>
+          ) : (
+            <>
+              <strong>Rain tonight</strong>
+              <p>Cooler conditions may push up dinner demand.</p>
+            </>
+          )}
         </article>
 
         <article className="preview-card">
           <span className="preview-label">Events</span>
-          <strong>Arena event nearby</strong>
-          <p>More foot traffic can shift demand later into the evening.</p>
+          {hasNextWeek && nextWeekForecast?.events ? (
+            <>
+              <strong>
+                {nextWeekForecast.events.events_count} events, ~
+                {nextWeekForecast.events.expected_attendance_total >= 1000
+                  ? `${(nextWeekForecast.events.expected_attendance_total / 1000).toFixed(1)}k`
+                  : nextWeekForecast.events.expected_attendance_total}{" "}
+                attendance (for the week)
+              </strong>
+              <p>More foot traffic can shift demand later into the evening.</p>
+            </>
+          ) : (
+            <>
+              <strong>Arena event nearby</strong>
+              <p>More foot traffic can shift demand later into the evening.</p>
+            </>
+          )}
         </article>
 
         <div className="preview-divider" aria-hidden="true">
@@ -76,8 +127,17 @@ function ForecastPreview({ className = "" }: { className?: string }) {
 
         <article className="preview-card preview-card-action">
           <span className="preview-label">Action</span>
-          <strong>Prep 14% closer to expected demand</strong>
-          <p>Tighten purchase and prep quantities before service.</p>
+          {savingsMessage ? (
+            <>
+              <strong>{savingsMessage}</strong>
+              <p>Tighten purchase and prep quantities before service.</p>
+            </>
+          ) : (
+            <>
+              <strong>Prep 14% closer to expected demand</strong>
+              <p>Tighten purchase and prep quantities before service.</p>
+            </>
+          )}
         </article>
       </div>
     </aside>
@@ -240,8 +300,21 @@ function UploadPage() {
   const [status, setStatus] = useState<"idle" | "uploading" | "error" | "done">("idle");
   const [error, setError] = useState<string | null>(null);
   const [results, setResults] = useState<
-    { date: string; dish_name: string; category: string; qty_sold: number; predicted_qty_used_kg: number }[]
+    {
+      date: string;
+      dish_name: string;
+      category: string;
+      qty_sold: number;
+      kg_per_portion: number;
+      actual_qty_used_kg: number;
+      predicted_qty_used_kg: number;
+    }[]
   >([]);
+  const [savingsMessage, setSavingsMessage] = useState<string | null>(null);
+  const [nextWeekForecast, setNextWeekForecast] = useState<{
+    week_start: string;
+    by_category: Record<string, number>;
+  } | null>(null);
 
   const handleSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
@@ -253,6 +326,8 @@ function UploadPage() {
     setStatus("uploading");
     setError(null);
     setResults([]);
+    setSavingsMessage(null);
+    setNextWeekForecast(null);
 
     const formData = new FormData();
     formData.append("file", file);
@@ -278,6 +353,8 @@ function UploadPage() {
 
       const data = await resp.json();
       setResults(data.rows ?? []);
+      setSavingsMessage(data.savings_message ?? null);
+      setNextWeekForecast(data.next_week_forecast ?? null);
       setStatus("done");
     } catch (err) {
       const message = err instanceof Error ? err.message : "Something went wrong while uploading.";
@@ -334,13 +411,27 @@ function UploadPage() {
           </form>
 
           <Reveal as="div" className="preview-row upload-preview" delay={80}>
-            <ForecastPreview />
+            <ForecastPreview savingsMessage={savingsMessage} nextWeekForecast={nextWeekForecast} />
           </Reveal>
         </div>
 
+        {savingsMessage && (
+          <div className="upload-savings" role="status">
+            <p className="savings-message">{savingsMessage}</p>
+            <p className="savings-explanation">
+              Savings = extra waste avoided by following AI ordering (baseline vs lower AI waste rate) for the same predicted usage.
+            </p>
+          </div>
+        )}
         {results.length > 0 && (
           <div className="upload-results">
             <h2>Predicted usage</h2>
+            <p className="upload-results-units">
+              Qty sold is in portions; kg/portion is by category (e.g. Meat 0.25, Vegetables 0.15). Actual and predicted use are in kg.
+            </p>
+            <p className="upload-results-ai-note">
+              <strong>What the model thinks:</strong> Predicted used (kg) is the model&apos;s suggested usage for this period; ordering to that level with AI guidance reduces waste. Diff (kg) = actual minus predicted (positive = used more than suggested).
+            </p>
             <div className="upload-results-scroll">
               <table>
                 <thead>
@@ -348,23 +439,45 @@ function UploadPage() {
                     <th>Date</th>
                     <th>Dish</th>
                     <th>Category</th>
-                    <th>Qty sold</th>
-                    <th>Predicted qty used (kg)</th>
+                    <th>Qty sold (portions)</th>
+                    <th>Kg/portion</th>
+                    <th>Actual used (kg)</th>
+                    <th>Predicted used (kg)</th>
+                    <th>Diff (kg)</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {results.map((row, index) => (
-                    <tr key={`${row.date}-${row.dish_name}-${index}`}>
-                      <td>{row.date}</td>
-                      <td>{row.dish_name}</td>
-                      <td>{row.category}</td>
-                      <td>{row.qty_sold}</td>
-                      <td>{row.predicted_qty_used_kg.toFixed(2)}</td>
-                    </tr>
-                  ))}
+                  {results.map((row, index) => {
+                    const actual = row.actual_qty_used_kg ?? 0;
+                    const pred = row.predicted_qty_used_kg ?? 0;
+                    const diff = actual - pred;
+                    return (
+                      <tr key={`${row.date}-${row.dish_name}-${index}`}>
+                        <td>{typeof row.date === "string" ? row.date.slice(0, 10) : row.date}</td>
+                        <td>{row.dish_name}</td>
+                        <td>{row.category}</td>
+                        <td>{row.qty_sold}</td>
+                        <td>{row.kg_per_portion}</td>
+                        <td>{row.actual_qty_used_kg != null ? row.actual_qty_used_kg.toFixed(2) : "—"}</td>
+                        <td>{row.predicted_qty_used_kg.toFixed(2)}</td>
+                        <td>{diff.toFixed(2)}</td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
+          </div>
+        )}
+        {nextWeekForecast && (
+          <div className="upload-next-week" role="status">
+            <h3>Next week forecast (week of {nextWeekForecast.week_start})</h3>
+            <p className="upload-next-week-summary">
+              Predicted usage by category:{" "}
+              {Object.entries(nextWeekForecast.by_category)
+                .map(([cat, kg]) => `${kg} kg ${cat}`)
+                .join(", ")}.
+            </p>
           </div>
         )}
       </div>

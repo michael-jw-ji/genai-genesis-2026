@@ -812,6 +812,29 @@ a {
   color: #b3261e;
 }
 
+.upload-savings {
+  margin: 1.5rem auto 0;
+  max-width: 880px;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(23, 100, 60, 0.35);
+  background: rgba(23, 100, 60, 0.08);
+}
+
+.savings-message {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #0d3d21;
+}
+
+.savings-explanation {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
 .upload-results {
   margin: 2.5rem auto 0;
   max-width: 880px;
@@ -826,6 +849,46 @@ a {
   margin: 0 0 0.75rem;
   font-family: "Iowan Old Style", "Times New Roman", serif;
   font-size: 1.4rem;
+}
+
+.upload-results-units {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.upload-results-ai-note {
+  margin: 0 0 0.75rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.upload-results-ai-note strong {
+  color: inherit;
+  font-weight: 600;
+}
+
+.upload-next-week {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: rgba(251, 248, 242, 0.92);
+}
+
+.upload-next-week h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.upload-next-week-summary {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.4;
 }
 
 .upload-results-scroll {
